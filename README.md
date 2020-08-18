@@ -32,6 +32,7 @@ match $d isa disease, has preferred-disease-id "EFO_0009425", has disease-id $di
 6. Load MONDO hierarchy
 ```
 python3 ./scripts/add_hierarchy.py MONDO
+python3 ./scripts/add_hierarchy.py EFO
 # Check in Grakn console
 grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $y isa disease, has disease-name $dn; get $dn;
@@ -46,6 +47,34 @@ python3 ./scripts/add_hierarchy.py MESH 2
 grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $y isa disease, has disease-name $dn; get $dn;
 ```
+7. Usage examples
+We can get all children of 'EFO_0003884' regardless the hierarchy:
+```
+grakn console -k dokg
+match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name $on; $y isa disease, has disease-name $dn; get $dn, $on;
+
+# Using EFO hierarchy
+match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "EFO"; $y isa disease, has disease-name $dn; get $dn, $on;
+```
+We can get all parents of 'EFO_0003884' regardless the hierarchy:
+```
+grakn console -k dokg
+match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name $on; $x isa disease, has disease-name $dn; get $dn, $on;
+
+# Using MONDO hierarchy
+match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $x isa disease, has disease-name $dn; get $dn, $on;
+```
+Now if want to add ontology hierarchy that is not used in cross references file:
+```
+# Add ontology
+grakn console -k dokg
+insert $ontology isa ontology, has URL "...", has ontology-name  "Custom_ontology";
+```
+Prepare parental classes: ./data/prepared_ontologies/Custom_ontology_add_classes.tsv
+
+Use add_terms.py script to add parental classes (second parameter should be 2)
+
+Use add_hierarchy.py to add hierarchy (term_id and parent_id should be either in cross_reference preferred-ontology-id column or in ./data/prepared_ontologies/Custom_ontology_add_classes.tsv file)
 
 ## Data colllections
 
