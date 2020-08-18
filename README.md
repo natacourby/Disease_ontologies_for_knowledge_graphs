@@ -8,6 +8,7 @@ Collected cross references
 * cross-references.tsv - main file that contains cross-references of terms from different disease ontologies
 
 Statistics for cross-references.tsv file
+
 |                                 | MESH  | UMLS | EFO  | NCIT | OMIM | DOID | Orphanet | HP  | MONDO | ICD-10 | Total  |
 | --------------------------------|:-----:| ----:|--- -:|-----:|-----:|-----:|---------:|----:|------:|-------:|----- -:|
 | # of terms only in this ontology| 0     | 0    | 1540 | 53   | 0    | 2    | 163      | 80  | 81    | 0      | 1919   |
@@ -30,6 +31,7 @@ Prepared hierarchies and additional parental terms
 # Data preparation
 
 Code was tested R version 3.6.1
+
 R libraries:
 * rols
 * data.table
