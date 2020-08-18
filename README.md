@@ -4,7 +4,8 @@ Project consists of two parts: data preparation and Grakn schema and loading
 # Data colllections
 
 /data/prepared_ontologies/
-Collected cross references
+
+Collected cross references:
 * cross-references.tsv - main file that contains cross-references of terms from different disease ontologies
 
 Statistics for cross-references.tsv file
@@ -17,7 +18,7 @@ Statistics for cross-references.tsv file
 | # of unique references          | 4867  | 10008| 6626 | 4747 | 5614 | 4320 | 6532     | 1450| 8942  | 3272   | 56378  |
 
 
-Prepared hierarchies and additional parental terms
+Prepared hierarchies and additional parental terms:
 * DOID_prepared_hierarchy.tsv
 * EFO_prepared_hierarchy.tsv
 * MONDO_prepared_hierarchy.tsv
@@ -46,14 +47,32 @@ ontology_name <- "DOID"
 bioportal_ontological_hierarchy_preparation(cross_references_file, hierarchy_file, ontology_name)
 ```
 ## Check for loops in cross-references.tsv file
-To use if you are updating cross-references.tsv file
+To use if you update cross-references.tsv file
 
 ```
 source("./scripts/data_preparation.R")
 cross_references_file <- "./data/prepared_ontologies/cross-references.tsv"
 cross_references_validity(cross_references_file)
 ```
-
-
 # Load data into Grakn
+Code was tested Grakn 1.8, python 3.6
 
+1. Build python environment:
+```
+conda create --name graknenv python=3.6
+conda activate graknenv
+pip3 install grakn-client
+```
+
+2. [Install Grakn](https://dev.grakn.ai/docs/running-grakn/install-and-run) 
+
+3. Load schema
+```
+grakn server start
+grakn console -k dokg -f ./scripts/schema.gql
+```
+4. Load data
+```
+conda activate graknenv
+python3 ./scripts/load_script.py
+```
