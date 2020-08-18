@@ -9,12 +9,14 @@ Collected cross references
 
 Statistics for cross-references.tsv file
 
+
 |                                 | MESH  | UMLS | EFO  | NCIT | OMIM | DOID | Orphanet | HP  | MONDO | ICD-10 | Total  |
 | --------------------------------|:-----:| ----:|--- -:|-----:|-----:|-----:|---------:|----:|------:|-------:|----- -:|
 | # of terms only in this ontology| 0     | 0    | 1540 | 53   | 0    | 2    | 163      | 80  | 81    | 0      | 1919   |
 | # of preferred terms            | 0     | 0    | 2374 | 519  | 0    | 3    | 824      | 916 | 8932  | 0      | 13568  |
 | # of references                 | 5011  | 10279| 6626 | 4747 | 6680 | 4320 | 6556     | 1450| 8942  | 8146   | 62757  |
 | # of unique references          | 4867  | 10008| 6626 | 4747 | 5614 | 4320 | 6532     | 1450| 8942  | 3272   | 56378  |
+
 
 Prepared hierarchies and additional parental terms
 * DOID_prepared_hierarchy.tsv
