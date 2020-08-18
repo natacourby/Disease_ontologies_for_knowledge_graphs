@@ -145,7 +145,7 @@ def ontologies(session):
                 print("Executing Graql Query: " + graql_insert_query)
                 transaction.query(graql_insert_query)
                 transaction.commit()
-                print("\nInserted " + str(len(dict_id_unique)) + " ontologies  into Grakn.\n")
+        print("\nInserted " + str(len(dict_id_unique)) + " ontologies  into Grakn.\n")
     ontologies_inserted = 1
 
 

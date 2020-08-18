@@ -1,4 +1,4 @@
-preferred_ontology_term	MESH	UMLS	EFO	NCIT	OMIM	DOID	Orphanet	HP	MONDO	ICD.10	label
+preferred_ontology_term	MESH	UMLS	EFO	NCIT	OMIM	DOID	Orphanet	HP	MONDO	ICD-10	label
 BFO_0000015			BFO_0000015								Process
 BFO_0000016			BFO_0000016								Disposition
 BFO_0000019			BFO_0000019								Quality
