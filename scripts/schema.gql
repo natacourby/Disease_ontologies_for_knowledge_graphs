@@ -1,0 +1,216 @@
+define
+
+source sub attribute, value string;
+
+score sub attribute, value double;
+
+molecule-type sub attribute, 
+	value string;
+
+compound-name sub attribute, 
+	value string;
+
+InChIKey sub attribute,
+	value string;
+
+URL sub attribute, 
+	value string;
+
+disease-name sub attribute,
+	value string;
+
+disease-id sub attribute,
+	abstract,
+	value string,
+	plays disease-id-in-ontology;
+
+ontology-name sub attribute,
+	value string;
+
+ontology-version sub attribute,
+	value string;
+
+gene-name sub attribute,
+	value string;
+
+chromosome sub attribute,
+	value string;
+
+mesh-id sub disease-id;
+
+efo-id sub disease-id;
+
+umls-id sub disease-id;
+
+ncit-id sub disease-id;
+
+omim-id sub disease-id;
+
+doid-id sub disease-id;
+
+orphanet-id sub disease-id;
+
+hp-id sub disease-id;
+
+mondo-id sub disease-id;
+
+icd10-id sub disease-id;
+
+preferred-disease-id sub disease-id;
+
+best-mesh-id sub disease-id;
+
+compound-id sub attribute,
+	abstract,
+	value string;
+
+pubchem-id sub compound-id;
+
+chembl-id sub compound-id;
+
+drugbank-id sub compound-id;
+
+preferred-compound-id sub compound-id;
+
+gene-id sub attribute,
+	abstract,
+	value string;
+
+ensembl-id sub gene-id;
+
+entrez-id sub gene-id;
+
+uniprot-id sub gene-id;
+
+directness sub attribute, value string,
+	has source;
+
+interaction-type sub attribute, value string,
+	has source;
+
+disease-gene-association sub relation,
+	relates disease-associated-with-gene,
+	relates gene-associated-with-disease,
+	has directness,
+	has score,
+	has source;
+
+gene-compound-association sub relation,
+	relates gene-associated-with-compound,
+	relates compound-associated-with-gene,
+	has source;
+
+disease-compound-indication sub relation,
+	relates disease-is-indication-for-compound,
+	relates compound-indicated-for-disease,
+	has source;
+
+disease-hierarchy sub relation,
+	relates superior-disease,
+	relates subordinate-disease,
+	relates ontological-source;
+
+disease-id-ontology sub relation,
+	relates disease-id-in-ontology,
+	relates ontological-source;
+
+interaction sub relation,
+	relates gene-source,
+	relates gene-target,
+	has directness,
+	has interaction-type;
+
+disease sub entity,
+	has disease-name,
+	has preferred-disease-id,
+	has mesh-id,
+	has efo-id,
+	has umls-id,
+	has ncit-id,
+	has omim-id,
+	has doid-id,
+	has orphanet-id,
+	has hp-id,
+	has mondo-id,
+	has icd10-id,
+	has best-mesh-id,
+	plays subordinate-disease,
+	plays superior-disease,
+	plays disease-associated-with-gene,
+	plays disease-is-indication-for-compound;
+
+ontology sub entity,
+	has ontology-name,
+	has ontology-version,
+	has URL,
+	plays ontological-source;
+
+compound sub entity,
+	has compound-name,
+	has molecule-type,
+	has chembl-id,
+	has pubchem-id,
+	has preferred-compound-id,
+	has drugbank-id,
+	has InChIKey,
+	plays compound-associated-with-gene,
+	plays compound-indicated-for-disease;
+
+## Ensembl gene, uniprot protein
+gene-protein sub entity,
+	has gene-name,
+	has chromosome,
+	has ensembl-id,
+	has entrez-id,
+	has uniprot-id,
+	plays gene-associated-with-disease,
+	plays gene-associated-with-compound,
+	plays gene-source,
+	plays gene-target;
+
+preferred-compound-id-chembl-id-rule sub rule,
+	when {
+	    $c isa compound, has chembl-id $cid;
+	}, then {
+	    $c has preferred-compound-id $cid;
+	};
+
+preferred-compound-id-pubchem-id-rule sub rule,
+	when {
+		$c isa compound;
+		not{$c has chembl-id $cid;};
+		$c has pubchem-id $pid;
+	}, then {
+		$c has preferred-compound-id $pid;
+	};
+
+determine-best-mesh-id-1 sub rule,
+when {
+    $d isa disease;
+    $d has mesh-id $mid;
+}, then {
+    $d has best-mesh-id $mid;
+};
+
+determine-best-mesh-id-2 sub rule,
+when {
+    $d1 isa disease;
+    $o isa ontology;
+    not{$d1 has mesh-id $mid1;};
+    $r1(superior-disease: $d2, subordinate-disease: $d1, ontological-source: $o) isa disease-hierarchy;
+    $d2 has mesh-id $mid2;
+    $r2(superior-disease: $d2, subordinate-disease: $d3, ontological-source: $o) isa disease-hierarchy;
+    not{$d3 has mesh-id $mid3;};
+    $r3(superior-disease: $d3, subordinate-disease: $d1, ontological-source: $o) isa disease-hierarchy;
+}, then {
+    $d1 has best-mesh-id $mid2;
+};
+
+single-ontology-transitivity sub rule,
+when {
+    $o isa ontology;
+    $r1(superior-disease: $a, subordinate-disease:$b, ontological-source: $o) isa disease-hierarchy;
+    $r2(superior-disease: $b, subordinate-disease:$c, ontological-source: $o) isa disease-hierarchy;
+}, then {
+    (superior-disease: $a, subordinate-disease: $c, ontological-source: $o) isa disease-hierarchy;
+};
