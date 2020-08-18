@@ -4,7 +4,7 @@ import csv
 
 grakn_uri = "localhost:48555"
 grakn_keyspace = "dokg"
-data_folder = "/Users/kdrr532/Documents/Publications/Disease_ontologies/data/"
+data_folder = "./data/prepared_ontologies/"
 ontologies_inserted = 0
 dict_source = {"EF": "EFO",
                "BF": "EFO",
@@ -302,15 +302,15 @@ def parse_data_to_dictionaries_for_ontology(dict_input, ontology_name):
 # Dictionary object for templates where ontology is not taken into account
 dict_inputs = [
     {
-        "data_path": data_folder + "ontologies/cross_references",
+        "data_path": data_folder + "cross_references",
         "template": ontology_term_template
     },
     {
-        "data_path": data_folder + "ontologies/cross_references",
+        "data_path": data_folder + "cross_references",
         "template": ontology_term_source_template
     },
     {
-        "data_path": data_folder + "ontologies/cross_references",
+        "data_path": data_folder + "cross_references",
         "template": disease_template
     }
 ]
@@ -319,15 +319,15 @@ dict_inputs = [
 # Dictionary object for templates where ontology is passed as the second argument
 dict_inputs_ontologies = [
     {
-        "data_path": data_folder + "ontologies/cross_references",
+        "data_path": data_folder + "cross_references",
         "template": cross_reference_ontology_term_template
     },
     {
-        "data_path": data_folder + "ontologies/cross_references",
+        "data_path": data_folder + "cross_references",
         "template": cross_reference_ontology_term_source_template
     },
     {
-        "data_path": data_folder + "ontologies/cross_references",
+        "data_path": data_folder + "cross_references",
         "template": cross_reference_disease_template
     }
 ]

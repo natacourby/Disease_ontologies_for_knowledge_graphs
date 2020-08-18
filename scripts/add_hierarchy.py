@@ -5,7 +5,7 @@ import sys
 
 grakn_uri = "localhost:48555"
 grakn_keyspace = "dokg"
-data_folder = "/Users/kdrr532/Documents/Publications/Disease_ontologies/data/"
+data_folder = "./data/prepared_ontologies/"
 dict_source = {"EF": "EFO",
                "BF": "EFO",
                "CH": "EFO",
@@ -129,7 +129,7 @@ def parse_data_to_dictionaries(dict_input):
 def main():
     dict_inputs = [
         {
-            "data_path": data_folder + "ontologies/" + sys.argv[1] + "_prepared_hierarchy",
+            "data_path": data_folder + sys.argv[1] + "_prepared_hierarchy",
             "template": hierarchy_template
         }
     ]
