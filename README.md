@@ -35,7 +35,7 @@ match $d isa disease, has efo-id "EFO_0009425", has disease-id $di; get;
 6. Load MONDO hierarchy
 
 add_hierarchy.py has two parameters: ontology_name and naming version (1 or 2)
-* naming version 1 corresponds to cross-reference file column with ontology_name as prefix (EFO_) 
+* naming version 1 corresponds to cross-reference file column with ontology_name as prefix (e.g. "MONDO_", "EFO_") 
 * naming version 2 means that ontology_name is not used as prefix (e.g. in case of UMLS and MESH) 
 
 ```
