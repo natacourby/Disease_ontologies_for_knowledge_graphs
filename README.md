@@ -21,6 +21,9 @@ grakn server start
 grakn console -k dokg -f ./scripts/schema.gql
 ```
 4. Load diseases
+
+NB! Loading process takes around 2 hours.
+
 ```
 conda activate graknenv
 python3 ./scripts/load_script.py
