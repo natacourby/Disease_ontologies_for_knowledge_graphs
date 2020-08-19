@@ -33,9 +33,13 @@ grakn console -k dokg
 match $d isa disease, has efo-id "EFO_0009425", has disease-id $di; get;
 ```
 6. Load MONDO hierarchy
+
+add_hierarchy.py has two parameters: ontology_name and naming version (1 or 2)
+where naming version 1 corresponds to cross-reference file column with ontology_name as prefix (EFO_) version 2 means that ontology_name as prefix is not used (e.g. in case of UMLS and MESH) 
+
 ```
-python3 ./scripts/add_hierarchy.py MONDO
-python3 ./scripts/add_hierarchy.py EFO
+python3 ./scripts/add_hierarchy.py MONDO 1
+python3 ./scripts/add_hierarchy.py EFO 1
 # Check in Grakn console
 grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $y isa disease, has disease-name $dn; get $dn;
