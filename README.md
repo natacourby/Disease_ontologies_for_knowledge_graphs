@@ -30,7 +30,7 @@ python3 ./scripts/load_script.py
 
 # Check in Grakn console
 grakn console -k dokg
-match $d isa disease, has preferred-disease-id "EFO_0009425", has disease-id $di; get;
+match $d isa disease, has efo-id "EFO_0009425", has disease-id $di; get;
 ```
 6. Load MONDO hierarchy
 ```
