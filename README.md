@@ -40,6 +40,7 @@ where naming version 1 corresponds to cross-reference file column with ontology_
 ```
 python3 ./scripts/add_hierarchy.py MONDO 1
 python3 ./scripts/add_hierarchy.py EFO 1
+
 # Check in Grakn console
 grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $y isa disease, has disease-name $dn; get $dn;
@@ -50,6 +51,7 @@ So, in order to load MESH hierarchy we have to add parental terms first
 ```
 python3 ./scripts/add_terms.py MESH 2
 python3 ./scripts/add_hierarchy.py MESH 2
+
 # Check in Grakn console
 grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $y isa disease, has disease-name $dn; get $dn;
