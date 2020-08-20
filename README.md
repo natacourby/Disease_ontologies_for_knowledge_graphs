@@ -47,8 +47,9 @@ grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $y isa disease, has disease-name $dn; get $dn;
 ```
 6. Load MESH hierarchy
+
 MESH is not our primary ontology (we don't have all parental terms of it). Parental terms by default are loaded for DOID, EFO, MONDO and Orphanet.
-So, in order to load MESH hierarchy we have to add parental terms first
+So, in order to load MESH hierarchy we have to add parental terms first:
 ```
 python3 ./scripts/add_terms.py MESH 2
 python3 ./scripts/add_hierarchy.py MESH 2
