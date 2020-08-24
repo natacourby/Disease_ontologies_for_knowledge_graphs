@@ -89,11 +89,11 @@ def load_data_into_grakn(dict_input, session, ontology_name, version):
 def disease_template_add(add_terms, ontology_name, version):
     global dict_source
     global dict_id
-    x = add_terms["term_id"]
+    x = add_terms["preferred_ontology_term"]
     if version == "2":
         x = ontology_name
-    graql_insert_query = 'insert $disease isa disease, has ' + dict_id[x[:2]] + '"' + add_terms["term_id"] + \
-                         '", has preferred-disease-id "' + add_terms["term_id"] + \
+    graql_insert_query = 'insert $disease isa disease, has ' + dict_id[x[:2]] + ' "' + add_terms["preferred_ontology_term"] + \
+                         '", has preferred-disease-id "' + add_terms["preferred_ontology_term"] + \
                          '", has disease-name "' + add_terms["label"].replace('"', '\\"') + '";'
     return graql_insert_query
 

@@ -1,488 +1,488 @@
-"preferred_ontology_term"	"MESH"	"UMLS"	"EFO"	"NCIT"	"OMIM"	"DOID"	"Orphanet"	"HP"	"MONDO"	"ICD.10"	"label"
-"NCIT_C98827"	""	"C0345203"	""	"NCIT_C98827"	""	""	""	""	""	""	"Large Intestine Atresia"
-"NCIT_C97151"	""	"C3273258"	""	"NCIT_C97151"	""	""	""	""	""	""	"Congenital Systemic Disorder"
-"NCIT_C102905"	""	"C3641000"	""	"NCIT_C102905"	""	""	""	""	""	""	"NCI CTEP Simplified Disease Classification Terminology"
-"NCIT_C78488"	""	"C0281914"	""	"NCIT_C78488"	""	""	""	""	""	""	"Musculoskeletal Deformity"
-"NCIT_C103185"	""	"C3641117"	""	"NCIT_C103185"	""	""	""	""	""	""	"Congenital Reproductive System Abnormality"
-"NCIT_C9479"	""	"C1333600"	""	"NCIT_C9479"	""	""	""	""	""	""	"Hereditary Malignant Neoplasm"
-"NCIT_C36288"	""	"C0426779"	""	"NCIT_C36288"	""	""	""	""	""	""	"Connective and Soft Tissue Finding"
-"NCIT_C38029"	""	"C0039231"	""	"NCIT_C38029"	""	""	""	""	""	""	"Tachycardia"
-"NCIT_C26790"	""	"C1963929"	""	"NCIT_C26790"	""	""	""	""	""	""	"Acute Infective Polyneuritis"
-"NCIT_C99231"	""	"C1263836"	""	"NCIT_C99231"	""	""	""	""	""	""	"Neonatal Infectious Disorder"
-"NCIT_C96412"	""	"C3272759"	""	"NCIT_C96412"	""	""	""	""	""	""	"Brain Development Abnormality"
-"NCIT_C166355"	""	""	""	"NCIT_C166355"	""	""	""	""	""	""	"Non-Neoplastic Musculoskeletal Disorder"
-"NCIT_C150179"	""	""	""	"NCIT_C150179"	""	""	""	""	""	""	"Non-Neoplastic Optic Nerve Disorder"
-"NCIT_C165470"	""	""	""	"NCIT_C165470"	""	""	""	""	""	""	"Hereditary Colorectal Cancer Syndrome"
-"NCIT_C7628"	""	"C1335729"	""	"NCIT_C7628"	""	""	""	""	""	""	"Refractory Neoplasm"
-"NCIT_C35107"	""	"C0042063"	""	"NCIT_C35107"	""	""	""	""	""	""	"Congenital Genitourinary Abnormality"
-"NCIT_C7653"	""	"C1334224"	""	"NCIT_C7653"	""	""	""	""	""	""	"Intermediate Soft Tissue Tumor"
-"NCIT_C121926"	""	"C4054709"	""	"NCIT_C121926"	""	""	""	""	""	""	"Intermediate Bone Neoplasm"
-"NCIT_C3738"	""	"C4048303"	""	"NCIT_C3738"	""	""	""	""	""	""	"Osteoclastic Giant Cell-Rich Tumor of Bone"
-"NCIT_C121978"	""	"C4055497"	""	"NCIT_C121978"	""	""	""	""	""	""	"Acute Lymphoblastic Leukemia by ROSE Cluster"
-"NCIT_C26753"	""	"C0012817"	""	"NCIT_C26753"	""	""	""	""	""	""	"Diverticulum"
-"NCIT_C122788"	""	"C2931826"	""	"NCIT_C122788"	""	""	""	""	""	""	"Potassium Aggravated Myotonia"
-"NCIT_C123158"	""	"C0020501"	""	"NCIT_C123158"	""	""	""	""	""	""	"Primary Hyperoxaluria"
-"NCIT_C116718"	""	""	""	"NCIT_C116718"	""	""	""	""	""	""	"Early Onset Primary Dystonia"
-"NCIT_C28428"	""	""	""	"NCIT_C28428"	""	""	""	""	""	""	"Retired Concept"
-"NCIT_C121156"	""	"C0410536"	""	"NCIT_C121156"	""	""	""	""	""	""	"Mesomelic Dysplasia"
-"NCIT_C128041"	""	""	""	"NCIT_C128041"	""	""	""	""	""	""	"Cervical Neuroendocrine Neoplasm"
-"NCIT_C5409"	""	"C1332894"	""	"NCIT_C5409"	""	""	""	""	""	""	"Central Nervous System T-Cell Non-Hodgkin Lymphoma"
-"NCIT_C157491"	""	""	""	"NCIT_C157491"	""	""	""	""	""	""	"Retired Concept 2018"
-"NCIT_C127165"	""	"C0342496"	""	"NCIT_C127165"	""	""	""	""	""	""	"Micronodular Adrenal Hyperplasia"
-"NCIT_C118675"	""	"C1963826"	""	"NCIT_C118675"	""	""	""	""	""	""	"Mitochondrial Enzyme Deficiency"
-"NCIT_C3397"	""	"C0038874"	""	"NCIT_C3397"	""	""	""	""	""	""	"Supratentorial Neoplasm"
-"NCIT_C3093"	""	"C0684275"	""	"NCIT_C3093"	""	""	""	""	""	""	"Hemophilia"
-"NCIT_C119758"	""	"C0235820"	""	"NCIT_C119758"	""	""	""	""	""	""	"Neonatal Encephalopathy"
-"NCIT_C96159"	""	"C3272610"	""	"NCIT_C96159"	""	""	""	""	""	""	"Colorectal Neuroendocrine Tumor"
-"NCIT_C22187"	""	"C1517009"	""	"NCIT_C22187"	""	""	""	""	""	""	"Experimental Organism Diagnosis"
-"NCIT_C81315"	""	"C0031485"	""	"NCIT_C81315"	""	""	""	""	""	""	"Phenylketonuria"
-"NCIT_C14217"	""	"C0019369"	""	"NCIT_C14217"	""	""	""	""	""	""	"Herpesvirus"
-"NCIT_C117716"	""	"C0206438"	""	"NCIT_C117716"	""	""	""	""	""	""	"Primate Lentivirus Group"
-"NCIT_C155747"	""	"C1832200"	""	"NCIT_C155747"	""	""	""	""	""	""	"Peroxisome Biogenesis Disorder"
-"NCIT_C38161"	""	"C1333800"	""	"NCIT_C38161"	""	""	""	""	""	""	"Digestive System Non-Hodgkin Lymphoma"
-"NCIT_C134952"	""	"C2079538"	""	"NCIT_C134952"	""	""	""	""	""	""	"Charcot-Marie-Tooth Disease Type 2A"
-"NCIT_C15187"	""	"C0005527"	""	"NCIT_C15187"	""	""	""	""	""	""	"Biological Therapy"
-"NCIT_C155790"	""	""	""	"NCIT_C155790"	""	""	""	""	""	""	"Malignant Skull Neoplasm"
-"NCIT_C63475"	""	"C1880501"	""	"NCIT_C63475"	""	""	""	""	""	""	"Endocrine Drug Therapy"
-"NCIT_C8609"	""	"C0854176"	""	"NCIT_C8609"	""	""	""	""	""	""	"Malignant Hepatobiliary Neoplasm"
-"NCIT_C157758"	""	""	""	"NCIT_C157758"	""	""	""	""	""	""	"Bladder Neuroendocrine Neoplasm"
-"NCIT_C158620"	""	""	""	"NCIT_C158620"	""	""	""	""	""	""	"Endometrioid Tumor, Variant with Squamous Differentiation"
-"NCIT_C100084"	""	"C3272319"	""	"NCIT_C100084"	""	""	""	""	""	""	"Cardiac Diagnostic Procedure"
-"NCIT_C160980"	""	""	""	"NCIT_C160980"	""	""	""	""	""	""	"Head and Neck Neuroendocrine Carcinoma"
-"NCIT_C170814"	""	""	""	"NCIT_C170814"	""	""	""	""	""	""	"Primary Brain Neoplasm"
-"NCIT_C156484"	""	"C0751569"	""	"NCIT_C156484"	""	""	""	""	""	""	"Malignant Genitourinary System Neoplasm"
-"NCIT_C74944"	""	"C2699347"	""	"NCIT_C74944"	""	""	""	""	""	""	"Clinical Pathology Procedure"
-"NCIT_C16965"	""	"C0030940"	""	"NCIT_C16965"	""	""	""	""	""	""	"Peptidase"
-"NCIT_C16495"	""	"C0011298"	""	"NCIT_C16495"	""	""	""	""	""	""	"Demographics"
-"NCIT_C96001"	""	"C0600549"	""	"NCIT_C96001"	""	""	""	""	""	""	"Tobacco Use Cessation"
-"NCIT_C17937"	""	"C1817756"	""	"NCIT_C17937"	""	""	""	""	""	""	"Immune System Process"
-"NCIT_C18246"	""	"C0544452"	""	"NCIT_C18246"	""	""	""	""	""	""	"Remission"
-"NCIT_C50995"	""	"C1704632"	""	"NCIT_C50995"	""	""	""	""	""	""	"Disease Response"
-"NCIT_C20047"	""	"C1511887"	""	"NCIT_C20047"	""	""	""	""	""	""	"Diagnostic or Prognostic Factor"
-"NCIT_C16326"	""	"C0004927"	""	"NCIT_C16326"	""	""	""	""	""	""	"Behavior"
-"NCIT_C20181"	""	"C1254372"	""	"NCIT_C20181"	""	""	""	""	""	""	"Conceptual Entity"
-"NCIT_C20028"	""	"C0175168"	""	"NCIT_C20028"	""	""	""	""	""	""	"Protein, Organized by Structure"
-"NCIT_C18742"	""	"C1511888"	""	"NCIT_C18742"	""	""	""	""	""	""	"Diagnostic or Prognostic Test"
-"NCIT_C48191"	""	""	""	"NCIT_C48191"	""	""	""	""	""	""	"Information"
-"NCIT_C61014"	""	"C1883010"	""	"NCIT_C61014"	""	""	""	""	""	""	"Serum Chemistry Measurement"
-"NCIT_C3676"	""	"C0184551"	""	"NCIT_C3676"	""	""	""	""	""	""	"Alteration in Respiration"
-"NCIT_C27622"	""	"C1332920"	""	"NCIT_C27622"	""	""	""	""	""	""	"Cervical Non-Neoplastic Disorder"
-"NCIT_C98942"	""	"C0272316"	""	"NCIT_C98942"	""	""	""	""	""	""	"Hereditary Coagulation Factor Deficiency"
-"NCIT_C27304"	""	"C0852066"	""	"NCIT_C27304"	""	""	""	""	""	""	"Congenital Thyroid Gland Disorder"
-"NCIT_C27566"	""	"C1335047"	""	"NCIT_C27566"	""	""	""	""	""	""	"Non-Neoplastic Thyroid Gland Disorder"
-"NCIT_C27873"	""	"C1333144"	""	"NCIT_C27873"	""	""	""	""	""	""	"Congenital Disorder of Natural Immunity"
-"NCIT_C8301"	""	"C0948441"	""	"NCIT_C8301"	""	""	""	""	""	""	"Veno-Occlusive Disease"
-"NCIT_C4939"	""	"C0746351"	""	"NCIT_C4939"	""	""	""	""	""	""	"Benign Lymphoproliferative Disorder"
-"NCIT_C75471"	""	"C0268331"	""	"NCIT_C75471"	""	""	""	""	""	""	"COL1A1 Associated Connective Tissue Disorder"
-"NCIT_C78563"	""	"C0919907"	""	"NCIT_C78563"	""	""	""	""	""	""	"Pleural Infection"
-"NCIT_C4742"	""	"C0474800"	""	"NCIT_C4742"	""	""	""	""	""	""	"Benign Squamous Cell Neoplasm"
-"NCIT_C27794"	""	"C0852343"	""	"NCIT_C27794"	""	""	""	""	""	""	"Polycythemia (Excluding Polycythemia Vera)"
-"NCIT_C27048"	""	"C0266572"	""	"NCIT_C27048"	""	""	""	""	""	""	"Congenital Eyelid Malformation"
-"NCIT_C8336"	""	"C0333875"	""	"NCIT_C8336"	""	""	""	""	""	""	"High Grade Squamous Intraepithelial Neoplasia"
-"NCIT_C78250"	""	"C0403632"	""	"NCIT_C78250"	""	""	""	""	""	""	"Non-Infectious Cystitis"
-"NCIT_C38766"	""	""	""	"NCIT_C38766"	""	""	""	""	""	""	"Lymphocytic Thyroiditis"
-"NCIT_C26773"	""	"C0015799"	""	"NCIT_C26773"	""	""	""	""	""	""	"Feminization"
-"NCIT_C35743"	""	"C1335045"	""	"NCIT_C35743"	""	""	""	""	""	""	"Non-Neoplastic Thoracic Disorder"
-"NCIT_C27660"	""	"C1335023"	""	"NCIT_C27660"	""	""	""	""	""	""	"Non-Neoplastic Neck Disorder"
-"NCIT_C27668"	""	"C1335040"	""	"NCIT_C27668"	""	""	""	""	""	""	"Non-Neoplastic Retroperitoneal Disorder"
-"NCIT_C27042"	""	"C0263978"	""	"NCIT_C27042"	""	""	""	""	""	""	"Soft Tissue Disorder"
-"NCIT_C26875"	""	"C0035309"	""	"NCIT_C26875"	""	""	""	""	""	""	"Retinal Disorder"
-"NCIT_C27613"	""	"C1335037"	""	"NCIT_C27613"	""	""	""	""	""	""	"Non-Neoplastic Reproductive System Disorder"
-"NCIT_C27629"	""	"C1336920"	""	"NCIT_C27629"	""	""	""	""	""	""	"Uterine Non-Neoplastic Disorder"
-"NCIT_C27650"	""	"C1335026"	""	"NCIT_C27650"	""	""	""	""	""	""	"Non-Neoplastic Oral Disorder"
-"NCIT_C27656"	""	"C1335022"	""	"NCIT_C27656"	""	""	""	""	""	""	"Non-Neoplastic Nasal Cavity and Paranasal Sinus Disorder"
-"NCIT_C27665"	""	"C1335031"	""	"NCIT_C27665"	""	""	""	""	""	""	"Non-Neoplastic Peritoneal and Retroperitoneal Disorder"
-"NCIT_C27673"	""	"C0920673"	""	"NCIT_C27673"	""	""	""	""	""	""	"Virus-Related Malignant Neoplasm"
-"NCIT_C35778"	""	"C1333802"	""	"NCIT_C35778"	""	""	""	""	""	""	"Gastrointestinal Stromal Tumor of the Gastrointestinal Tract"
-"NCIT_C27269"	""	"C1333819"	""	"NCIT_C27269"	""	""	""	""	""	""	"Glandular Cell Intraepithelial Neoplasia"
-"NCIT_C150570"	""	""	""	"NCIT_C150570"	""	""	""	""	""	""	"Infiltrating Bladder Carcinoma"
-"NCIT_C4969"	""	"C0877578"	""	"NCIT_C4969"	""	""	""	""	""	""	"Therapy-Related Malignant Neoplasm"
-"NCIT_C9492"	""	"C0741698"	""	"NCIT_C9492"	""	""	""	""	""	""	"Ductal Breast Hyperplasia"
-"NCIT_C39966"	""	"C1518732"	""	"NCIT_C39966"	""	""	""	""	""	""	"Ovarian Sertoli-Stromal Cell Tumor"
-"NCIT_C156767"	""	""	""	"NCIT_C156767"	""	""	""	""	""	""	"Basal Cell Carcinoma"
-"NCIT_C6877"	""	"C1266013"	""	"NCIT_C6877"	""	""	""	""	""	""	"Grade III Glandular Intraepithelial Neoplasia"
-"NCIT_C139534"	""	""	""	"NCIT_C139534"	""	""	""	""	""	""	"Anatomic Stage 0 Breast Cancer AJCC v8"
-"NCIT_C4976"	""	"C0752155"	""	"NCIT_C4976"	""	""	""	""	""	""	"Central Nervous System Vascular Malformation"
-"NCIT_C155793"	""	""	""	"NCIT_C155793"	""	""	""	""	""	""	"Benign Skull Base Neoplasm"
-"NCIT_C3824"	""	"C0221198"	""	"NCIT_C3824"	""	""	""	""	""	""	"Lesion"
-"NCIT_C82995"	""	"C0334000"	""	"NCIT_C82995"	""	""	""	""	""	""	"Glandular Hyperplasia"
-"NCIT_C102871"	""	"C0751620"	""	"NCIT_C102871"	""	""	""	""	""	""	"Primary Central Nervous System Neoplasm"
-"NCIT_C39978"	""	"C1518734"	""	"NCIT_C39978"	""	""	""	""	""	""	"Ovarian Sex Cord-Stromal Tumor of Mixed or Unclassified Cell Types"
-"NCIT_C5125"	""	"C1333286"	""	"NCIT_C5125"	""	""	""	""	""	""	"Diencephalic Neoplasm"
-"NCIT_C96053"	""	"C3272520"	""	"NCIT_C96053"	""	""	""	""	""	""	"Small Intestinal B-Cell Non-Hodgkin Lymphoma"
-"NCIT_C7657"	""	"C1334233"	""	"NCIT_C7657"	""	""	""	""	""	""	"Intestinal Precancerous Condition"
-"NCIT_C7514"	""	"C1334323"	""	"NCIT_C7514"	""	""	""	""	""	""	"Kidney and Ureter Neoplasm"
-"NCIT_C7456"	""	"C3647143"	""	"NCIT_C7456"	""	""	""	""	""	""	"Metastatic Malignant Neoplasm in the Ovary"
-"NCIT_C7390"	""	"C1334630"	""	"NCIT_C7390"	""	""	""	""	""	""	"Malignant Vascular Neoplasm"
-"NCIT_C6971"	""	"C1334698"	""	"NCIT_C6971"	""	""	""	""	""	""	"Meningothelial Cell Neoplasm"
-"NCIT_C2873"	""	"C0002938"	""	"NCIT_C2873"	""	""	""	""	""	""	"Aneuploidy"
-"NCIT_C9265"	""	"C0862196"	""	"NCIT_C9265"	""	""	""	""	""	""	"Mycosis Fungoides and Sezary Syndrome"
-"NCIT_C7337"	""	"C1335391"	""	"NCIT_C7337"	""	""	""	""	""	""	"Peritoneal and Retroperitoneal Neoplasm"
-"NCIT_C27382"	""	"C0346990"	""	"NCIT_C27382"	""	""	""	""	""	""	"Peritoneal Carcinomatosis"
-"NCIT_C4124"	""	"C0334277"	""	"NCIT_C4124"	""	""	""	""	""	""	"Metastatic Adenocarcinoma"
-"NCIT_C53539"	""	"C1709831"	""	"NCIT_C53539"	""	""	""	""	""	""	"Radiation-Related Non-Neoplastic Disorder"
-"NCIT_C12471"	""	"C0225317"	""	"NCIT_C12471"	""	""	""	""	""	""	"Soft Tissue"
-"NCIT_C13022"	""	"C1268090"	""	"NCIT_C13022"	""	""	""	""	""	""	"Skin Part"
-"NCIT_C8594"	""	"C0852709"	""	"NCIT_C8594"	""	""	""	""	""	""	"Leukemic Phase of Lymphoma"
-"NCIT_C12712"	""	"C0015282"	""	"NCIT_C12712"	""	""	""	""	""	""	"Exocrine Gland"
-"NCIT_C3382"	""	"C0037939"	""	"NCIT_C3382"	""	""	""	""	""	""	"Intraspinal Neoplasm"
-"NCIT_C35599"	""	"C0852065"	""	"NCIT_C35599"	""	""	""	""	""	""	"Congenital Adrenal Gland Disorder"
-"NCIT_C34567"	""	"C0013589"	""	"NCIT_C34567"	""	""	""	""	""	""	"Ectromelia"
-"NCIT_C35576"	""	"C0006848"	""	"NCIT_C35576"	""	""	""	""	""	""	"Mucocutaneous Candidiasis"
-"NCIT_C35635"	""	"C0857069"	""	"NCIT_C35635"	""	""	""	""	""	""	"Chronic Candidiasis"
-"NCIT_C168980"	""	""	""	"NCIT_C168980"	""	""	""	""	""	""	"Cutaneous Histiocytic and Dendritic Cell Neoplasm"
-"NCIT_C35393"	""	""	""	"NCIT_C35393"	""	""	""	""	""	""	"Congenital Lens Disorder"
-"NCIT_C50617"	""	"C1708554"	""	"NCIT_C50617"	""	""	""	""	""	""	"Intraocular Infection"
-"NCIT_C34609"	""	"C0259779"	""	"NCIT_C34609"	""	""	""	""	""	""	"Fibrous Dysplasia"
-"NCIT_C45250"	""	"C1707552"	""	"NCIT_C45250"	""	""	""	""	""	""	"Cutaneous Mature T-Cell and NK-Cell Neoplasm"
-"NCIT_C27699"	""	"C1336968"	""	"NCIT_C27699"	""	""	""	""	""	""	"Virus-Related Lymphoma"
-"NCIT_C157709"	""	""	""	"NCIT_C157709"	""	""	""	""	""	""	"HIV-Associated Lymphoproliferative Disorder"
-"NCIT_C4046"	""	"C0280734"	""	"NCIT_C4046"	""	""	""	""	""	""	"AIDS-Related Malignant Neoplasm"
-"NCIT_C5042"	""	"C1336970"	""	"NCIT_C5042"	""	""	""	""	""	""	"Visual Manifestations"
-"NCIT_C34877"	""	"C0029420"	""	"NCIT_C34877"	""	""	""	""	""	""	"Osteochondritis"
-"NCIT_C92720"	""	"C0559565"	""	"NCIT_C92720"	""	""	""	""	""	""	"Pregnancy Finding"
-"NCIT_C5676"	""	"C1333119"	""	"NCIT_C5676"	""	""	""	""	""	""	"Colorectal Villous Adenoma"
-"NCIT_C36173"	""	"C0033377"	""	"NCIT_C36173"	""	""	""	""	""	""	"Prolapse"
-"NCIT_C35313"	""	"C0729346"	""	"NCIT_C35313"	""	""	""	""	""	""	"Juvenile Osteochondrosis"
-"NCIT_C27657"	""	"C1335027"	""	"NCIT_C27657"	""	""	""	""	""	""	"Non-Neoplastic Paranasal Sinus Disorder"
-"NCIT_C3122"	""	"C0020546"	""	"NCIT_C3122"	""	""	""	""	""	""	"Hypertensive Crisis"
-"NCIT_C9494"	""	"C0872054"	""	"NCIT_C9494"	""	""	""	""	""	""	"Latent Infection"
-"NCIT_C27745"	""	"C1335060"	""	"NCIT_C27745"	""	""	""	""	""	""	"Non-Small Cell Adenocarcinoma"
-"NCIT_C34392"	""	"C0003534"	""	"NCIT_C34392"	""	""	""	""	""	""	"Aphakia"
-"NCIT_C99209"	""	"C0423477"	""	"NCIT_C99209"	""	""	""	""	""	""	"Ear Finding"
-"NCIT_C34548"	""	"C0012621"	""	"NCIT_C34548"	""	""	""	""	""	""	"Fluid Discharge"
-"NCIT_C156711"	""	""	""	"NCIT_C156711"	""	""	""	""	""	""	"Malignant Peritoneal and Retroperitoneal Neoplasm"
-"NCIT_C78639"	""	"C0877046"	""	"NCIT_C78639"	""	""	""	""	""	""	"Tooth Infection"
-"NCIT_C34404"	""	"C0003977"	""	"NCIT_C34404"	""	""	""	""	""	""	"Aseptic Necrosis of Head and Neck of Femur"
-"NCIT_C110943"	""	""	""	"NCIT_C110943"	""	""	""	""	""	""	"Musculoskeletal Injury"
-"NCIT_C6077"	""	"C1334927"	""	"NCIT_C6077"	""	""	""	""	""	""	"Neck Carcinoma"
-"NCIT_C70699"	""	"C2347026"	""	"NCIT_C70699"	""	""	""	""	""	""	"Biospecimen"
-"NCIT_C8024"	""	"C0279749"	""	"NCIT_C8024"	""	""	""	""	""	""	"Salivary Gland Undifferentiated Carcinoma"
-"NCIT_C96853"	""	"C3273080"	""	"NCIT_C96853"	""	""	""	""	""	""	"Non-Neoplastic Hepatobiliary Disorder"
-"NCIT_C156885"	""	"C1322284"	""	"NCIT_C156885"	""	""	""	""	""	""	"Malignant Bronchial Neoplasm"
-"NCIT_C36041"	""	"C1334606"	""	"NCIT_C36041"	""	""	""	""	""	""	"Malignant Neoplasm by Grade"
-"NCIT_C5206"	""	"C1335321"	""	"NCIT_C5206"	""	""	""	""	""	""	"Papillary Breast Neoplasm"
-"NCIT_C4447"	""	"C0496873"	""	"NCIT_C4447"	""	""	""	""	""	""	"Benign Retroperitoneal Neoplasm"
-"NCIT_C2950"	""	"C0008625"	""	"NCIT_C2950"	""	""	""	""	""	""	"Cytogenetic Abnormality"
-"NCIT_C91230"	""	"C2984094"	""	"NCIT_C91230"	""	""	""	""	""	""	"Breast Cancer by AJCC v7 Stage"
-"NCIT_C90513"	""	"C2983712"	""	"NCIT_C90513"	""	""	""	""	""	""	"Breast Cancer by AJCC v6 Stage"
-"NCIT_C9484"	""	"C0008628"	""	"NCIT_C9484"	""	""	""	""	""	""	"Chromosomal Deletion"
-"NCIT_C141237"	""	""	""	"NCIT_C141237"	""	""	""	""	""	""	"Chromosome 13 Abnormality"
-"NCIT_C3360"	""	"C0035639"	""	"NCIT_C3360"	""	""	""	""	""	""	"Supernumerary Circular Chromosome"
-"NCIT_C36315"	""	"C0598174"	""	"NCIT_C36315"	""	""	""	""	""	""	"Chromosomal Loss"
-"NCIT_C36331"	""	"C1514212"	""	"NCIT_C36331"	""	""	""	""	""	""	"Polysomy"
-"NCIT_C36779"	""	"C1518174"	""	"NCIT_C36779"	""	""	""	""	""	""	"Malignant Epithelial Cell"
-"NCIT_C36794"	""	"C1512104"	""	"NCIT_C36794"	""	""	""	""	""	""	"Dysplastic Glandular Cell"
-"NCIT_C8021"	""	"C0279746"	""	"NCIT_C8021"	""	""	""	""	""	""	"Salivary Gland Adenocarcinoma"
-"NCIT_C36784"	""	"C1518175"	""	"NCIT_C36784"	""	""	""	""	""	""	"Malignant Epithelial Clear Cell"
-"NCIT_C36765"	""	"C1513974"	""	"NCIT_C36765"	""	""	""	""	""	""	"Neoplastic Glandular Cell with Clear Cytoplasm"
-"NCIT_C43564"	""	"C1706831"	""	"NCIT_C43564"	""	""	""	""	""	""	"Appendix Mixed Adenoneuroendocrine Carcinoma"
-"NCIT_C27897"	""	"C1336550"	""	"NCIT_C27897"	""	""	""	""	""	""	"T-Cell Proliferation of Uncertain Malignant Potential"
-"NCIT_C3646"	""	"C0154129"	""	"NCIT_C3646"	""	""	""	""	""	""	"Neoplasm of Uncertain Malignant Potential"
-"NCIT_C4573"	""	"C0346770"	""	"NCIT_C4573"	""	""	""	""	""	""	"Malignant Skin Appendage Neoplasm"
-"NCIT_C4768"	""	"C0496838"	""	"NCIT_C4768"	""	""	""	""	""	""	"Malignant Olfactory Nerve Neoplasm"
-"NCIT_C67155"	""	"C0334602"	""	"NCIT_C67155"	""	""	""	""	""	""	"Olfactory Neurogenic Tumor"
-"NCIT_C27563"	""	"C1335034"	""	"NCIT_C27563"	""	""	""	""	""	""	"Non-Neoplastic Pleural Disorder"
-"NCIT_C6974"	""	"C1334936"	""	"NCIT_C6974"	""	""	""	""	""	""	"Neoplasm of Uncertain Histogenesis"
-"NCIT_C84527"	""	"C0001079"	""	"NCIT_C84527"	""	""	""	""	""	""	"Achondrogenesis"
-"NCIT_C6781"	""	"C0879615"	""	"NCIT_C6781"	""	""	""	""	""	""	"Stromal Neoplasm"
-"NCIT_C5749"	""	"C1332521"	""	"NCIT_C5749"	""	""	""	""	""	""	"Liver and Intrahepatic Bile Duct Benign Non-Epithelial Neoplasm"
-"NCIT_C7741"	""	"C0239707"	""	"NCIT_C7741"	""	""	""	""	""	""	"Digestive System Hemangioma"
-"NCIT_C7280"	""	"C1335185"	""	"NCIT_C7280"	""	""	""	""	""	""	"Ovarian Transitional Cell Tumor"
-"NCIT_C6806"	""	"C0349526"	""	"NCIT_C6806"	""	""	""	""	""	""	"Benign Skin Fibroblastic Neoplasm"
-"NCIT_C5565"	""	"C1335410"	""	"NCIT_C5565"	""	""	""	""	""	""	"Pilosebaceous Hamartoma"
-"NCIT_C96054"	""	"C3272521"	""	"NCIT_C96054"	""	""	""	""	""	""	"Small Intestinal T-Cell Non-Hodgkin Lymphoma"
-"NCIT_C39701"	""	"C1511986"	""	"NCIT_C39701"	""	""	""	""	""	""	"Disease Pathway"
-"NCIT_C155950"	""	""	""	"NCIT_C155950"	""	""	""	""	""	""	"Hereditary Malignant Urinary System Neoplasm"
-"NCIT_C164252"	""	""	""	"NCIT_C164252"	""	""	""	""	""	""	"Infiltrating Urothelial Carcinoma, Sarcomatoid Variant"
-"NCIT_C7182"	""	"C1332363"	""	"NCIT_C7182"	""	""	""	""	""	""	"B-Cell Proliferation of Uncertain Malignant Potential"
-"NCIT_C7313"	""	"C1332527"	""	"NCIT_C7313"	""	""	""	""	""	""	"Benign Ovarian Serous Tumor"
-"NCIT_C4510"	""	"C0346168"	""	"NCIT_C4510"	""	""	""	""	""	""	"Benign Ovarian Epithelial Tumor"
-"NCIT_C6257"	""	"C1335159"	""	"NCIT_C6257"	""	""	""	""	""	""	"Ovarian Endometrioid Tumor"
-"NCIT_C8547"	""	"C0347014"	""	"NCIT_C8547"	""	""	""	""	""	""	"Metastatic Malignant Neoplasm in the Nervous System"
-"NCIT_C166357"	""	"C0036210"	""	"NCIT_C166357"	""	""	""	""	""	""	"Malignant Musculoskeletal Neoplasm"
-"NCIT_C40179"	""	"C1519865"	""	"NCIT_C40179"	""	""	""	""	""	""	"Uterine Corpus Soft Tissue Neoplasm"
-"NCIT_C40195"	""	"C1516434"	""	"NCIT_C40195"	""	""	""	""	""	""	"Cervical Squamous Neoplasm"
-"NCIT_C40316"	""	"C1520095"	""	"NCIT_C40316"	""	""	""	""	""	""	"Vulvar Soft Tissue Neoplasm"
-"NCIT_C5181"	""	"C1335489"	""	"NCIT_C5181"	""	""	""	""	""	""	"Breast Non-Hodgkin Lymphoma"
-"NCIT_C8025"	""	"C0344459"	""	"NCIT_C8025"	""	""	""	""	""	""	"Malignant Mixed Tumor of the Salivary Gland"
-"NCIT_C166354"	""	"C1285375"	""	"NCIT_C166354"	""	""	""	""	""	""	"Musculoskeletal Neoplasm"
-"NCIT_C38164"	""	"C1334555"	""	"NCIT_C38164"	""	""	""	""	""	""	"Male Reproductive System Precancerous Condition"
-"NCIT_C17468"	""	"C0086996"	""	"NCIT_C17468"	""	""	""	""	""	""	"Socioeconomic Factors"
-"NCIT_C6422"	""	"C1334763"	""	"NCIT_C6422"	""	""	""	""	""	""	"Midgut Neuroendocrine Tumor G1"
-"NCIT_C7709"	""	"C0220620"	""	"NCIT_C7709"	""	""	""	""	""	""	"Digestive System Neuroendocrine Tumor G1"
-"NCIT_C9388"	""	"C1335916"	""	"NCIT_C9388"	""	""	""	""	""	""	"Sarcoma NCI Grade 1"
-"NCIT_C7715"	""	"C0220645"	""	"NCIT_C7715"	""	""	""	""	""	""	"Childhood Soft Tissue Sarcoma"
-"NCIT_C27094"	""	"C1305968"	""	"NCIT_C27094"	""	""	""	""	""	""	"Cylindroma"
-"NCIT_C170734"	""	""	""	"NCIT_C170734"	""	""	""	""	""	""	"Appendix Mucinous Neoplasm"
-"NCIT_C4843"	""	"C0586358"	""	"NCIT_C4843"	""	""	""	""	""	""	"Biliary Intraepithelial Neoplasia"
-"NCIT_C7115"	""	"C1334607"	""	"NCIT_C7115"	""	""	""	""	""	""	"Liver and Intrahepatic Bile Duct Malignant Non-Epithelial Neoplasm"
-"NCIT_C3779"	""	"C0206703"	""	"NCIT_C3779"	""	""	""	""	""	""	"Giant Cell Carcinoma"
-"NCIT_C8531"	""	"C0588348"	""	"NCIT_C8531"	""	""	""	""	""	""	"Benign Respiratory Tract Neoplasm"
-"NCIT_C43315"	""	"C1706924"	""	"NCIT_C43315"	""	""	""	""	""	""	"Benign Outer Hair Sheath and Infundibulum Neoplasm"
-"NCIT_C45193"	""	"C1709655"	""	"NCIT_C45193"	""	""	""	""	""	""	"Primary Cutaneous Diffuse Large B-Cell Lymphoma"
-"NCIT_C62332"	""	"C1880017"	""	"NCIT_C62332"	""	""	""	""	""	""	"Central Nervous System Carcinoma"
-"NCIT_C60310"	""	"C1881484"	""	"NCIT_C60310"	""	""	""	""	""	""	"Lung Mature B-Cell Neoplasm"
-"NCIT_C6221"	""	"C1336733"	""	"NCIT_C6221"	""	""	""	""	""	""	"Thalamic Neoplasm"
-"NCIT_C27252"	""	"C1266030"	""	"NCIT_C27252"	""	""	""	""	""	""	"Enterochromaffin-Like Cell Neuroendocrine Tumor G1"
-"NCIT_C96062"	""	"C3272529"	""	"NCIT_C96062"	""	""	""	""	""	""	"Intestinal Neuroendocrine Tumor"
-"NCIT_C4824"	""	"C0558353"	""	"NCIT_C4824"	""	""	""	""	""	""	"Tongue Carcinoma"
-"NCIT_C8356"	""	"C0334001"	""	"NCIT_C8356"	""	""	""	""	""	""	"Atypical Glandular Hyperplasia"
-"NCIT_C4634"	""	"C0349527"	""	"NCIT_C4634"	""	""	""	""	""	""	"Skin Fibroblastic Neoplasm"
-"NCIT_C27874"	""	"C0272187"	""	"NCIT_C27874"	""	""	""	""	""	""	"Leukocyte Adhesion Deficiency"
-"NCIT_C150672"	""	""	""	"NCIT_C150672"	""	""	""	""	""	""	"Immunodeficiency-Associated Lymphoproliferative Disorder"
-"NCIT_C5195"	""	"C1297929"	""	"NCIT_C5195"	""	""	""	""	""	""	"Atypical Hyperplasia of the Breast"
-"NCIT_C5111"	""	"C1332509"	""	"NCIT_C5111"	""	""	""	""	""	""	"Benign Intracranial Neoplasm"
-"NCIT_C6262"	""	"C1336973"	""	"NCIT_C6262"	""	""	""	""	""	""	"Visual Pathway Neoplasm"
-"NCIT_C4615"	""	"C0347391"	""	"NCIT_C4615"	""	""	""	""	""	""	"Benign Skin Appendage Neoplasm"
-"NCIT_C166356"	""	""	""	"NCIT_C166356"	""	""	""	""	""	""	"Benign Musculoskeletal Neoplasm"
-"NCIT_C156483"	""	""	""	"NCIT_C156483"	""	""	""	""	""	""	"Benign Genitourinary System Neoplasm"
-"NCIT_C27127"	""	"C0347396"	""	"NCIT_C27127"	""	""	""	""	""	""	"Benign Skin Vascular Neoplasm"
-"NCIT_C6491"	""	"C1334213"	""	"NCIT_C6491"	""	""	""	""	""	""	"Intermediate Fibrohistiocytic Neoplasm"
-"NCIT_C45569"	""	"C1708364"	""	"NCIT_C45569"	""	""	""	""	""	""	"High Grade Lung Neuroendocrine Neoplasm"
-"NCIT_C46068"	""	"C0949541"	""	"NCIT_C46068"	""	""	""	""	""	""	"Thyroid Gland Hurthle (Oncocytic) Cell Neoplasm"
-"NCIT_C36037"	""	"C1334991"	""	"NCIT_C36037"	""	""	""	""	""	""	"Non-Metastatic Neoplasm"
-"NCIT_C20587"	""	"C0027362"	""	"NCIT_C20587"	""	""	""	""	""	""	"Age Group"
-"NCIT_C25598"	""	"C0302523"	""	"NCIT_C25598"	""	""	""	""	""	""	"Observation"
-"NCIT_C49163"	""	"C1710259"	""	"NCIT_C49163"	""	""	""	""	""	""	"Surgical Procedure by Site or System"
-"NCIT_C9431"	""	"C1332970"	""	"NCIT_C9431"	""	""	""	""	""	""	"Childhood Hematopoietic Neoplasm"
-"NCIT_C5040"	""	"C1335944"	""	"NCIT_C5040"	""	""	""	""	""	""	"Sensory Manifestations"
-"NCIT_C3310"	""	"C0522224"	""	"NCIT_C3310"	""	""	""	""	""	""	"Paralysis"
-"NCIT_C37254"	""	"C1332855"	""	"NCIT_C37254"	""	""	""	""	""	""	"Cardiovascular System Signs and Symptoms"
-"NCIT_C38665"	""	"C0008031"	""	"NCIT_C38665"	""	""	""	""	""	""	"Chest Pain"
-"NCIT_C50796"	""	"C0264879"	""	"NCIT_C50796"	""	""	""	""	""	""	"Valvular Insufficiency"
-"NCIT_C15723"	""	"C0741847"	""	"NCIT_C15723"	""	""	""	""	""	""	"Bypass"
-"NCIT_C80430"	""	"C0876964"	""	"NCIT_C80430"	""	""	""	""	""	""	"Cardiac Therapeutic Procedure"
-"NCIT_C83503"	""	"C0600673"	""	"NCIT_C83503"	""	""	""	""	""	""	"Statistic"
-"NCIT_C4932"	""	"C0743301"	""	"NCIT_C4932"	""	""	""	""	""	""	"Duodenal Adenoma"
-"NCIT_C28554"	""	"C0011065"	""	"NCIT_C28554"	""	""	""	""	""	""	"Dead"
-"NCIT_C5132"	""	"C1377665"	""	"NCIT_C5132"	""	""	""	""	""	""	"Childhood Central Nervous System Neoplasm"
-"NCIT_C6448"	""	"C1333769"	""	"NCIT_C6448"	""	""	""	""	""	""	"Gastric Germ Cell Tumor"
-"NCIT_C5680"	""	"C1333111"	""	"NCIT_C5680"	""	""	""	""	""	""	"Colorectal Inflammatory Polyp"
-"NCIT_C7662"	""	"C1334014"	""	"NCIT_C7662"	""	""	""	""	""	""	"High Grade Glandular Intraepithelial Neoplasia"
-"NCIT_C169100"	""	""	""	"NCIT_C169100"	""	""	""	""	""	""	"Skin Soft Tissue Neoplasm"
-"NCIT_C45625"	""	"C1708889"	""	"NCIT_C45625"	""	""	""	""	""	""	"Malignant Lung and Pleural Neoplasm"
-"NCIT_C96469"	""	"C3272796"	""	"NCIT_C96469"	""	""	""	""	""	""	"Colorectal Sporadic Serrated Polyp"
-"NCIT_C96152"	""	"C3272603"	""	"NCIT_C96152"	""	""	""	""	""	""	"Colorectal Neuroendocrine Neoplasm"
-"NCIT_C27450"	""	"C3274141"	""	"NCIT_C27450"	""	""	""	""	""	""	"Small Intestinal Gastrin-Producing Neuroendocrine Tumor"
-"NCIT_C7703"	""	"C0220603"	""	"NCIT_C7703"	""	""	""	""	""	""	"Childhood Brain Neoplasm"
-"NCIT_C5903"	""	"C1334547"	""	"NCIT_C5903"	""	""	""	""	""	""	"Major Salivary Gland Adenocarcinoma"
-"NCIT_C5941"	""	"C1335354"	""	"NCIT_C5941"	""	""	""	""	""	""	"Parotid Gland Adenocarcinoma"
-"NCIT_C35416"	""	"C0345604"	""	"NCIT_C35416"	""	""	""	""	""	""	"Mixed Tumor of the Parotid Gland"
-"NCIT_C6044"	""	"C1336755"	""	"NCIT_C6044"	""	""	""	""	""	""	"Thyroid Gland Non-Hodgkin Lymphoma"
-"NCIT_C78319"	""	"C0079238"	""	"NCIT_C78319"	""	""	""	""	""	""	"Digestive System Fistula"
-"NCIT_C36282"	""	"C0575141"	""	"NCIT_C36282"	""	""	""	""	""	""	"Head and Neck Finding"
-"NCIT_C94810"	""	"C2986691"	""	"NCIT_C94810"	""	""	""	""	""	""	"Inherited Bone Marrow Failure Syndrome"
-"NCIT_C158636"	""	""	""	"NCIT_C158636"	""	""	""	""	""	""	"Bladder Soft Tissue Neoplasm"
-"NCIT_C4118"	""	"C0334269"	""	"NCIT_C4118"	""	""	""	""	""	""	"Inverted Transitional Cell Papilloma"
-"NCIT_C3842"	""	"C0235754"	""	"NCIT_C3842"	""	""	""	""	""	""	"Urothelial Papilloma"
-"NCIT_C45230"	""	"C1709159"	""	"NCIT_C45230"	""	""	""	""	""	""	"Neoplasm by Obsolete Classification"
-"NCIT_C35541"	""	"C0870082"	""	"NCIT_C35541"	""	""	""	""	""	""	"Hyperkeratosis"
-"NCIT_C7287"	""	"C1335162"	""	"NCIT_C7287"	""	""	""	""	""	""	"Ovarian Granulosa-Stromal Cell Tumor"
-"NCIT_C84654"	""	"C0079173"	""	"NCIT_C84654"	""	""	""	""	""	""	"Craniomandibular Disorder"
-"NCIT_C6414"	""	"C1332562"	""	"NCIT_C6414"	""	""	""	""	""	""	"Bladder Paraganglioma"
-"NCIT_C74954"	""	"C0023901"	""	"NCIT_C74954"	""	""	""	""	""	""	"Liver Function Test"
-"NCIT_C171031"	""	""	""	"NCIT_C171031"	""	""	""	""	""	""	"Thymic Neuroendocrine Carcinoma"
-"NCIT_C8402"	""	"C0346049"	""	"NCIT_C8402"	""	""	""	""	""	""	"Fibrohistiocytic Neoplasm"
-"NCIT_C6570"	""	"C1333515"	""	"NCIT_C6570"	""	""	""	""	""	""	"Extraskeletal Cartilaginous and Osseous Neoplasm"
-"NCIT_C6591"	""	"C0878524"	""	"NCIT_C6591"	""	""	""	""	""	""	"Peripheral Neuroblastoma"
-"NCIT_C27160"	""	"C0433991"	""	"NCIT_C27160"	""	""	""	""	""	""	"Injury of Inner Ear"
-"NCIT_C3339"	""	"C0032580"	""	"NCIT_C3339"	""	""	""	""	""	""	"Familial Adenomatous Polyposis"
-"NCIT_C96919"	""	"C3273117"	""	"NCIT_C96919"	""	""	""	""	""	""	"Gallbladder Neuroendocrine Carcinoma"
-"NCIT_C7343"	""	"C1274305"	""	"NCIT_C7343"	""	""	""	""	""	""	"Benign Skin Fibrohistiocytic Neoplasm"
-"NCIT_C164144"	""	"C3472608"	""	"NCIT_C164144"	""	""	""	""	""	""	"Micropapillary Carcinoma"
-"NCIT_C150399"	""	""	""	"NCIT_C150399"	""	""	""	""	""	""	"HHV8-Related Lymphoproliferative Disorder"
-"NCIT_C27697"	""	"C1334047"	""	"NCIT_C27697"	""	""	""	""	""	""	"HHV8-Related Malignant Neoplasm"
-"NCIT_C82179"	""	"C2826025"	""	"NCIT_C82179"	""	""	""	""	""	""	"Mixed Phenotype Acute Leukemia"
-"NCIT_C3631"	""	"C0154043"	""	"NCIT_C3631"	""	""	""	""	""	""	"Benign Pineal Region Neoplasm"
-"NCIT_C6757"	""	"C1332481"	""	"NCIT_C6757"	""	""	""	""	""	""	"Benign Central Nervous System Mesenchymal, Non-Meningothelial Neoplasm"
-"NCIT_C152036"	""	""	""	"NCIT_C152036"	""	""	""	""	""	""	"Distal Esophagus Adenocarcinoma"
-"NCIT_C45240"	""	"C1707548"	""	"NCIT_C45240"	""	""	""	""	""	""	"Cutaneous Hematopoietic and Lymphoid Cell Neoplasm"
-"NCIT_C7614"	""	"C1333177"	""	"NCIT_C7614"	""	""	""	""	""	""	"Cutaneous Lymphoproliferative Disorder"
-"NCIT_C48873"	""	"C0432562"	""	"NCIT_C48873"	""	""	""	""	""	""	"Splenic Lymphoma"
-"NCIT_C43319"	""	"C1706922"	""	"NCIT_C43319"	""	""	""	""	""	""	"Benign Germinative Follicular Epithelium Neoplasm"
-"NCIT_C4571"	""	"C0346616"	""	"NCIT_C4571"	""	""	""	""	""	""	"Malignant Respiratory Tract Neoplasm"
-"NCIT_C7659"	""	"C1333801"	""	"NCIT_C7659"	""	""	""	""	""	""	"Digestive System Precancerous Condition"
-"NCIT_C27642"	""	"C1333945"	""	"NCIT_C27642"	""	""	""	""	""	""	"Head and Neck Precancerous Condition"
-"NCIT_C74971"	""	"C1167874"	""	"NCIT_C74971"	""	""	""	""	""	""	"Endocrine Test"
-"NCIT_C158046"	""	""	""	"NCIT_C158046"	""	""	""	""	""	""	"Kidney Mixed Epithelial and Stromal Tumor Family"
-"NCIT_C139005"	""	""	""	"NCIT_C139005"	""	""	""	""	""	""	"Nodal Peripheral T-Cell Lymphoma of T Follicular Helper Cell Origin"
-"NCIT_C74675"	""	"C2699812"	""	"NCIT_C74675"	""	""	""	""	""	""	"Drug Class Measurement"
-"NCIT_C85215"	""	"C0949628"	""	"NCIT_C85215"	""	""	""	""	""	""	"Uniparental Disomy"
-"NCIT_C7580"	""	"C0334342"	""	"NCIT_C7580"	""	""	""	""	""	""	"Skin Appendage Adenoma"
-"NCIT_C7608"	""	""	""	"NCIT_C7608"	""	""	""	""	""	""	"Benign Oral Neoplasm"
-"NCIT_C85933"	""	"C1035041"	""	"NCIT_C85933"	""	""	""	""	""	""	"Enterococcaceae"
-"NCIT_C3782"	""	"C0206708"	""	"NCIT_C3782"	""	""	""	""	""	""	"Cervical Intraepithelial Neoplasia"
-"NCIT_C7348"	""	"C1334015"	""	"NCIT_C7348"	""	""	""	""	""	""	"High Grade Intraepithelial Neoplasia"
-"NCIT_C27368"	""	"C1332971"	""	"NCIT_C27368"	""	""	""	""	""	""	"Childhood Liver and Intrahepatic Bile Duct Neoplasm"
-"NCIT_C7515"	""	"C1370932"	""	"NCIT_C7515"	""	""	""	""	""	""	"Renal Pelvis and Ureter Carcinoma"
-"NCIT_C3764"	""	"C0206677"	""	"NCIT_C3764"	""	""	""	""	""	""	"Adenomatous Polyp"
-"NCIT_C161045"	""	""	""	"NCIT_C161045"	""	""	""	""	""	""	"Prostate Soft Tissue Neoplasm"
-"NCIT_C7745"	""	"C0240396"	""	"NCIT_C7745"	""	""	""	""	""	""	"Mucous Membrane Leukoplakia"
-"NCIT_C78660"	""	"C0041909"	""	"NCIT_C78660"	""	""	""	""	""	""	"Upper Gastrointestinal Hemorrhage"
-"NCIT_C165252"	""	""	""	"NCIT_C165252"	""	""	""	""	""	""	"Metastatic Malignant Mesothelioma"
-"NCIT_C9270"	""	"C0877373"	""	"NCIT_C9270"	""	""	""	""	""	""	"Advanced Malignant Neoplasm"
-"NCIT_C4080"	""	"C0549099"	""	"NCIT_C4080"	""	""	""	""	""	""	"Perforation"
-"NCIT_C35237"	""	"C0160345"	""	"NCIT_C35237"	""	""	""	""	""	""	"Digestive System Injury"
-"NCIT_C79544"	""	"C2698487"	""	"NCIT_C79544"	""	""	""	""	""	""	"Non-Neoplastic Lip Disorder"
-"NCIT_C27653"	""	"C1335008"	""	"NCIT_C27653"	""	""	""	""	""	""	"Non-Neoplastic External Ear Disorder"
-"NCIT_C43585"	""	"C1707439"	""	"NCIT_C43585"	""	""	""	""	""	""	"Colorectal Mucinous Adenocarcinoma"
-"NCIT_C78358"	""	"C0854403"	""	"NCIT_C78358"	""	""	""	""	""	""	"Implant Infection"
-"NCIT_C124224"	""	"C1260926"	""	"NCIT_C124224"	""	""	""	""	""	""	"Pigmentary Change in Skin"
-"NCIT_C5244"	""	"C1335180"	""	"NCIT_C5244"	""	""	""	""	""	""	"Ovarian Soft Tissue Neoplasm"
-"NCIT_C3819"	""	"C0268381"	""	"NCIT_C3819"	""	""	""	""	""	""	"Primary Amyloidosis"
-"NCIT_C125581"	""	"C4086730"	""	"NCIT_C125581"	""	""	""	""	""	""	"Pathology Result"
-"NCIT_C3526"	""	"C0153360"	""	"NCIT_C3526"	""	""	""	""	""	""	"Malignant Submandibular Gland Neoplasm"
-"NCIT_C36031"	""	"C0476073"	""	"NCIT_C36031"	""	""	""	""	""	""	"Papillary Neoplasm"
-"NCIT_C61275"	""	"C1257960"	""	"NCIT_C61275"	""	""	""	""	""	""	"Mannosidosis"
-"NCIT_C53439"	""	"C0013363"	""	"NCIT_C53439"	""	""	""	""	""	""	"Dysautonomia"
-"NCIT_C34713"	""	"C0020496"	""	"NCIT_C34713"	""	""	""	""	""	""	"Hyperostosis of Skull"
-"NCIT_C34512"	""	"C0010035"	""	"NCIT_C34512"	""	""	""	""	""	""	"Hereditary Corneal Dystrophy"
-"NCIT_C4975"	""	"C0751886"	""	"NCIT_C4975"	""	""	""	""	""	""	"Primary Brain Stem Neoplasm"
-"NCIT_C7215"	""	"C1334979"	""	"NCIT_C7215"	""	""	""	""	""	""	"Non-Hodgkin Lymphoma by Clinical Course"
-"NCIT_C4958"	""	"C0751297"	""	"NCIT_C4958"	""	""	""	""	""	""	"Leptomeningeal Neoplasm"
-"NCIT_C80082"	""	"C0410916"	""	"NCIT_C80082"	""	""	""	""	""	""	"Neonatal Death"
-"NCIT_C115192"	""	"C3899667"	""	"NCIT_C115192"	""	""	""	""	""	""	"Childhood Ependymal Tumor"
-"NCIT_C156713"	""	""	""	"NCIT_C156713"	""	""	""	""	""	""	"Benign Peritoneal and Retroperitoneal Neoplasm"
-"NCIT_C85903"	""	"C1036839"	""	"NCIT_C85903"	""	""	""	""	""	""	"Aeromonadaceae"
-"NCIT_C9350"	""	"C0346109"	""	"NCIT_C9350"	""	""	""	""	""	""	"Peritoneal Malignant Mesothelioma"
-"NCIT_C3327"	""	"C0151907"	""	"NCIT_C3327"	""	""	""	""	""	""	"Skin Discoloration"
-"NCIT_C98896"	""	"C3831024"	""	"NCIT_C98896"	""	""	""	""	""	""	"Congenital Hand and Foot Deformity"
-"NCIT_C146893"	""	""	""	"NCIT_C146893"	""	""	""	""	""	""	"Metastatic Genitourinary System Carcinoma"
-"NCIT_C6524"	""	"C1274301"	""	"NCIT_C6524"	""	""	""	""	""	""	"Benign Lymphatic Vessel Neoplasm"
-"NCIT_C9023"	""	"C1335920"	""	"NCIT_C9023"	""	""	""	""	""	""	"Sarcoma by FNCLCC Grade"
-"NCIT_C5960"	""	"C1333004"	""	"NCIT_C5960"	""	""	""	""	""	""	"Childhood Supratentorial Neoplasm"
-"NCIT_C156462"	""	""	""	"NCIT_C156462"	""	""	""	""	""	""	"Brain Ependymoma"
-"NCIT_C8576"	""	"C0796563"	""	"NCIT_C8576"	""	""	""	""	""	""	"Localized Malignant Neoplasm"
-"NCIT_C9387"	""	"C1335921"	""	"NCIT_C9387"	""	""	""	""	""	""	"Sarcoma by NCI Grade"
-"NCIT_C45921"	""	"C1706819"	""	"NCIT_C45921"	""	""	""	""	""	""	"Anterior Pituitary Gland Neoplasm"
-"NCIT_C129309"	""	""	""	"NCIT_C129309"	""	""	""	""	""	""	"Diffuse Midline Glioma, H3 K27M-Mutant"
-"NCIT_C8505"	""	"C0677898"	""	"NCIT_C8505"	""	""	""	""	""	""	"Invasive Malignant Neoplasm"
-"NCIT_C164255"	""	"C0334284"	""	"NCIT_C164255"	""	""	""	""	""	""	"Mixed Neuroendocrine Non-Neuroendocrine Neoplasm"
-"NCIT_C61237"	""	""	""	"NCIT_C61237"	""	""	""	""	""	""	"Sickle Cell-Thalassemia"
-"NCIT_C154617"	""	""	""	"NCIT_C154617"	""	""	""	""	""	""	"Digestive System Large Cell Neuroendocrine Carcinoma"
-"NCIT_C8006"	""	""	""	"NCIT_C8006"	""	""	""	""	""	""	"Pancreatic Somatostatin-Producing Neuroendocrine Tumor"
-"NCIT_C3062"	""	""	""	"NCIT_C3062"	""	""	""	""	""	""	"Pancreatic Glucagon-Producing Neuroendocrine Tumor"
-"NCIT_C3236"	""	"C0025568"	""	"NCIT_C3236"	""	""	""	""	""	""	"Metaplasia"
-"NCIT_C5674"	""	"C1333116"	""	"NCIT_C5674"	""	""	""	""	""	""	"Colorectal Traditional Serrated Adenoma"
-"NCIT_C27456"	""	"C1333117"	""	"NCIT_C27456"	""	""	""	""	""	""	"Colorectal Tubular Adenoma"
-"NCIT_C96499"	""	"C3272823"	""	"NCIT_C96499"	""	""	""	""	""	""	"Colorectal Non-Hodgkin Lymphoma"
-"NCIT_C5766"	""	"C1333973"	""	"NCIT_C5766"	""	""	""	""	""	""	"Liver Non-Hodgkin Lymphoma"
-"NCIT_C26692"	""	""	""	"NCIT_C26692"	""	""	""	""	""	""	"Factor I Deficiency"
-"NCIT_C98882"	""	"C0158644"	""	"NCIT_C98882"	""	""	""	""	""	""	"Congenital Lung Malformation"
-"NCIT_C97174"	""	"C0037268"	""	"NCIT_C97174"	""	""	""	""	""	""	"Congenital Skin Disorder"
-"NCIT_C98885"	""	"C0158698"	""	"NCIT_C98885"	""	""	""	""	""	""	"Congenital Urinary System Abnormality"
-"NCIT_C35531"	""	"C0854416"	""	"NCIT_C35531"	""	""	""	""	""	""	"Pulmonary Vascular Disorder"
-"NCIT_C114397"	""	"C2586211"	""	"NCIT_C114397"	""	""	""	""	""	""	"Vascular Thrombosis"
-"NCIT_C36283"	""	"C1333520"	""	"NCIT_C36283"	""	""	""	""	""	""	"Eye and Ear Finding"
-"NCIT_C84433"	""	"C2827448"	""	"NCIT_C84433"	""	""	""	""	""	""	"Childhood Diabetes Mellitus"
-"NCIT_C54443"	""	"C1710372"	""	"NCIT_C54443"	""	""	""	""	""	""	"Terminology Subset"
-"NCIT_C117984"	""	"C3899656"	""	"NCIT_C117984"	""	""	""	""	""	""	"Pediatric Infectious Disorder"
-"NCIT_C89338"	""	"C1535926"	""	"NCIT_C89338"	""	""	""	""	""	""	"Neurodevelopmental Disorder"
-"NCIT_C121973"	""	"C4055498"	""	"NCIT_C121973"	""	""	""	""	""	""	"Acute Lymphoblastic Leukemia by Gene Expression Profile"
-"NCIT_C14348"	""	"C1512048"	""	"NCIT_C14348"	""	""	""	""	""	""	"Double Stranded DNA Virus"
-"NCIT_C14290"	""	"C0079679"	""	"NCIT_C14290"	""	""	""	""	""	""	"Lentivirus"
-"NCIT_C15445"	""	"C0279025"	""	"NCIT_C15445"	""	""	""	""	""	""	"Hormone Therapy"
-"NCIT_C25294"	""	"C0022885"	""	"NCIT_C25294"	""	""	""	""	""	""	"Laboratory Procedure"
-"NCIT_C16701"	""	"C0020289"	""	"NCIT_C16701"	""	""	""	""	""	""	"Hydrolase"
-"NCIT_C61497"	""	"C1880019"	""	"NCIT_C61497"	""	""	""	""	""	""	"Cessation"
-"NCIT_C18839"	""	"C0520990"	""	"NCIT_C18839"	""	""	""	""	""	""	"Host Defense Mechanism"
-"NCIT_C17021"	""	"C0033684"	""	"NCIT_C17021"	""	""	""	""	""	""	"Protein"
-"NCIT_C5043"	""	"C1336953"	""	"NCIT_C5043"	""	""	""	""	""	""	"Ventilation or Perfusion Signs and Symptoms"
-"NCIT_C27223"	""	"C0920561"	""	"NCIT_C27223"	""	""	""	""	""	""	"Infection-Related Malignant Neoplasm"
-"NCIT_C3487"	""	"C0086696"	""	"NCIT_C3487"	""	""	""	""	""	""	"Therapy-Related Neoplasm"
-"NCIT_C26458"	""	"C0333994"	""	"NCIT_C26458"	""	""	""	""	""	""	"Intraductal Hyperplasia"
-"NCIT_C7586"	""	"C0751676"	""	"NCIT_C7586"	""	""	""	""	""	""	"Malignant Basal Cell Neoplasm"
-"NCIT_C139533"	""	""	""	"NCIT_C139533"	""	""	""	""	""	""	"Breast Cancer by AJCC v8 Anatomic Stage"
-"NCIT_C155792"	""	""	""	"NCIT_C155792"	""	""	""	""	""	""	"Benign Skull Neoplasm"
-"NCIT_C7231"	""	"C1336006"	""	"NCIT_C7231"	""	""	""	""	""	""	"Small Intestinal Non-Hodgkin Lymphoma"
-"NCIT_C6825"	""	"C1518472"	""	"NCIT_C6825"	""	""	""	""	""	""	"Numerical Chromosomal Abnormality"
-"NCIT_C3693"	""	"C0205699"	""	"NCIT_C3693"	""	""	""	""	""	""	"Carcinomatosis"
-"NCIT_C4583"	""	"C0346989"	""	"NCIT_C4583"	""	""	""	""	""	""	"Metastatic Malignant Neoplasm in the Peritoneum"
-"NCIT_C12964"	""	"C1516798"	""	"NCIT_C12964"	""	""	""	""	""	""	"Connective and Soft Tissue"
-"NCIT_C38620"	""	"C1300680"	""	"NCIT_C38620"	""	""	""	""	""	""	"Integumentary System Part"
-"NCIT_C13319"	""	"C1285092"	""	"NCIT_C13319"	""	""	""	""	""	""	"Gland"
-"NCIT_C27770"	""	"C1334160"	""	"NCIT_C27770"	""	""	""	""	""	""	"Immunodeficiency-Related Malignant Neoplasm"
-"NCIT_C4796"	""	"C0520539"	""	"NCIT_C4796"	""	""	""	""	""	""	"Hypertensive Episode"
-"NCIT_C50437"	""	"C2926602"	""	"NCIT_C50437"	""	""	""	""	""	""	"Body Substance Discharge"
-"NCIT_C98904"	""	"C0272448"	""	"NCIT_C98904"	""	""	""	""	""	""	"Connective and Soft Tissue Injury"
-"NCIT_C19157"	""	"C0370003"	""	"NCIT_C19157"	""	""	""	""	""	""	"Specimen"
-"NCIT_C3910"	""	""	""	"NCIT_C3910"	""	""	""	""	""	""	"Molecular Abnormality"
-"NCIT_C36541"	""	"C1515001"	""	"NCIT_C36541"	""	""	""	""	""	""	"Chromosomal Rearrangement"
-"NCIT_C12917"	""	"C0334227"	""	"NCIT_C12917"	""	""	""	""	""	""	"Malignant Cell"
-"NCIT_C36807"	""	"C1512100"	""	"NCIT_C36807"	""	""	""	""	""	""	"Dysplastic Epithelial Cell"
-"NCIT_C36763"	""	"C1513973"	""	"NCIT_C36763"	""	""	""	""	""	""	"Neoplastic Glandular Cell"
-"NCIT_C36756"	""	"C1513960"	""	"NCIT_C36756"	""	""	""	""	""	""	"Neoplastic Epithelial Clear Cell"
-"NCIT_C7107"	""	"C1334976"	""	"NCIT_C7107"	""	""	""	""	""	""	"Liver and Intrahepatic Bile Duct Non-Epithelial Neoplasm"
-"NCIT_C7158"	""	"C1332489"	""	"NCIT_C7158"	""	""	""	""	""	""	"Benign Dermal Neoplasm"
-"NCIT_C5562"	""	"C1302712"	""	"NCIT_C5562"	""	""	""	""	""	""	"Skin Appendage Hamartoma"
-"NCIT_C20633"	""	"C1706062"	""	"NCIT_C20633"	""	""	""	""	""	""	"Biochemical Pathway"
-"NCIT_C35691"	""	""	""	"NCIT_C35691"	""	""	""	""	""	""	"Mixed Tumor of the Salivary Gland"
-"NCIT_C20188"	""	"C0851364"	""	"NCIT_C20188"	""	""	""	""	""	""	"Social Circumstances"
-"NCIT_C8962"	""	"C0920207"	""	"NCIT_C8962"	""	""	""	""	""	""	"Digestive System Intraepithelial Neoplasia"
-"NCIT_C43324"	""	"C1709361"	""	"NCIT_C43324"	""	""	""	""	""	""	"Outer Hair Sheath and Infundibulum Neoplasm"
-"NCIT_C27520"	""	"C0853031"	""	"NCIT_C27520"	""	""	""	""	""	""	"Benign Hair Follicle Neoplasm"
-"NCIT_C6858"	""	"C1511566"	""	"NCIT_C6858"	""	""	""	""	""	""	"Primary Cutaneous B-Cell Non-Hodgkin Lymphoma"
-"NCIT_C8355"	""	"C0333977"	""	"NCIT_C8355"	""	""	""	""	""	""	"Atypical Hyperplasia"
-"NCIT_C5354"	""	"C1456853"	""	"NCIT_C5354"	""	""	""	""	""	""	"Skin Vascular Neoplasm"
-"NCIT_C17005"	""	"C1257890"	""	"NCIT_C17005"	""	""	""	""	""	""	"Population Group"
-"NCIT_C15329"	""	"C0543467"	""	"NCIT_C15329"	""	""	""	""	""	""	"Surgical Procedure"
-"NCIT_C5039"	""	"C1334804"	""	"NCIT_C5039"	""	""	""	""	""	""	"Motor Manifestations"
-"NCIT_C49165"	""	"C1710258"	""	"NCIT_C49165"	""	""	""	""	""	""	"Surgical Procedure by Method"
-"NCIT_C20200"	""	"C1274040"	""	"NCIT_C20200"	""	""	""	""	""	""	"Outcome"
-"NCIT_C35876"	""	"C1332975"	""	"NCIT_C35876"	""	""	""	""	""	""	"Childhood Intracranial Neoplasm"
-"NCIT_C3045"	""	"C0016169"	""	"NCIT_C3045"	""	""	""	""	""	""	"Fistula"
-"NCIT_C165614"	""	"C2931245"	""	"NCIT_C165614"	""	""	""	""	""	""	"Bone Marrow Failure Syndrome"
-"NCIT_C7046"	""	"C1336894"	""	"NCIT_C7046"	""	""	""	""	""	""	"Urinary System Paraganglioma"
-"NCIT_C162460"	""	""	""	"NCIT_C162460"	""	""	""	""	""	""	"Thymic Neuroendocrine Neoplasm"
-"NCIT_C35348"	""	"C0272423"	""	"NCIT_C35348"	""	""	""	""	""	""	"Ear Injury"
-"NCIT_C4135"	""	"C0334294"	""	"NCIT_C4135"	""	""	""	""	""	""	"Multiple Adenomatous Polyps"
-"NCIT_C7749"	""	"C0263010"	""	"NCIT_C7749"	""	""	""	""	""	""	"Skin Fibrohistiocytic Neoplasm"
-"NCIT_C4963"	""	"C0751588"	""	"NCIT_C4963"	""	""	""	""	""	""	"Benign Supratentorial Neoplasm"
-"NCIT_C3535"	""	"C0153415"	""	"NCIT_C3535"	""	""	""	""	""	""	"Malignant Neoplasm of the Lower Third of the Esophagus"
-"NCIT_C43311"	""	"C1708240"	""	"NCIT_C43311"	""	""	""	""	""	""	"Germinative Follicular Epithelium Neoplasm"
-"NCIT_C76197"	""	"C1254144"	""	"NCIT_C76197"	""	""	""	""	""	""	"Firmicutes"
-"NCIT_C48592"	""	"C0017181"	""	"NCIT_C48592"	""	""	""	""	""	""	"Gastrointestinal Hemorrhage"
-"NCIT_C78255"	""	"C1619702"	""	"NCIT_C78255"	""	""	""	""	""	""	"Device-Related Infection"
-"NCIT_C7151"	""	""	""	"NCIT_C7151"	""	""	""	""	""	""	"Monoclonal Immunoglobulin Deposition Disease"
-"NCIT_C60811"	""	"C1882306"	""	"NCIT_C60811"	""	""	""	""	""	""	"Pediatric Death"
-"NCIT_C76196"	""	"C0751985"	""	"NCIT_C76196"	""	""	""	""	""	""	"Proteobacteria"
-"NCIT_C157774"	""	""	""	"NCIT_C157774"	""	""	""	""	""	""	"Metastatic Malignant Genitourinary System Neoplasm"
-"NCIT_C38458"	""	"C1266025"	""	"NCIT_C38458"	""	""	""	""	""	""	"Traditional Serrated Adenoma"
-"NCIT_C97173"	""	"C0035238"	""	"NCIT_C97173"	""	""	""	""	""	""	"Congenital Respiratory System Disorder"
-"NCIT_C16048"	""	"C1512759"	""	"NCIT_C16048"	""	""	""	""	""	""	"Information Resource"
-"NCIT_C14200"	""	"C0012923"	""	"NCIT_C14200"	""	""	""	""	""	""	"DNA Virus"
-"NCIT_C14268"	""	"C0035366"	""	"NCIT_C14268"	""	""	""	""	""	""	"Retroviridae"
-"NCIT_C16554"	""	"C0014442"	""	"NCIT_C16554"	""	""	""	""	""	""	"Enzyme"
-"NCIT_C25404"	""	"C3266814"	""	"NCIT_C25404"	""	""	""	""	""	""	"Action"
-"NCIT_C21124"	""	"C1513731"	""	"NCIT_C21124"	""	""	""	""	""	""	"Multicellular Process"
-"NCIT_C26548"	""	"C1704222"	""	"NCIT_C26548"	""	""	""	""	""	""	"Gene Product"
-"NCIT_C27224"	""	"C0920562"	""	"NCIT_C27224"	""	""	""	""	""	""	"Infection-Related Neoplasm"
-"NCIT_C27933"	""	"C1334934"	""	"NCIT_C27933"	""	""	""	""	""	""	"Neoplasm by Cause"
-"NCIT_C3784"	""	"C0206710"	""	"NCIT_C3784"	""	""	""	""	""	""	"Basal Cell Neoplasm"
-"NCIT_C139532"	""	""	""	"NCIT_C139532"	""	""	""	""	""	""	"Breast Cancer by AJCC v8 Stage"
-"NCIT_C8615"	""	"C0854198"	""	"NCIT_C8615"	""	""	""	""	""	""	"Metastatic Malignant Neoplasm in the Abdominal Cavity"
-"NCIT_C12801"	""	"C0040300"	""	"NCIT_C12801"	""	""	""	""	""	""	"Tissue"
-"NCIT_C32221"	""	"C0229962"	""	"NCIT_C32221"	""	""	""	""	""	""	"Body Part"
-"NCIT_C13018"	""	"C0178784"	""	"NCIT_C13018"	""	""	""	""	""	""	"Organ"
-"NCIT_C27936"	""	"C1334161"	""	"NCIT_C27936"	""	""	""	""	""	""	"Immunodeficiency-Related Neoplasm"
-"NCIT_C48187"	""	"C0520510"	""	"NCIT_C48187"	""	""	""	""	""	""	"Material"
-"NCIT_C12922"	""	"C0597032"	""	"NCIT_C12922"	""	""	""	""	""	""	"Neoplastic Cell"
-"NCIT_C36753"	""	"C1513959"	""	"NCIT_C36753"	""	""	""	""	""	""	"Neoplastic Epithelial Cell"
-"NCIT_C36764"	""	"C1510724"	""	"NCIT_C36764"	""	""	""	""	""	""	"Abnormal Glandular Cell"
-"NCIT_C36757"	""	"C1513940"	""	"NCIT_C36757"	""	""	""	""	""	""	"Neoplastic Clear Cell"
-"NCIT_C45249"	""	"C1707551"	""	"NCIT_C45249"	""	""	""	""	""	""	"Cutaneous Mature B-Cell Neoplasm"
-"NCIT_C43359"	""	"C0441833"	""	"NCIT_C43359"	""	""	""	""	""	""	"Group"
-"NCIT_C80693"	""	""	""	"NCIT_C80693"	""	""	""	""	""	""	"Bone Marrow Failure"
-"NCIT_C7513"	""	"C1334579"	""	"NCIT_C7513"	""	""	""	""	""	""	"Malignant Esophageal Neoplasm by Topographic Region"
-"NCIT_C14187"	""	"C0004611"	""	"NCIT_C14187"	""	""	""	""	""	""	"Bacteria"
-"NCIT_C119722"	""	"C3899377"	""	"NCIT_C119722"	""	""	""	""	""	""	"Digestive System Hemorrhage"
-"NCIT_C20865"	""	"C1512762"	""	"NCIT_C20865"	""	""	""	""	""	""	"Information and Media"
-"NCIT_C14283"	""	"C0042776"	""	"NCIT_C14283"	""	""	""	""	""	""	"Virus"
-"NCIT_C54085"	""	"C1005558"	""	"NCIT_C54085"	""	""	""	""	""	""	"Retro-transcribing Virus"
-"NCIT_C20027"	""	"C0815043"	""	"NCIT_C20027"	""	""	""	""	""	""	"Protein, Organized by Function"
-"NCIT_C156714"	""	""	""	"NCIT_C156714"	""	""	""	""	""	""	"Malignant Abdominal Neoplasm"
-"NCIT_C12219"	""	"C1515976"	""	"NCIT_C12219"	""	""	""	""	""	""	"Anatomic Structure, System, or Substance"
-"NCIT_C12913"	""	"C0333717"	""	"NCIT_C12913"	""	""	""	""	""	""	"Abnormal Cell"
-"NCIT_C36745"	""	"C1510721"	""	"NCIT_C36745"	""	""	""	""	""	""	"Abnormal Epithelial Cell"
-"NCIT_C14250"	""	"C0029235"	""	"NCIT_C14250"	""	""	""	""	""	""	"Organism"
+preferred_ontology_term	MESH	UMLS	EFO	NCIT	OMIM	DOID	Orphanet	HP	MONDO	ICD-10	label
+NCIT_C98827		C0345203		NCIT_C98827							Large Intestine Atresia
+NCIT_C97151		C3273258		NCIT_C97151							Congenital Systemic Disorder
+NCIT_C102905		C3641000		NCIT_C102905							NCI CTEP Simplified Disease Classification Terminology
+NCIT_C78488		C0281914		NCIT_C78488							Musculoskeletal Deformity
+NCIT_C103185		C3641117		NCIT_C103185							Congenital Reproductive System Abnormality
+NCIT_C9479		C1333600		NCIT_C9479							Hereditary Malignant Neoplasm
+NCIT_C36288		C0426779		NCIT_C36288							Connective and Soft Tissue Finding
+NCIT_C38029		C0039231		NCIT_C38029							Tachycardia
+NCIT_C26790		C1963929		NCIT_C26790							Acute Infective Polyneuritis
+NCIT_C99231		C1263836		NCIT_C99231							Neonatal Infectious Disorder
+NCIT_C96412		C3272759		NCIT_C96412							Brain Development Abnormality
+NCIT_C166355				NCIT_C166355							Non-Neoplastic Musculoskeletal Disorder
+NCIT_C150179				NCIT_C150179							Non-Neoplastic Optic Nerve Disorder
+NCIT_C165470				NCIT_C165470							Hereditary Colorectal Cancer Syndrome
+NCIT_C7628		C1335729		NCIT_C7628							Refractory Neoplasm
+NCIT_C35107		C0042063		NCIT_C35107							Congenital Genitourinary Abnormality
+NCIT_C7653		C1334224		NCIT_C7653							Intermediate Soft Tissue Tumor
+NCIT_C121926		C4054709		NCIT_C121926							Intermediate Bone Neoplasm
+NCIT_C3738		C4048303		NCIT_C3738							Osteoclastic Giant Cell-Rich Tumor of Bone
+NCIT_C121978		C4055497		NCIT_C121978							Acute Lymphoblastic Leukemia by ROSE Cluster
+NCIT_C26753		C0012817		NCIT_C26753							Diverticulum
+NCIT_C122788		C2931826		NCIT_C122788							Potassium Aggravated Myotonia
+NCIT_C123158		C0020501		NCIT_C123158							Primary Hyperoxaluria
+NCIT_C116718				NCIT_C116718							Early Onset Primary Dystonia
+NCIT_C28428				NCIT_C28428							Retired Concept
+NCIT_C121156		C0410536		NCIT_C121156							Mesomelic Dysplasia
+NCIT_C128041				NCIT_C128041							Cervical Neuroendocrine Neoplasm
+NCIT_C5409		C1332894		NCIT_C5409							Central Nervous System T-Cell Non-Hodgkin Lymphoma
+NCIT_C157491				NCIT_C157491							Retired Concept 2018
+NCIT_C127165		C0342496		NCIT_C127165							Micronodular Adrenal Hyperplasia
+NCIT_C118675		C1963826		NCIT_C118675							Mitochondrial Enzyme Deficiency
+NCIT_C3397		C0038874		NCIT_C3397							Supratentorial Neoplasm
+NCIT_C3093		C0684275		NCIT_C3093							Hemophilia
+NCIT_C119758		C0235820		NCIT_C119758							Neonatal Encephalopathy
+NCIT_C96159		C3272610		NCIT_C96159							Colorectal Neuroendocrine Tumor
+NCIT_C22187		C1517009		NCIT_C22187							Experimental Organism Diagnosis
+NCIT_C81315		C0031485		NCIT_C81315							Phenylketonuria
+NCIT_C14217		C0019369		NCIT_C14217							Herpesvirus
+NCIT_C117716		C0206438		NCIT_C117716							Primate Lentivirus Group
+NCIT_C155747		C1832200		NCIT_C155747							Peroxisome Biogenesis Disorder
+NCIT_C38161		C1333800		NCIT_C38161							Digestive System Non-Hodgkin Lymphoma
+NCIT_C134952		C2079538		NCIT_C134952							Charcot-Marie-Tooth Disease Type 2A
+NCIT_C15187		C0005527		NCIT_C15187							Biological Therapy
+NCIT_C155790				NCIT_C155790							Malignant Skull Neoplasm
+NCIT_C63475		C1880501		NCIT_C63475							Endocrine Drug Therapy
+NCIT_C8609		C0854176		NCIT_C8609							Malignant Hepatobiliary Neoplasm
+NCIT_C157758				NCIT_C157758							Bladder Neuroendocrine Neoplasm
+NCIT_C158620				NCIT_C158620							"Endometrioid Tumor, Variant with Squamous Differentiation"
+NCIT_C100084		C3272319		NCIT_C100084							Cardiac Diagnostic Procedure
+NCIT_C160980				NCIT_C160980							Head and Neck Neuroendocrine Carcinoma
+NCIT_C170814				NCIT_C170814							Primary Brain Neoplasm
+NCIT_C156484		C0751569		NCIT_C156484							Malignant Genitourinary System Neoplasm
+NCIT_C74944		C2699347		NCIT_C74944							Clinical Pathology Procedure
+NCIT_C16965		C0030940		NCIT_C16965							Peptidase
+NCIT_C16495		C0011298		NCIT_C16495							Demographics
+NCIT_C96001		C0600549		NCIT_C96001							Tobacco Use Cessation
+NCIT_C17937		C1817756		NCIT_C17937							Immune System Process
+NCIT_C18246		C0544452		NCIT_C18246							Remission
+NCIT_C50995		C1704632		NCIT_C50995							Disease Response
+NCIT_C20047		C1511887		NCIT_C20047							Diagnostic or Prognostic Factor
+NCIT_C16326		C0004927		NCIT_C16326							Behavior
+NCIT_C20181		C1254372		NCIT_C20181							Conceptual Entity
+NCIT_C20028		C0175168		NCIT_C20028							"Protein, Organized by Structure"
+NCIT_C18742		C1511888		NCIT_C18742							Diagnostic or Prognostic Test
+NCIT_C48191				NCIT_C48191							Information
+NCIT_C61014		C1883010		NCIT_C61014							Serum Chemistry Measurement
+NCIT_C3676		C0184551		NCIT_C3676							Alteration in Respiration
+NCIT_C27622		C1332920		NCIT_C27622							Cervical Non-Neoplastic Disorder
+NCIT_C98942		C0272316		NCIT_C98942							Hereditary Coagulation Factor Deficiency
+NCIT_C27304		C0852066		NCIT_C27304							Congenital Thyroid Gland Disorder
+NCIT_C27566		C1335047		NCIT_C27566							Non-Neoplastic Thyroid Gland Disorder
+NCIT_C27873		C1333144		NCIT_C27873							Congenital Disorder of Natural Immunity
+NCIT_C8301		C0948441		NCIT_C8301							Veno-Occlusive Disease
+NCIT_C4939		C0746351		NCIT_C4939							Benign Lymphoproliferative Disorder
+NCIT_C75471		C0268331		NCIT_C75471							COL1A1 Associated Connective Tissue Disorder
+NCIT_C78563		C0919907		NCIT_C78563							Pleural Infection
+NCIT_C4742		C0474800		NCIT_C4742							Benign Squamous Cell Neoplasm
+NCIT_C27794		C0852343		NCIT_C27794							Polycythemia (Excluding Polycythemia Vera)
+NCIT_C27048		C0266572		NCIT_C27048							Congenital Eyelid Malformation
+NCIT_C8336		C0333875		NCIT_C8336							High Grade Squamous Intraepithelial Neoplasia
+NCIT_C78250		C0403632		NCIT_C78250							Non-Infectious Cystitis
+NCIT_C38766				NCIT_C38766							Lymphocytic Thyroiditis
+NCIT_C26773		C0015799		NCIT_C26773							Feminization
+NCIT_C35743		C1335045		NCIT_C35743							Non-Neoplastic Thoracic Disorder
+NCIT_C27660		C1335023		NCIT_C27660							Non-Neoplastic Neck Disorder
+NCIT_C27668		C1335040		NCIT_C27668							Non-Neoplastic Retroperitoneal Disorder
+NCIT_C27042		C0263978		NCIT_C27042							Soft Tissue Disorder
+NCIT_C26875		C0035309		NCIT_C26875							Retinal Disorder
+NCIT_C27613		C1335037		NCIT_C27613							Non-Neoplastic Reproductive System Disorder
+NCIT_C27629		C1336920		NCIT_C27629							Uterine Non-Neoplastic Disorder
+NCIT_C27650		C1335026		NCIT_C27650							Non-Neoplastic Oral Disorder
+NCIT_C27656		C1335022		NCIT_C27656							Non-Neoplastic Nasal Cavity and Paranasal Sinus Disorder
+NCIT_C27665		C1335031		NCIT_C27665							Non-Neoplastic Peritoneal and Retroperitoneal Disorder
+NCIT_C27673		C0920673		NCIT_C27673							Virus-Related Malignant Neoplasm
+NCIT_C35778		C1333802		NCIT_C35778							Gastrointestinal Stromal Tumor of the Gastrointestinal Tract
+NCIT_C27269		C1333819		NCIT_C27269							Glandular Cell Intraepithelial Neoplasia
+NCIT_C150570				NCIT_C150570							Infiltrating Bladder Carcinoma
+NCIT_C4969		C0877578		NCIT_C4969							Therapy-Related Malignant Neoplasm
+NCIT_C9492		C0741698		NCIT_C9492							Ductal Breast Hyperplasia
+NCIT_C39966		C1518732		NCIT_C39966							Ovarian Sertoli-Stromal Cell Tumor
+NCIT_C156767				NCIT_C156767							Basal Cell Carcinoma
+NCIT_C6877		C1266013		NCIT_C6877							Grade III Glandular Intraepithelial Neoplasia
+NCIT_C139534				NCIT_C139534							Anatomic Stage 0 Breast Cancer AJCC v8
+NCIT_C4976		C0752155		NCIT_C4976							Central Nervous System Vascular Malformation
+NCIT_C155793				NCIT_C155793							Benign Skull Base Neoplasm
+NCIT_C3824		C0221198		NCIT_C3824							Lesion
+NCIT_C82995		C0334000		NCIT_C82995							Glandular Hyperplasia
+NCIT_C102871		C0751620		NCIT_C102871							Primary Central Nervous System Neoplasm
+NCIT_C39978		C1518734		NCIT_C39978							Ovarian Sex Cord-Stromal Tumor of Mixed or Unclassified Cell Types
+NCIT_C5125		C1333286		NCIT_C5125							Diencephalic Neoplasm
+NCIT_C96053		C3272520		NCIT_C96053							Small Intestinal B-Cell Non-Hodgkin Lymphoma
+NCIT_C7657		C1334233		NCIT_C7657							Intestinal Precancerous Condition
+NCIT_C7514		C1334323		NCIT_C7514							Kidney and Ureter Neoplasm
+NCIT_C7456		C3647143		NCIT_C7456							Metastatic Malignant Neoplasm in the Ovary
+NCIT_C7390		C1334630		NCIT_C7390							Malignant Vascular Neoplasm
+NCIT_C6971		C1334698		NCIT_C6971							Meningothelial Cell Neoplasm
+NCIT_C2873		C0002938		NCIT_C2873							Aneuploidy
+NCIT_C9265		C0862196		NCIT_C9265							Mycosis Fungoides and Sezary Syndrome
+NCIT_C7337		C1335391		NCIT_C7337							Peritoneal and Retroperitoneal Neoplasm
+NCIT_C27382		C0346990		NCIT_C27382							Peritoneal Carcinomatosis
+NCIT_C4124		C0334277		NCIT_C4124							Metastatic Adenocarcinoma
+NCIT_C53539		C1709831		NCIT_C53539							Radiation-Related Non-Neoplastic Disorder
+NCIT_C12471		C0225317		NCIT_C12471							Soft Tissue
+NCIT_C13022		C1268090		NCIT_C13022							Skin Part
+NCIT_C8594		C0852709		NCIT_C8594							Leukemic Phase of Lymphoma
+NCIT_C12712		C0015282		NCIT_C12712							Exocrine Gland
+NCIT_C3382		C0037939		NCIT_C3382							Intraspinal Neoplasm
+NCIT_C35599		C0852065		NCIT_C35599							Congenital Adrenal Gland Disorder
+NCIT_C34567		C0013589		NCIT_C34567							Ectromelia
+NCIT_C35576		C0006848		NCIT_C35576							Mucocutaneous Candidiasis
+NCIT_C35635		C0857069		NCIT_C35635							Chronic Candidiasis
+NCIT_C168980				NCIT_C168980							Cutaneous Histiocytic and Dendritic Cell Neoplasm
+NCIT_C35393				NCIT_C35393							Congenital Lens Disorder
+NCIT_C50617		C1708554		NCIT_C50617							Intraocular Infection
+NCIT_C34609		C0259779		NCIT_C34609							Fibrous Dysplasia
+NCIT_C45250		C1707552		NCIT_C45250							Cutaneous Mature T-Cell and NK-Cell Neoplasm
+NCIT_C27699		C1336968		NCIT_C27699							Virus-Related Lymphoma
+NCIT_C157709				NCIT_C157709							HIV-Associated Lymphoproliferative Disorder
+NCIT_C4046		C0280734		NCIT_C4046							AIDS-Related Malignant Neoplasm
+NCIT_C5042		C1336970		NCIT_C5042							Visual Manifestations
+NCIT_C34877		C0029420		NCIT_C34877							Osteochondritis
+NCIT_C92720		C0559565		NCIT_C92720							Pregnancy Finding
+NCIT_C5676		C1333119		NCIT_C5676							Colorectal Villous Adenoma
+NCIT_C36173		C0033377		NCIT_C36173							Prolapse
+NCIT_C35313		C0729346		NCIT_C35313							Juvenile Osteochondrosis
+NCIT_C27657		C1335027		NCIT_C27657							Non-Neoplastic Paranasal Sinus Disorder
+NCIT_C3122		C0020546		NCIT_C3122							Hypertensive Crisis
+NCIT_C9494		C0872054		NCIT_C9494							Latent Infection
+NCIT_C27745		C1335060		NCIT_C27745							Non-Small Cell Adenocarcinoma
+NCIT_C34392		C0003534		NCIT_C34392							Aphakia
+NCIT_C99209		C0423477		NCIT_C99209							Ear Finding
+NCIT_C34548		C0012621		NCIT_C34548							Fluid Discharge
+NCIT_C156711				NCIT_C156711							Malignant Peritoneal and Retroperitoneal Neoplasm
+NCIT_C78639		C0877046		NCIT_C78639							Tooth Infection
+NCIT_C34404		C0003977		NCIT_C34404							Aseptic Necrosis of Head and Neck of Femur
+NCIT_C110943				NCIT_C110943							Musculoskeletal Injury
+NCIT_C6077		C1334927		NCIT_C6077							Neck Carcinoma
+NCIT_C70699		C2347026		NCIT_C70699							Biospecimen
+NCIT_C8024		C0279749		NCIT_C8024							Salivary Gland Undifferentiated Carcinoma
+NCIT_C96853		C3273080		NCIT_C96853							Non-Neoplastic Hepatobiliary Disorder
+NCIT_C156885		C1322284		NCIT_C156885							Malignant Bronchial Neoplasm
+NCIT_C36041		C1334606		NCIT_C36041							Malignant Neoplasm by Grade
+NCIT_C5206		C1335321		NCIT_C5206							Papillary Breast Neoplasm
+NCIT_C4447		C0496873		NCIT_C4447							Benign Retroperitoneal Neoplasm
+NCIT_C2950		C0008625		NCIT_C2950							Cytogenetic Abnormality
+NCIT_C91230		C2984094		NCIT_C91230							Breast Cancer by AJCC v7 Stage
+NCIT_C90513		C2983712		NCIT_C90513							Breast Cancer by AJCC v6 Stage
+NCIT_C9484		C0008628		NCIT_C9484							Chromosomal Deletion
+NCIT_C141237				NCIT_C141237							Chromosome 13 Abnormality
+NCIT_C3360		C0035639		NCIT_C3360							Supernumerary Circular Chromosome
+NCIT_C36315		C0598174		NCIT_C36315							Chromosomal Loss
+NCIT_C36331		C1514212		NCIT_C36331							Polysomy
+NCIT_C36779		C1518174		NCIT_C36779							Malignant Epithelial Cell
+NCIT_C36794		C1512104		NCIT_C36794							Dysplastic Glandular Cell
+NCIT_C8021		C0279746		NCIT_C8021							Salivary Gland Adenocarcinoma
+NCIT_C36784		C1518175		NCIT_C36784							Malignant Epithelial Clear Cell
+NCIT_C36765		C1513974		NCIT_C36765							Neoplastic Glandular Cell with Clear Cytoplasm
+NCIT_C43564		C1706831		NCIT_C43564							Appendix Mixed Adenoneuroendocrine Carcinoma
+NCIT_C27897		C1336550		NCIT_C27897							T-Cell Proliferation of Uncertain Malignant Potential
+NCIT_C3646		C0154129		NCIT_C3646							Neoplasm of Uncertain Malignant Potential
+NCIT_C4573		C0346770		NCIT_C4573							Malignant Skin Appendage Neoplasm
+NCIT_C4768		C0496838		NCIT_C4768							Malignant Olfactory Nerve Neoplasm
+NCIT_C67155		C0334602		NCIT_C67155							Olfactory Neurogenic Tumor
+NCIT_C27563		C1335034		NCIT_C27563							Non-Neoplastic Pleural Disorder
+NCIT_C6974		C1334936		NCIT_C6974							Neoplasm of Uncertain Histogenesis
+NCIT_C84527		C0001079		NCIT_C84527							Achondrogenesis
+NCIT_C6781		C0879615		NCIT_C6781							Stromal Neoplasm
+NCIT_C5749		C1332521		NCIT_C5749							Liver and Intrahepatic Bile Duct Benign Non-Epithelial Neoplasm
+NCIT_C7741		C0239707		NCIT_C7741							Digestive System Hemangioma
+NCIT_C7280		C1335185		NCIT_C7280							Ovarian Transitional Cell Tumor
+NCIT_C6806		C0349526		NCIT_C6806							Benign Skin Fibroblastic Neoplasm
+NCIT_C5565		C1335410		NCIT_C5565							Pilosebaceous Hamartoma
+NCIT_C96054		C3272521		NCIT_C96054							Small Intestinal T-Cell Non-Hodgkin Lymphoma
+NCIT_C39701		C1511986		NCIT_C39701							Disease Pathway
+NCIT_C155950				NCIT_C155950							Hereditary Malignant Urinary System Neoplasm
+NCIT_C164252				NCIT_C164252							"Infiltrating Urothelial Carcinoma, Sarcomatoid Variant"
+NCIT_C7182		C1332363		NCIT_C7182							B-Cell Proliferation of Uncertain Malignant Potential
+NCIT_C7313		C1332527		NCIT_C7313							Benign Ovarian Serous Tumor
+NCIT_C4510		C0346168		NCIT_C4510							Benign Ovarian Epithelial Tumor
+NCIT_C6257		C1335159		NCIT_C6257							Ovarian Endometrioid Tumor
+NCIT_C8547		C0347014		NCIT_C8547							Metastatic Malignant Neoplasm in the Nervous System
+NCIT_C166357		C0036210		NCIT_C166357							Malignant Musculoskeletal Neoplasm
+NCIT_C40179		C1519865		NCIT_C40179							Uterine Corpus Soft Tissue Neoplasm
+NCIT_C40195		C1516434		NCIT_C40195							Cervical Squamous Neoplasm
+NCIT_C40316		C1520095		NCIT_C40316							Vulvar Soft Tissue Neoplasm
+NCIT_C5181		C1335489		NCIT_C5181							Breast Non-Hodgkin Lymphoma
+NCIT_C8025		C0344459		NCIT_C8025							Malignant Mixed Tumor of the Salivary Gland
+NCIT_C166354		C1285375		NCIT_C166354							Musculoskeletal Neoplasm
+NCIT_C38164		C1334555		NCIT_C38164							Male Reproductive System Precancerous Condition
+NCIT_C17468		C0086996		NCIT_C17468							Socioeconomic Factors
+NCIT_C6422		C1334763		NCIT_C6422							Midgut Neuroendocrine Tumor G1
+NCIT_C7709		C0220620		NCIT_C7709							Digestive System Neuroendocrine Tumor G1
+NCIT_C9388		C1335916		NCIT_C9388							Sarcoma NCI Grade 1
+NCIT_C7715		C0220645		NCIT_C7715							Childhood Soft Tissue Sarcoma
+NCIT_C27094		C1305968		NCIT_C27094							Cylindroma
+NCIT_C170734				NCIT_C170734							Appendix Mucinous Neoplasm
+NCIT_C4843		C0586358		NCIT_C4843							Biliary Intraepithelial Neoplasia
+NCIT_C7115		C1334607		NCIT_C7115							Liver and Intrahepatic Bile Duct Malignant Non-Epithelial Neoplasm
+NCIT_C3779		C0206703		NCIT_C3779							Giant Cell Carcinoma
+NCIT_C8531		C0588348		NCIT_C8531							Benign Respiratory Tract Neoplasm
+NCIT_C43315		C1706924		NCIT_C43315							Benign Outer Hair Sheath and Infundibulum Neoplasm
+NCIT_C45193		C1709655		NCIT_C45193							Primary Cutaneous Diffuse Large B-Cell Lymphoma
+NCIT_C62332		C1880017		NCIT_C62332							Central Nervous System Carcinoma
+NCIT_C60310		C1881484		NCIT_C60310							Lung Mature B-Cell Neoplasm
+NCIT_C6221		C1336733		NCIT_C6221							Thalamic Neoplasm
+NCIT_C27252		C1266030		NCIT_C27252							Enterochromaffin-Like Cell Neuroendocrine Tumor G1
+NCIT_C96062		C3272529		NCIT_C96062							Intestinal Neuroendocrine Tumor
+NCIT_C4824		C0558353		NCIT_C4824							Tongue Carcinoma
+NCIT_C8356		C0334001		NCIT_C8356							Atypical Glandular Hyperplasia
+NCIT_C4634		C0349527		NCIT_C4634							Skin Fibroblastic Neoplasm
+NCIT_C27874		C0272187		NCIT_C27874							Leukocyte Adhesion Deficiency
+NCIT_C150672				NCIT_C150672							Immunodeficiency-Associated Lymphoproliferative Disorder
+NCIT_C5195		C1297929		NCIT_C5195							Atypical Hyperplasia of the Breast
+NCIT_C5111		C1332509		NCIT_C5111							Benign Intracranial Neoplasm
+NCIT_C6262		C1336973		NCIT_C6262							Visual Pathway Neoplasm
+NCIT_C4615		C0347391		NCIT_C4615							Benign Skin Appendage Neoplasm
+NCIT_C166356				NCIT_C166356							Benign Musculoskeletal Neoplasm
+NCIT_C156483				NCIT_C156483							Benign Genitourinary System Neoplasm
+NCIT_C27127		C0347396		NCIT_C27127							Benign Skin Vascular Neoplasm
+NCIT_C6491		C1334213		NCIT_C6491							Intermediate Fibrohistiocytic Neoplasm
+NCIT_C45569		C1708364		NCIT_C45569							High Grade Lung Neuroendocrine Neoplasm
+NCIT_C46068		C0949541		NCIT_C46068							Thyroid Gland Hurthle (Oncocytic) Cell Neoplasm
+NCIT_C36037		C1334991		NCIT_C36037							Non-Metastatic Neoplasm
+NCIT_C20587		C0027362		NCIT_C20587							Age Group
+NCIT_C25598		C0302523		NCIT_C25598							Observation
+NCIT_C49163		C1710259		NCIT_C49163							Surgical Procedure by Site or System
+NCIT_C9431		C1332970		NCIT_C9431							Childhood Hematopoietic Neoplasm
+NCIT_C5040		C1335944		NCIT_C5040							Sensory Manifestations
+NCIT_C3310		C0522224		NCIT_C3310							Paralysis
+NCIT_C37254		C1332855		NCIT_C37254							Cardiovascular System Signs and Symptoms
+NCIT_C38665		C0008031		NCIT_C38665							Chest Pain
+NCIT_C50796		C0264879		NCIT_C50796							Valvular Insufficiency
+NCIT_C15723		C0741847		NCIT_C15723							Bypass
+NCIT_C80430		C0876964		NCIT_C80430							Cardiac Therapeutic Procedure
+NCIT_C83503		C0600673		NCIT_C83503							Statistic
+NCIT_C4932		C0743301		NCIT_C4932							Duodenal Adenoma
+NCIT_C28554		C0011065		NCIT_C28554							Dead
+NCIT_C5132		C1377665		NCIT_C5132							Childhood Central Nervous System Neoplasm
+NCIT_C6448		C1333769		NCIT_C6448							Gastric Germ Cell Tumor
+NCIT_C5680		C1333111		NCIT_C5680							Colorectal Inflammatory Polyp
+NCIT_C7662		C1334014		NCIT_C7662							High Grade Glandular Intraepithelial Neoplasia
+NCIT_C169100				NCIT_C169100							Skin Soft Tissue Neoplasm
+NCIT_C45625		C1708889		NCIT_C45625							Malignant Lung and Pleural Neoplasm
+NCIT_C96469		C3272796		NCIT_C96469							Colorectal Sporadic Serrated Polyp
+NCIT_C96152		C3272603		NCIT_C96152							Colorectal Neuroendocrine Neoplasm
+NCIT_C27450		C3274141		NCIT_C27450							Small Intestinal Gastrin-Producing Neuroendocrine Tumor
+NCIT_C7703		C0220603		NCIT_C7703							Childhood Brain Neoplasm
+NCIT_C5903		C1334547		NCIT_C5903							Major Salivary Gland Adenocarcinoma
+NCIT_C5941		C1335354		NCIT_C5941							Parotid Gland Adenocarcinoma
+NCIT_C35416		C0345604		NCIT_C35416							Mixed Tumor of the Parotid Gland
+NCIT_C6044		C1336755		NCIT_C6044							Thyroid Gland Non-Hodgkin Lymphoma
+NCIT_C78319		C0079238		NCIT_C78319							Digestive System Fistula
+NCIT_C36282		C0575141		NCIT_C36282							Head and Neck Finding
+NCIT_C94810		C2986691		NCIT_C94810							Inherited Bone Marrow Failure Syndrome
+NCIT_C158636				NCIT_C158636							Bladder Soft Tissue Neoplasm
+NCIT_C4118		C0334269		NCIT_C4118							Inverted Transitional Cell Papilloma
+NCIT_C3842		C0235754		NCIT_C3842							Urothelial Papilloma
+NCIT_C45230		C1709159		NCIT_C45230							Neoplasm by Obsolete Classification
+NCIT_C35541		C0870082		NCIT_C35541							Hyperkeratosis
+NCIT_C7287		C1335162		NCIT_C7287							Ovarian Granulosa-Stromal Cell Tumor
+NCIT_C84654		C0079173		NCIT_C84654							Craniomandibular Disorder
+NCIT_C6414		C1332562		NCIT_C6414							Bladder Paraganglioma
+NCIT_C74954		C0023901		NCIT_C74954							Liver Function Test
+NCIT_C171031				NCIT_C171031							Thymic Neuroendocrine Carcinoma
+NCIT_C8402		C0346049		NCIT_C8402							Fibrohistiocytic Neoplasm
+NCIT_C6570		C1333515		NCIT_C6570							Extraskeletal Cartilaginous and Osseous Neoplasm
+NCIT_C6591		C0878524		NCIT_C6591							Peripheral Neuroblastoma
+NCIT_C27160		C0433991		NCIT_C27160							Injury of Inner Ear
+NCIT_C3339		C0032580		NCIT_C3339							Familial Adenomatous Polyposis
+NCIT_C96919		C3273117		NCIT_C96919							Gallbladder Neuroendocrine Carcinoma
+NCIT_C7343		C1274305		NCIT_C7343							Benign Skin Fibrohistiocytic Neoplasm
+NCIT_C164144		C3472608		NCIT_C164144							Micropapillary Carcinoma
+NCIT_C150399				NCIT_C150399							HHV8-Related Lymphoproliferative Disorder
+NCIT_C27697		C1334047		NCIT_C27697							HHV8-Related Malignant Neoplasm
+NCIT_C82179		C2826025		NCIT_C82179							Mixed Phenotype Acute Leukemia
+NCIT_C3631		C0154043		NCIT_C3631							Benign Pineal Region Neoplasm
+NCIT_C6757		C1332481		NCIT_C6757							"Benign Central Nervous System Mesenchymal, Non-Meningothelial Neoplasm"
+NCIT_C152036				NCIT_C152036							Distal Esophagus Adenocarcinoma
+NCIT_C45240		C1707548		NCIT_C45240							Cutaneous Hematopoietic and Lymphoid Cell Neoplasm
+NCIT_C7614		C1333177		NCIT_C7614							Cutaneous Lymphoproliferative Disorder
+NCIT_C48873		C0432562		NCIT_C48873							Splenic Lymphoma
+NCIT_C43319		C1706922		NCIT_C43319							Benign Germinative Follicular Epithelium Neoplasm
+NCIT_C4571		C0346616		NCIT_C4571							Malignant Respiratory Tract Neoplasm
+NCIT_C7659		C1333801		NCIT_C7659							Digestive System Precancerous Condition
+NCIT_C27642		C1333945		NCIT_C27642							Head and Neck Precancerous Condition
+NCIT_C74971		C1167874		NCIT_C74971							Endocrine Test
+NCIT_C158046				NCIT_C158046							Kidney Mixed Epithelial and Stromal Tumor Family
+NCIT_C139005				NCIT_C139005							Nodal Peripheral T-Cell Lymphoma of T Follicular Helper Cell Origin
+NCIT_C74675		C2699812		NCIT_C74675							Drug Class Measurement
+NCIT_C85215		C0949628		NCIT_C85215							Uniparental Disomy
+NCIT_C7580		C0334342		NCIT_C7580							Skin Appendage Adenoma
+NCIT_C7608				NCIT_C7608							Benign Oral Neoplasm
+NCIT_C85933		C1035041		NCIT_C85933							Enterococcaceae
+NCIT_C3782		C0206708		NCIT_C3782							Cervical Intraepithelial Neoplasia
+NCIT_C7348		C1334015		NCIT_C7348							High Grade Intraepithelial Neoplasia
+NCIT_C27368		C1332971		NCIT_C27368							Childhood Liver and Intrahepatic Bile Duct Neoplasm
+NCIT_C7515		C1370932		NCIT_C7515							Renal Pelvis and Ureter Carcinoma
+NCIT_C3764		C0206677		NCIT_C3764							Adenomatous Polyp
+NCIT_C161045				NCIT_C161045							Prostate Soft Tissue Neoplasm
+NCIT_C7745		C0240396		NCIT_C7745							Mucous Membrane Leukoplakia
+NCIT_C78660		C0041909		NCIT_C78660							Upper Gastrointestinal Hemorrhage
+NCIT_C165252				NCIT_C165252							Metastatic Malignant Mesothelioma
+NCIT_C9270		C0877373		NCIT_C9270							Advanced Malignant Neoplasm
+NCIT_C4080		C0549099		NCIT_C4080							Perforation
+NCIT_C35237		C0160345		NCIT_C35237							Digestive System Injury
+NCIT_C79544		C2698487		NCIT_C79544							Non-Neoplastic Lip Disorder
+NCIT_C27653		C1335008		NCIT_C27653							Non-Neoplastic External Ear Disorder
+NCIT_C43585		C1707439		NCIT_C43585							Colorectal Mucinous Adenocarcinoma
+NCIT_C78358		C0854403		NCIT_C78358							Implant Infection
+NCIT_C124224		C1260926		NCIT_C124224							Pigmentary Change in Skin
+NCIT_C5244		C1335180		NCIT_C5244							Ovarian Soft Tissue Neoplasm
+NCIT_C3819		C0268381		NCIT_C3819							Primary Amyloidosis
+NCIT_C125581		C4086730		NCIT_C125581							Pathology Result
+NCIT_C3526		C0153360		NCIT_C3526							Malignant Submandibular Gland Neoplasm
+NCIT_C36031		C0476073		NCIT_C36031							Papillary Neoplasm
+NCIT_C61275		C1257960		NCIT_C61275							Mannosidosis
+NCIT_C53439		C0013363		NCIT_C53439							Dysautonomia
+NCIT_C34713		C0020496		NCIT_C34713							Hyperostosis of Skull
+NCIT_C34512		C0010035		NCIT_C34512							Hereditary Corneal Dystrophy
+NCIT_C4975		C0751886		NCIT_C4975							Primary Brain Stem Neoplasm
+NCIT_C7215		C1334979		NCIT_C7215							Non-Hodgkin Lymphoma by Clinical Course
+NCIT_C4958		C0751297		NCIT_C4958							Leptomeningeal Neoplasm
+NCIT_C80082		C0410916		NCIT_C80082							Neonatal Death
+NCIT_C115192		C3899667		NCIT_C115192							Childhood Ependymal Tumor
+NCIT_C156713				NCIT_C156713							Benign Peritoneal and Retroperitoneal Neoplasm
+NCIT_C85903		C1036839		NCIT_C85903							Aeromonadaceae
+NCIT_C9350		C0346109		NCIT_C9350							Peritoneal Malignant Mesothelioma
+NCIT_C3327		C0151907		NCIT_C3327							Skin Discoloration
+NCIT_C98896		C3831024		NCIT_C98896							Congenital Hand and Foot Deformity
+NCIT_C146893				NCIT_C146893							Metastatic Genitourinary System Carcinoma
+NCIT_C6524		C1274301		NCIT_C6524							Benign Lymphatic Vessel Neoplasm
+NCIT_C9023		C1335920		NCIT_C9023							Sarcoma by FNCLCC Grade
+NCIT_C5960		C1333004		NCIT_C5960							Childhood Supratentorial Neoplasm
+NCIT_C156462				NCIT_C156462							Brain Ependymoma
+NCIT_C8576		C0796563		NCIT_C8576							Localized Malignant Neoplasm
+NCIT_C9387		C1335921		NCIT_C9387							Sarcoma by NCI Grade
+NCIT_C45921		C1706819		NCIT_C45921							Anterior Pituitary Gland Neoplasm
+NCIT_C129309				NCIT_C129309							"Diffuse Midline Glioma, H3 K27M-Mutant"
+NCIT_C8505		C0677898		NCIT_C8505							Invasive Malignant Neoplasm
+NCIT_C164255		C0334284		NCIT_C164255							Mixed Neuroendocrine Non-Neuroendocrine Neoplasm
+NCIT_C61237				NCIT_C61237							Sickle Cell-Thalassemia
+NCIT_C154617				NCIT_C154617							Digestive System Large Cell Neuroendocrine Carcinoma
+NCIT_C8006				NCIT_C8006							Pancreatic Somatostatin-Producing Neuroendocrine Tumor
+NCIT_C3062				NCIT_C3062							Pancreatic Glucagon-Producing Neuroendocrine Tumor
+NCIT_C3236		C0025568		NCIT_C3236							Metaplasia
+NCIT_C5674		C1333116		NCIT_C5674							Colorectal Traditional Serrated Adenoma
+NCIT_C27456		C1333117		NCIT_C27456							Colorectal Tubular Adenoma
+NCIT_C96499		C3272823		NCIT_C96499							Colorectal Non-Hodgkin Lymphoma
+NCIT_C5766		C1333973		NCIT_C5766							Liver Non-Hodgkin Lymphoma
+NCIT_C26692				NCIT_C26692							Factor I Deficiency
+NCIT_C98882		C0158644		NCIT_C98882							Congenital Lung Malformation
+NCIT_C97174		C0037268		NCIT_C97174							Congenital Skin Disorder
+NCIT_C98885		C0158698		NCIT_C98885							Congenital Urinary System Abnormality
+NCIT_C35531		C0854416		NCIT_C35531							Pulmonary Vascular Disorder
+NCIT_C114397		C2586211		NCIT_C114397							Vascular Thrombosis
+NCIT_C36283		C1333520		NCIT_C36283							Eye and Ear Finding
+NCIT_C84433		C2827448		NCIT_C84433							Childhood Diabetes Mellitus
+NCIT_C54443		C1710372		NCIT_C54443							Terminology Subset
+NCIT_C117984		C3899656		NCIT_C117984							Pediatric Infectious Disorder
+NCIT_C89338		C1535926		NCIT_C89338							Neurodevelopmental Disorder
+NCIT_C121973		C4055498		NCIT_C121973							Acute Lymphoblastic Leukemia by Gene Expression Profile
+NCIT_C14348		C1512048		NCIT_C14348							Double Stranded DNA Virus
+NCIT_C14290		C0079679		NCIT_C14290							Lentivirus
+NCIT_C15445		C0279025		NCIT_C15445							Hormone Therapy
+NCIT_C25294		C0022885		NCIT_C25294							Laboratory Procedure
+NCIT_C16701		C0020289		NCIT_C16701							Hydrolase
+NCIT_C61497		C1880019		NCIT_C61497							Cessation
+NCIT_C18839		C0520990		NCIT_C18839							Host Defense Mechanism
+NCIT_C17021		C0033684		NCIT_C17021							Protein
+NCIT_C5043		C1336953		NCIT_C5043							Ventilation or Perfusion Signs and Symptoms
+NCIT_C27223		C0920561		NCIT_C27223							Infection-Related Malignant Neoplasm
+NCIT_C3487		C0086696		NCIT_C3487							Therapy-Related Neoplasm
+NCIT_C26458		C0333994		NCIT_C26458							Intraductal Hyperplasia
+NCIT_C7586		C0751676		NCIT_C7586							Malignant Basal Cell Neoplasm
+NCIT_C139533				NCIT_C139533							Breast Cancer by AJCC v8 Anatomic Stage
+NCIT_C155792				NCIT_C155792							Benign Skull Neoplasm
+NCIT_C7231		C1336006		NCIT_C7231							Small Intestinal Non-Hodgkin Lymphoma
+NCIT_C6825		C1518472		NCIT_C6825							Numerical Chromosomal Abnormality
+NCIT_C3693		C0205699		NCIT_C3693							Carcinomatosis
+NCIT_C4583		C0346989		NCIT_C4583							Metastatic Malignant Neoplasm in the Peritoneum
+NCIT_C12964		C1516798		NCIT_C12964							Connective and Soft Tissue
+NCIT_C38620		C1300680		NCIT_C38620							Integumentary System Part
+NCIT_C13319		C1285092		NCIT_C13319							Gland
+NCIT_C27770		C1334160		NCIT_C27770							Immunodeficiency-Related Malignant Neoplasm
+NCIT_C4796		C0520539		NCIT_C4796							Hypertensive Episode
+NCIT_C50437		C2926602		NCIT_C50437							Body Substance Discharge
+NCIT_C98904		C0272448		NCIT_C98904							Connective and Soft Tissue Injury
+NCIT_C19157		C0370003		NCIT_C19157							Specimen
+NCIT_C3910				NCIT_C3910							Molecular Abnormality
+NCIT_C36541		C1515001		NCIT_C36541							Chromosomal Rearrangement
+NCIT_C12917		C0334227		NCIT_C12917							Malignant Cell
+NCIT_C36807		C1512100		NCIT_C36807							Dysplastic Epithelial Cell
+NCIT_C36763		C1513973		NCIT_C36763							Neoplastic Glandular Cell
+NCIT_C36756		C1513960		NCIT_C36756							Neoplastic Epithelial Clear Cell
+NCIT_C7107		C1334976		NCIT_C7107							Liver and Intrahepatic Bile Duct Non-Epithelial Neoplasm
+NCIT_C7158		C1332489		NCIT_C7158							Benign Dermal Neoplasm
+NCIT_C5562		C1302712		NCIT_C5562							Skin Appendage Hamartoma
+NCIT_C20633		C1706062		NCIT_C20633							Biochemical Pathway
+NCIT_C35691				NCIT_C35691							Mixed Tumor of the Salivary Gland
+NCIT_C20188		C0851364		NCIT_C20188							Social Circumstances
+NCIT_C8962		C0920207		NCIT_C8962							Digestive System Intraepithelial Neoplasia
+NCIT_C43324		C1709361		NCIT_C43324							Outer Hair Sheath and Infundibulum Neoplasm
+NCIT_C27520		C0853031		NCIT_C27520							Benign Hair Follicle Neoplasm
+NCIT_C6858		C1511566		NCIT_C6858							Primary Cutaneous B-Cell Non-Hodgkin Lymphoma
+NCIT_C8355		C0333977		NCIT_C8355							Atypical Hyperplasia
+NCIT_C5354		C1456853		NCIT_C5354							Skin Vascular Neoplasm
+NCIT_C17005		C1257890		NCIT_C17005							Population Group
+NCIT_C15329		C0543467		NCIT_C15329							Surgical Procedure
+NCIT_C5039		C1334804		NCIT_C5039							Motor Manifestations
+NCIT_C49165		C1710258		NCIT_C49165							Surgical Procedure by Method
+NCIT_C20200		C1274040		NCIT_C20200							Outcome
+NCIT_C35876		C1332975		NCIT_C35876							Childhood Intracranial Neoplasm
+NCIT_C3045		C0016169		NCIT_C3045							Fistula
+NCIT_C165614		C2931245		NCIT_C165614							Bone Marrow Failure Syndrome
+NCIT_C7046		C1336894		NCIT_C7046							Urinary System Paraganglioma
+NCIT_C162460				NCIT_C162460							Thymic Neuroendocrine Neoplasm
+NCIT_C35348		C0272423		NCIT_C35348							Ear Injury
+NCIT_C4135		C0334294		NCIT_C4135							Multiple Adenomatous Polyps
+NCIT_C7749		C0263010		NCIT_C7749							Skin Fibrohistiocytic Neoplasm
+NCIT_C4963		C0751588		NCIT_C4963							Benign Supratentorial Neoplasm
+NCIT_C3535		C0153415		NCIT_C3535							Malignant Neoplasm of the Lower Third of the Esophagus
+NCIT_C43311		C1708240		NCIT_C43311							Germinative Follicular Epithelium Neoplasm
+NCIT_C76197		C1254144		NCIT_C76197							Firmicutes
+NCIT_C48592		C0017181		NCIT_C48592							Gastrointestinal Hemorrhage
+NCIT_C78255		C1619702		NCIT_C78255							Device-Related Infection
+NCIT_C7151				NCIT_C7151							Monoclonal Immunoglobulin Deposition Disease
+NCIT_C60811		C1882306		NCIT_C60811							Pediatric Death
+NCIT_C76196		C0751985		NCIT_C76196							Proteobacteria
+NCIT_C157774				NCIT_C157774							Metastatic Malignant Genitourinary System Neoplasm
+NCIT_C38458		C1266025		NCIT_C38458							Traditional Serrated Adenoma
+NCIT_C97173		C0035238		NCIT_C97173							Congenital Respiratory System Disorder
+NCIT_C16048		C1512759		NCIT_C16048							Information Resource
+NCIT_C14200		C0012923		NCIT_C14200							DNA Virus
+NCIT_C14268		C0035366		NCIT_C14268							Retroviridae
+NCIT_C16554		C0014442		NCIT_C16554							Enzyme
+NCIT_C25404		C3266814		NCIT_C25404							Action
+NCIT_C21124		C1513731		NCIT_C21124							Multicellular Process
+NCIT_C26548		C1704222		NCIT_C26548							Gene Product
+NCIT_C27224		C0920562		NCIT_C27224							Infection-Related Neoplasm
+NCIT_C27933		C1334934		NCIT_C27933							Neoplasm by Cause
+NCIT_C3784		C0206710		NCIT_C3784							Basal Cell Neoplasm
+NCIT_C139532				NCIT_C139532							Breast Cancer by AJCC v8 Stage
+NCIT_C8615		C0854198		NCIT_C8615							Metastatic Malignant Neoplasm in the Abdominal Cavity
+NCIT_C12801		C0040300		NCIT_C12801							Tissue
+NCIT_C32221		C0229962		NCIT_C32221							Body Part
+NCIT_C13018		C0178784		NCIT_C13018							Organ
+NCIT_C27936		C1334161		NCIT_C27936							Immunodeficiency-Related Neoplasm
+NCIT_C48187		C0520510		NCIT_C48187							Material
+NCIT_C12922		C0597032		NCIT_C12922							Neoplastic Cell
+NCIT_C36753		C1513959		NCIT_C36753							Neoplastic Epithelial Cell
+NCIT_C36764		C1510724		NCIT_C36764							Abnormal Glandular Cell
+NCIT_C36757		C1513940		NCIT_C36757							Neoplastic Clear Cell
+NCIT_C45249		C1707551		NCIT_C45249							Cutaneous Mature B-Cell Neoplasm
+NCIT_C43359		C0441833		NCIT_C43359							Group
+NCIT_C80693				NCIT_C80693							Bone Marrow Failure
+NCIT_C7513		C1334579		NCIT_C7513							Malignant Esophageal Neoplasm by Topographic Region
+NCIT_C14187		C0004611		NCIT_C14187							Bacteria
+NCIT_C119722		C3899377		NCIT_C119722							Digestive System Hemorrhage
+NCIT_C20865		C1512762		NCIT_C20865							Information and Media
+NCIT_C14283		C0042776		NCIT_C14283							Virus
+NCIT_C54085		C1005558		NCIT_C54085							Retro-transcribing Virus
+NCIT_C20027		C0815043		NCIT_C20027							"Protein, Organized by Function"
+NCIT_C156714				NCIT_C156714							Malignant Abdominal Neoplasm
+NCIT_C12219		C1515976		NCIT_C12219							"Anatomic Structure, System, or Substance"
+NCIT_C12913		C0333717		NCIT_C12913							Abnormal Cell
+NCIT_C36745		C1510721		NCIT_C36745							Abnormal Epithelial Cell
+NCIT_C14250		C0029235		NCIT_C14250							Organism

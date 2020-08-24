@@ -1,4 +1,4 @@
-preferred_ontology_term	MESH	UMLS	EFO	NCIT	OMIM	DOID	Orphanet	HP	MONDO	ICD.10	label
+preferred_ontology_term	MESH	UMLS	EFO	NCIT	OMIM	DOID	Orphanet	HP	MONDO	ICD-10	label
 HP_0008775		C0747987						HP_0008775			Abnormal prostate morphology
 HP_0000035		C0266423						HP_0000035			Abnormal testis morphology
 HP_0100627		C4020961						HP_0100627			Displacement of the urethral meatus
