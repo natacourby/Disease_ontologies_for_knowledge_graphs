@@ -11,10 +11,10 @@ docker run -d -v ./data/db/:/grakn-core-all-linux/server/db/ -p 48555:48555 grak
 ```
 3. or use local Grakn install with data-dir pointing to ./data/db
 ```
-# Change the data-dir in [Grakn configuration file](https://dev.grakn.ai/docs/running-grakn/configuration) to data-dir=<full path>/data/db/:
+# Change "data-dir" in Grakn configuration file: data-dir=<full path>/data/db/:
 vi /usr/local/Cellar/grakn-core/1.8.0/libexec/server/conf/grakn.properties
 ```
-
+[Grakn configuration file](https://dev.grakn.ai/docs/running-grakn/configuration)
 
 ## Load diseases into Grakn using python scripts
 Code was tested Grakn 1.8, python 3.6
