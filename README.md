@@ -3,7 +3,21 @@ Data integration to build a drug discovery knowledge graph is a challenge. There
 
 Here we present a knowledge graph solution that uses disease ontologies cross-references and allows easy switch between ontology hierarchies for data integration purpose, as well as to perform other tasks. 
 
-## Load diseases into Grakn
+## Load diseases into Grakn using prepared database
+1. Unzip ./data/db.zip file => ./data/db
+2. Use Grakn docker image with an extrenal volume
+```
+docker run -d -v ./data/db/:/grakn-core-all-linux/server/db/ -p 48555:48555 graknlabs/grakn
+```
+3. Use local Grakn install
+
+Change the data-dir in [Grakn configuration file](https://dev.grakn.ai/docs/running-grakn/configuration) to data-dir=<full path>/data/db/:
+```
+vi /usr/local/Cellar/grakn-core/1.8.0/libexec/server/conf/grakn.properties
+```
+
+
+## Load diseases into Grakn using python scripts
 Code was tested Grakn 1.8, python 3.6
 
 1. Build python environment:
