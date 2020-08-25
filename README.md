@@ -9,10 +9,9 @@ Here we present a knowledge graph solution that uses disease ontologies cross-re
 ```
 docker run -d -v ./data/db/:/grakn-core-all-linux/server/db/ -p 48555:48555 graknlabs/grakn
 ```
-3. Use local Grakn install
-
-Change the data-dir in [Grakn configuration file](https://dev.grakn.ai/docs/running-grakn/configuration) to data-dir=<full path>/data/db/:
+3. or use local Grakn install with data-dir pointing to ./data/db
 ```
+# Change the data-dir in [Grakn configuration file](https://dev.grakn.ai/docs/running-grakn/configuration) to data-dir=<full path>/data/db/:
 vi /usr/local/Cellar/grakn-core/1.8.0/libexec/server/conf/grakn.properties
 ```
 
