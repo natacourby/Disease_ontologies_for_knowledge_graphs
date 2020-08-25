@@ -65,7 +65,7 @@ grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name $on; $y isa disease, has disease-name $dn; get $dn, $on;
 
 # Using EFO hierarchy
-match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "EFO"; $y isa disease, has disease-name $dn; get $dn, $on;
+match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "EFO"; $y isa disease, has disease-name $dn; get $dn;
 ```
 We can get all parents of 'EFO_0003884' regardless the hierarchy:
 ```
@@ -73,7 +73,7 @@ grakn console -k dokg
 match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name $on; $x isa disease, has disease-name $dn; get $dn, $on;
 
 # Using MONDO hierarchy
-match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $x isa disease, has disease-name $dn; get $dn, $on;
+match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $x isa disease, has disease-name $dn; get $dn;
 ```
 Now if want to add ontology hierarchy that is not used in cross references file:
 ```
