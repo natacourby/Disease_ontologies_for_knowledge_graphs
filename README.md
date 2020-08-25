@@ -8,6 +8,10 @@ Here we present a knowledge graph solution that uses disease ontologies cross-re
 2. Use Grakn docker image with an extrenal volume
 ```
 docker run -d -v ./data/db/:/grakn-core-all-linux/server/db/ -p 48555:48555 graknlabs/grakn
+
+# Check using Grakn console
+grakn console -k dokg
+match $d isa disease, has efo-id "EFO_0009425", has disease-id $di; get;
 ```
 3. or use local Grakn install with data-dir pointing to ./data/db
 ```
