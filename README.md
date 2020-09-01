@@ -144,7 +144,7 @@ R libraries:
 ### Extract hierarchy and prepare additional parental classes if not present in cross-references.tsv file
 ```
 source("./scripts/data_preparation.R")
-cross_references_file <- "./data/prepared_ontologies/cross-references.tsv"
+cross_references_file <- "./data/prepared_ontologies/cross_references.tsv"
 hierarchy_file <-paste("./Documents/Projects/imed-knowledge-graph/data/ontologies/bioportal_ontologies/",ontology_value,".csv",sep="")
 ontology_name <- "DOID"
 bioportal_ontological_hierarchy_preparation(cross_references_file, hierarchy_file, ontology_name)
@@ -154,6 +154,6 @@ To use if you update cross-references.tsv file
 
 ```
 source("./scripts/data_preparation.R")
-cross_references_file <- "./data/prepared_ontologies/cross-references.tsv"
+cross_references_file <- "./data/prepared_ontologies/cross_references.tsv"
 cross_references_validity(cross_references_file)
 ```
