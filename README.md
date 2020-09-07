@@ -38,9 +38,6 @@ grakn server start
 grakn console -k dokg -f ./scripts/schema.gql
 ```
 4. Load diseases
-
-NB! Loading process takes around 2 hours.
-
 ```
 conda activate graknenv
 python3 ./scripts/load_script.py
@@ -51,46 +48,38 @@ match $d isa disease, has efo-id "EFO_0009425", has disease-id $di; get;
 ```
 6. Load MONDO hierarchy
 
-add_hierarchy.py has two parameters: ontology_name and naming version (1 or 2)
-* naming version 1 corresponds to cross-reference file column with ontology_name as prefix (e.g. "MONDO_", "EFO_") 
-* naming version 2 means that ontology_name is not used as prefix (e.g. in case of UMLS and MESH) 
-
+add_hierarchy.py has one parameter: ontology_name
 ```
-python3 ./scripts/add_hierarchy.py MONDO 1
-python3 ./scripts/add_hierarchy.py EFO 1
+python3 ./scripts/add_hierarchy.py MONDO
+python3 ./scripts/add_hierarchy.py EFO
 
 # Check in Grakn console
 grakn console -k dokg
-match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $y isa disease, has disease-name $dn; get $dn;
+match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $y isa disease, has disease-name $dn; get $dn;
+
 ```
 6. Load MESH hierarchy
 
-MESH is not our primary ontology (we don't have all parental terms of it). Parental terms by default are loaded for DOID, EFO, MONDO and Orphanet.
+MESH is not our primary ontology (we don't have all parental terms of it). Parental terms by default are loaded for DOID, EFO and MONDO.
 So, in order to load MESH hierarchy we have to add parental terms first:
 ```
-python3 ./scripts/add_terms.py MESH 2
-python3 ./scripts/add_hierarchy.py MESH 2
+python3 ./scripts/add_terms.py MESH
+python3 ./scripts/add_hierarchy.py MESH
 
 # Check in Grakn console
 grakn console -k dokg
-match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $y isa disease, has disease-name $dn; get $dn;
+match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $y isa disease, has disease-name $dn; get $dn;
 ```
 7. Usage examples
 We can get all children of 'EFO_0003884' regardless the hierarchy:
 ```
 grakn console -k dokg
-match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name $on; $y isa disease, has disease-name $dn; get $dn, $on;
-
-# Using EFO hierarchy
-match $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "EFO"; $y isa disease, has disease-name $dn; get $dn;
+match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $y isa disease, has disease-name $dn; get $dn;
 ```
 We can get all parents of 'EFO_0003884' regardless the hierarchy:
 ```
 grakn console -k dokg
-match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name $on; $x isa disease, has disease-name $dn; get $dn, $on;
-
-# Using MONDO hierarchy
-match $dh (superior-disease: $x, subordinate-disease: $y, $o) isa disease-hierarchy; $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $x isa disease, has disease-name $dn; get $dn;
+match $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $x isa disease, has disease-name $dn; get $dn;
 ```
 Now if want to add ontology hierarchy that is not used in cross references file:
 ```
