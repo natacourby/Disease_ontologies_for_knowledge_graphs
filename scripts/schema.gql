@@ -110,6 +110,11 @@ disease-hierarchy sub relation,
 	relates subordinate-disease,
 	relates ontological-source;
 
+disease-hierarchy-inferred sub relation,
+	relates superior-disease,
+	relates subordinate-disease,
+	relates ontological-source;
+
 disease-id-ontology sub relation,
 	relates disease-id-in-ontology,
 	relates ontological-source;
@@ -122,7 +127,7 @@ interaction sub relation,
 
 disease sub entity,
 	has disease-name,
-	has preferred-disease-id,
+	key preferred-disease-id,
 	has mesh-id,
 	has efo-id,
 	has umls-id,
@@ -206,11 +211,99 @@ when {
     $d1 has best-mesh-id $mid2;
 };
 
-single-ontology-transitivity sub rule,
+single-ontology-inferred sub rule,
 when {
     $o isa ontology;
     $r1(superior-disease: $a, subordinate-disease:$b, ontological-source: $o) isa disease-hierarchy;
-    $r2(superior-disease: $b, subordinate-disease:$c, ontological-source: $o) isa disease-hierarchy;
 }, then {
-    (superior-disease: $a, subordinate-disease: $c, ontological-source: $o) isa disease-hierarchy;
+    (superior-disease: $a, subordinate-disease: $b, ontological-source: $o) isa disease-hierarchy-inferred;
+};
+
+single-ontology-transitivity sub rule,
+when {
+    $o isa ontology;
+    $r1(superior-disease: $a, subordinate-disease:$b, ontological-source: $o) isa disease-hierarchy-inferred;
+    $r2(superior-disease: $b, subordinate-disease:$c, ontological-source: $o) isa disease-hierarchy-inferred;
+}, then {
+    (superior-disease: $a, subordinate-disease: $c, ontological-source: $o) isa disease-hierarchy-inferred;
+};
+
+disease-id-ontology-source-mondo sub rule,
+when {
+    $o isa ontology, has ontology-name "MONDO";
+    $d isa disease, has mondo-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-efo sub rule,
+when {
+    $o isa ontology, has ontology-name "EFO";
+    $d isa disease, has efo-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-mesh sub rule,
+when {
+    $o isa ontology, has ontology-name "MESH";
+    $d isa disease, has mesh-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-umls sub rule,
+when {
+    $o isa ontology, has ontology-name "UMLS";
+    $d isa disease, has umls-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-doid sub rule,
+when {
+    $o isa ontology, has ontology-name "DOID";
+    $d isa disease, has doid-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-orphanet sub rule,
+when {
+    $o isa ontology, has ontology-name "Orphanet";
+    $d isa disease, has orphanet-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-ncit sub rule,
+when {
+    $o isa ontology, has ontology-name "NCIT";
+    $d isa disease, has ncit-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-hp sub rule,
+when {
+    $o isa ontology, has ontology-name "HP";
+    $d isa disease, has hp-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-omim sub rule,
+when {
+    $o isa ontology, has ontology-name "OMIM";
+    $d isa disease, has omim-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
+};
+
+disease-id-ontology-source-icd10 sub rule,
+when {
+    $o isa ontology, has ontology-name "ICD-10";
+    $d isa disease, has icd10-id $did;
+}, then {
+    (ontological-source: $o, disease-id-in-ontology: $did) isa disease-id-ontology;
 };

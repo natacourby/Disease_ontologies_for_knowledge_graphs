@@ -6,31 +6,8 @@ import sys
 grakn_uri = "localhost:48555"
 grakn_keyspace = "dokg"
 data_folder = "./data/prepared_ontologies/"
-dict_source = {"EF": "EFO",
-               "BF": "EFO",
-               "CH": "EFO",
-               "GO": "EFO",
-               "IA": "EFO",
-               "MP": "EFO",
-               "OB": "EFO",
-               "OG": "EFO",
-               "Or": "Orphanet",
-               "MO": "MONDO",
-               "HP": "HP",
-               "NC": "NCIT",
-               "DO": "DOID",
-               "UM": "UMLS",
-               "ME": "MESH",
-               "OM": "OMIM",
-               "IC": "ICD-10"}
 dict_id = {"EF": "efo-id",
-           "BF": "efo-id",
-           "CH": "efo-id",
-           "GO": "efo-id",
-           "IA": "efo-id",
            "MP": "efo-id",
-           "OB": "efo-id",
-           "OG": "efo-id",
            "Or": "orphanet-id",
            "MO": "mondo-id",
            "HP": "hp-id",
@@ -48,14 +25,14 @@ dict_id = {"EF": "efo-id",
 #        version describing ontology naming style:
 #         1, when ontology name is a part of the ontology term id (e.g. "EFO_0009425");
 #         2, when ontology name is NOT a part of ontology term (e.g. "D010930" for MESH term)
-def add_hierarchy(dict_inputs, ontology_name, version="1"):
+def add_hierarchy(dict_inputs, ontology_name):
     global grakn_uri
     global grakn_keyspace
     with GraknClient(uri=grakn_uri) as client:
         with client.session(keyspace=grakn_keyspace) as session:
             for dict_input in dict_inputs:
                 print("Loading from [" + dict_input["data_path"] + "] into Grakn ...")
-                load_data_into_grakn(dict_input, session, ontology_name, version)
+                load_data_into_grakn(dict_input, session, ontology_name)
 
 
 # Process the line from the input file using particular template with ontology arguments
@@ -64,14 +41,14 @@ def add_hierarchy(dict_inputs, ontology_name, version="1"):
 #        ontology name (e.g. "EFO"),
 #        corresponding attribute name for Grakn schema (e.g. "efo-id"),
 #        version describing ontology naming style (see "add_hierarchy" function for description)
-def load_data_into_grakn(dict_input, session, ontology_name, version):
+def load_data_into_grakn(dict_input, session, ontology_name):
     items = parse_data_to_dictionaries(dict_input)
     transaction = session.transaction().write()
     for counter, item in enumerate(items):
         if counter % 100 == 0:
             transaction.commit()
             transaction = session.transaction().write()
-        graql_insert_query = dict_input["template"](item, ontology_name, version)
+        graql_insert_query = dict_input["template"](item, ontology_name)
         print("Executing Graql Query: " + graql_insert_query)
         transaction.query(graql_insert_query)
     transaction.commit()
@@ -89,21 +66,16 @@ def load_data_into_grakn(dict_input, session, ontology_name, version):
 #        version for this ontology naming style.
 # (File format: two columns "term_id" and "parent_id",
 # where parent_id can have multiple values separated by symbol "|").
-def hierarchy_template(hierarchy, ontology_name, version):
-    global dict_source
+def hierarchy_template(hierarchy, ontology_name):
     global dict_id
-    x = hierarchy["term_id"]
-    if version == "2":
-        x = ontology_name
+    x = ontology_name
     graql_insert_query = 'match $o isa ontology, has ontology-name "' + ontology_name + '"; $d isa disease, has ' + \
                          dict_id[x[:2]] + ' "' + hierarchy["term_id"] + '";'
     graql_insert_query2 = ' insert'
     values = hierarchy["parent_id"].split("|")
     for i in range(len(values)):
         value = ' $d' + str(i)
-        y = values[i]
-        if version == "2":
-            y = ontology_name
+        y = ontology_name
         graql_insert_query += value + ' isa disease, has ' + dict_id[y[:2]] + ' "' + values[i] + '";'
         graql_insert_query2 += ' $new-disease-id-ontology' + str(i) + \
                                ' (superior-disease: ' + value + \
@@ -125,7 +97,6 @@ def parse_data_to_dictionaries(dict_input):
 
 # Main function arguments:
 # ontology name (e.g. MESH),
-# version (1 or 2) for ontology naming style
 def main():
     dict_inputs = [
         {
@@ -133,7 +104,7 @@ def main():
             "template": hierarchy_template
         }
     ]
-    add_hierarchy(dict_inputs, sys.argv[1], sys.argv[2])
+    add_hierarchy(dict_inputs, sys.argv[1])
 
 
 if __name__ == "__main__":

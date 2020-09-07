@@ -1,188 +1,743 @@
 preferred_ontology_term	MESH	UMLS	EFO	NCIT	OMIM	DOID	Orphanet	HP	MONDO	ICD-10	label
-HP_0008775		C0747987						HP_0008775			Abnormal prostate morphology
+HP_0000008		C4025900						HP_0000008			Abnormal morphology of female internal genitalia
+HP_0000009		C3806583						HP_0000009			Functional abnormality of the bladder
+HP_0000014		C0149632						HP_0000014			Abnormality of the bladder
+HP_0000022		C4025899						HP_0000022			Abnormality of male internal genitalia
+HP_0000025		C4025898						HP_0000025			Functional abnormality of male internal genitalia
+HP_0000032		C4025897						HP_0000032			Abnormality of male external genitalia
 HP_0000035		C0266423						HP_0000035			Abnormal testis morphology
-HP_0100627		C4020961						HP_0100627			Displacement of the urethral meatus
-HP_0000795		C4025826						HP_0000795			Abnormality of the urethra
-HP_0025633								HP_0025633			Abnormal ureter morphology
-HP_0008678		C1857453						HP_0008678			Renal hypoplasia/aplasia
-HP_0010784	D014594	C0042138						HP_0010784			Uterine neoplasm
-HP_0008628		C4021532						HP_0008628			Abnormality of the stapes
-HP_0000589	D003103	C0009363						HP_0000589			Coloboma
-HP_0000587		C0029131						HP_0000587			Abnormality of the optic nerve
+HP_0000036		C4025896						HP_0000036			Abnormality of the penis
+HP_0000045		C4025895						HP_0000045			Abnormality of the scrotum
+HP_0000055		C4021822						HP_0000055			Abnormality of female external genitalia
+HP_0000069		C1840382						HP_0000069			Abnormality of the ureter
+HP_0000078		C0281966|C0744356						HP_0000078			Abnormality of the genital system
+HP_0000080		C4020896|C4021820						HP_0000080			Abnormality of reproductive system physiology
+HP_0000091		C4021826						HP_0000091			Abnormal renal tubule morphology
+HP_0000095		C4025889						HP_0000095			Abnormality of renal glomerulus morphology
+HP_0000123	D009393	C0027697						HP_0000123			Nephritis
+HP_0000124		C0151747						HP_0000124			Renal tubular dysfunction
+HP_0000130	C562565	C0266383						HP_0000130			Abnormality of the uterus
+HP_0000135	D007006	C0020619						HP_0000135			Hypogonadism
+HP_0000137	D010049	C0029928|C4021818						HP_0000137			Abnormality of the ovary
+HP_0000140		C3549779|C4025888						HP_0000140			Abnormality of the menstrual cycle
+HP_0000142		C1856023						HP_0000142			Abnormal vagina morphology
+HP_0000150	D018238	C0206661						HP_0000150			Gonadoblastoma
+HP_0000159		C2183966						HP_0000159			Abnormal lip morphology
+HP_0000163		C4025887						HP_0000163			Abnormal oral cavity morphology
+HP_0000240		C4025874						HP_0000240			Abnormality of skull size
+HP_0000245		C4025873						HP_0000245			Abnormality of the paranasal sinuses
+HP_0000264		C4025872						HP_0000264			Abnormality of the mastoid
+HP_0000282		C0542571						HP_0000282			Facial edema
+HP_0000290		C4025867						HP_0000290			Abnormality of the forehead
+HP_0000315		C4025863						HP_0000315			Abnormality of the orbital region
+HP_0000359		C4021809						HP_0000359			Abnormality of the inner ear
+HP_0000365	D034381|D003638	C0018772|C0011053|C0339789|C1384666						HP_0000365			Hearing impairment
+HP_0000366		C0265736|C0240547|C2235909						HP_0000366			Abnormality of the nose
+HP_0000370		C1861141						HP_0000370			Abnormality of the middle ear
+HP_0000464		C0575167|C4280628|C0266623						HP_0000464			Abnormality of the neck
+HP_0000479	D012164	C0035300|C0035309						HP_0000479			Abnormal retinal morphology
+HP_0000486	D013285	C0038379						HP_0000486			Strabismus
+HP_0000492		C4021803						HP_0000492			Abnormal eyelid morphology
+HP_0000496		C0497202						HP_0000496			Abnormality of eye movement
+HP_0000502		C4025847						HP_0000502			Abnormal conjunctiva morphology
+HP_0000504		C4025846						HP_0000504			Abnormality of vision
+HP_0000505	D015354|D014786	C3665347|C0042798						HP_0000505			Visual impairment
+HP_0000517	D007905	C0023308|C0549651						HP_0000517			Abnormality of the lens
 HP_0000525		C4025845						HP_0000525			Abnormality iris morphology
-HP_0006479		C4025042						HP_0006479			Abnormality of the dental pulp
-HP_0011071		C4023552						HP_0011071			Abnormality of permanent molar morphology
-HP_0006486		C4025041						HP_0006486			Abnormality of the dental root
-HP_0010299		C4021299						HP_0010299			Abnormality of dentin
-HP_0100639		C4022003						HP_0100639			Erectile dysfunction
-HP_0040215		C4073161						HP_0040215			Abnormal circulating insulin level
-HP_0007730		C0154920						HP_0007730			Iris hypopigmentation
-HP_0010732		C4023716						HP_0010732			Nodular changes affecting the eyelids
-HP_0000991	D014973	C0043325						HP_0000991			Xanthomatosis
+HP_0000532		C4025844						HP_0000532			Abnormal chorioretinal morphology
+HP_0000544	D017246|D009886	C0162674|C0162292						HP_0000544			External ophthalmoplegia
+HP_0000549		C1845274						HP_0000549			Abnormal conjugate eye movement
+HP_0000553		C4025842						HP_0000553			Abnormal uvea morphology
+HP_0000587		C0029131						HP_0000587			Abnormality of the optic nerve
+HP_0000589	D003103	C0009363						HP_0000589			Coloboma
+HP_0000591		C4025840						HP_0000591			Abnormal sclera morphology
+HP_0000597	D009886	C0751401						HP_0000597			Ophthalmoparesis
+HP_0000599		C4025839						HP_0000599			Abnormality of the frontal hairline
+HP_0000600		C4025838						HP_0000600			Abnormality of the pharynx
+HP_0000602	D009886	C0029089						HP_0000602			Ophthalmoplegia
+HP_0000606		C4025837						HP_0000606			Abnormality of the periorbital region
+HP_0000610	D015862	C0008521|C4025836						HP_0000610			Abnormal choroid morphology
+HP_0000615		C0154936						HP_0000615			Abnormal pupil morphology
 HP_0000630		C4021802						HP_0000630			Abnormal retinal artery morphology
-HP_0012841		C1860475						HP_0012841			Retinal vascular tortuosity
-HP_0004308		C0085612						HP_0004308			Ventricular arrhythmia
-HP_0012722	D006327	C0018794						HP_0012722			Heart block
-HP_0005150		C4025244						HP_0005150			Abnormal atrioventricular conduction
-HP_0011534		C4023313						HP_0011534			Abnormal spatial orientation of the cardiac segments
-HP_0001651	D003914	C0011813						HP_0001651	MONDO_0004823|MONDO_0015661		Dextrocardia
-HP_0045073								HP_0045073			Serositis
-HP_0004309		C0559106						HP_0004309			Ventricular preexcitation
+HP_0000708	D000066553|D001526	C0233514|C0004941						HP_0000708			Behavioral abnormality
+HP_0000729	D000067877	C0856975|C1510586						HP_0000729			Autistic behavior
+HP_0000759	D010523	C4025831|C0031117						HP_0000759			Abnormal peripheral nervous system morphology
+HP_0000765		C4021797						HP_0000765			Abnormality of the thorax
+HP_0000766		C1860493						HP_0000766			Abnormality of the sternum
+HP_0000769		C4025829						HP_0000769			Abnormality of the breast
+HP_0000772		C1842083						HP_0000772			Abnormality of the ribs
+HP_0000775		C1848873						HP_0000775			Abnormality of the diaphragm
+HP_0000777		C0685891|C0262650						HP_0000777			Abnormality of the thymus
+HP_0000782		C4025828						HP_0000782			Abnormality of the scapula
+HP_0000795		C4025826						HP_0000795			Abnormality of the urethra
+HP_0000811		C4025825						HP_0000811			Abnormal external genitalia
+HP_0000812		C4025824						HP_0000812			Abnormal internal genitalia
+HP_0000818	D004700	C0014130|C4025823						HP_0000818			Abnormality of the endocrine system
+HP_0000820	D013959	C0040128						HP_0000820			Abnormality of the thyroid gland
+HP_0000828	D010279	C4025822|C0030517						HP_0000828			Abnormality of the parathyroid gland
+HP_0000829	D007011	C0020626						HP_0000829			Hypoparathyroidism
+HP_0000830		C4025821						HP_0000830			Anterior hypopituitarism
+HP_0000831		C0854110						HP_0000831			Insulin-resistant diabetes mellitus
+HP_0000834	D000307	C4021794|C0001621						HP_0000834			Abnormality of the adrenal glands
+HP_0000836	D006980	C0020550						HP_0000836			Hyperthyroidism
+HP_0000843	D006961	C0020502						HP_0000843			Hyperparathyroidism
+HP_0000855	D007333	C0021655						HP_0000855			Insulin resistance
+HP_0000857		C3278636						HP_0000857			Neonatal insulin-dependent diabetes mellitus
+HP_0000864		C4025819						HP_0000864			Abnormality of the hypothalamus-pituitary axis
+HP_0000873	D003919	C0011848						HP_0000873			Diabetes insipidus
+HP_0000924		C4021790						HP_0000924			Abnormality of the skeletal system
+HP_0000925		C4020882|C4021789						HP_0000925			Abnormality of the vertebral column
+HP_0000929		C0235942						HP_0000929			Abnormal skull morphology
+HP_0000944		C4025814						HP_0000944			Abnormality of the metaphysis
+HP_0000962		C0870082						HP_0000962			Hyperkeratosis
+HP_0000968	D004476	C0013575						HP_0000968			Ectodermal dysplasia
+HP_0000982	D007645	C0022596						HP_0000982			Palmoplantar keratoderma
+HP_0001000		C1260926						HP_0001000			Abnormality of skin pigmentation
+HP_0001009	D013684	C0039446|C1138421						HP_0001009			Telangiectasia
+HP_0001067	D017253	C0162678						HP_0001067			Neurofibromas
+HP_0001072		C0334008|C4020878						HP_0001072			Thickened skin
+HP_0001080	D001660	C0549613|C0005424						HP_0001080			Biliary tract abnormality
+HP_0001087	D006871	C0020302						HP_0001087			Developmental glaucoma
+HP_0001098		C4025804						HP_0001098			Abnormal fundus morphology
+HP_0001120		C4025802						HP_0001120			Abnormality of corneal size
+HP_0001123		C3887875						HP_0001123			Visual field defect
+HP_0001155	D006226	C0018564						HP_0001155			Abnormality of the hand
+HP_0001161		C0158733						HP_0001161			Hand polydactyly
+HP_0001162		C0431904						HP_0001162			Postaxial hand polydactyly
+HP_0001167		C2674737						HP_0001167			Abnormality of finger
+HP_0001194		C4025798						HP_0001194			Abnormalities of placenta or umbilical cord
+HP_0001197		C4025797						HP_0001197			Abnormality of prenatal development or birth
+HP_0001291		C4020872|C1854510						HP_0001291			Abnormal cranial nerve morphology
+HP_0001317		C0742038|C1866129						HP_0001317			Abnormal cerebellum morphology
+HP_0001328		C4025790						HP_0001328			Specific learning disability
+HP_0001367	D007592	C0240083|C0022408						HP_0001367			Abnormal joint morphology
+HP_0001369	D001168	C0003864						HP_0001369			Arthritis
+HP_0001371	D003286	C0009918|C0009917|C0333068|C1850530						HP_0001371			Flexion contracture
+HP_0001373	D004204	C0012691						HP_0001373			Joint dislocation
+HP_0001376		C1857108						HP_0001376			Limitation of joint mobility
+HP_0001384		C4020870						HP_0001384			Abnormality of the hip joint
+HP_0001454		C4025776						HP_0001454			Abnormality of the upper arm
+HP_0001547		C4025763						HP_0001547			Abnormality of the rib cage
+HP_0001551		C1849338						HP_0001551			Abnormal umbilicus morphology
+HP_0001560		C0266781						HP_0001560			Abnormality of the amniotic fluid
+HP_0001581		C1853193						HP_0001581			Recurrent skin infections
+HP_0001595		C2677869|C0157733						HP_0001595			Abnormal hair morphology
+HP_0001600		C4021777						HP_0001600			Abnormality of the larynx
+HP_0001627	D006330	C0018798|C0152021						HP_0001627			Abnormal heart morphology
+HP_0001631	D006344	C0018817						HP_0001631			Atrial septal defect
+HP_0001633		C4025759						HP_0001633			Abnormal mitral valve morphology
+HP_0001637		C4025758						HP_0001637			Abnormal myocardium morphology
+HP_0001638	D009202	C0878544						HP_0001638			Cardiomyopathy
+HP_0001646		C3164445						HP_0001646			Abnormal aortic valve morphology
+HP_0001649	D013610	C4020868|C0039231						HP_0001649			Tachycardia
+HP_0001654	D006349	C0241654|C0018824						HP_0001654			Abnormal heart valve morphology
+HP_0001671	D006343	C0018816						HP_0001671			Abnormal cardiac septum morphology
+HP_0001679		C4025756						HP_0001679			Abnormal aortic morphology
+HP_0001692		C0085611|C4025755						HP_0001692			Atrial arrhythmia
+HP_0001697		C4025754						HP_0001697			Abnormal pericardium morphology
+HP_0001711		C0344905						HP_0001711			Abnormal left ventricle morphology
+HP_0001713		C4025752						HP_0001713			Abnormal cardiac ventricle morphology
+HP_0001718	D008946	C0026269						HP_0001718			Mitral stenosis
+HP_0001732	D010182	C4025751|C0030286						HP_0001732			Abnormality of the pancreas
 HP_0001733	D010195	C0030305						HP_0001733			Pancreatitis
-HP_0100803		C4021966						HP_0100803			Abnormality of the periungual region
-HP_0004400		C4025326						HP_0004400			Abnormality of the pylorus
+HP_0001739		C4025750						HP_0001739			Abnormality of the nasopharynx
+HP_0001743		C4025749						HP_0001743			Abnormality of the spleen
+HP_0001780		C2674738						HP_0001780			Abnormality of toe
+HP_0001827		C4025746						HP_0001827			Genital tract atresia
+HP_0001872	D013915	C0040015|C4020863|C0151854						HP_0001872			Abnormal thrombocyte morphology
+HP_0001873	D013921	C0040034|C0392386						HP_0001873			Thrombocytopenia
+HP_0001878	D000743	C0002878						HP_0001878			Hemolytic anemia
+HP_0001882	D007970	C0023530						HP_0001882			Leukopenia
+HP_0001911		C0427515						HP_0001911			Abnormal granulocyte morphology
+HP_0001941	D000138	C0001122						HP_0001941			Acidosis
+HP_0001947	D000141	C0001126						HP_0001947			Renal tubular acidosis
+HP_0001952		C0235401						HP_0001952			Glucose intolerance
+HP_0001965		C4025734						HP_0001965			Abnormality of the scalp
+HP_0001992		C0241775						HP_0001992			Organic aciduria
+HP_0002011	D002493	C0007682|C4021765						HP_0002011			Morphological central nervous system abnormality
+HP_0002024		C3714745						HP_0002024			Malabsorption
+HP_0002031		C0266126						HP_0002031			Abnormal esophagus morphology
+HP_0002034		C0266210						HP_0002034			Abnormality of the rectum
+HP_0002037	D015212	C0578878|C0021390						HP_0002037			Inflammation of the large intestine
+HP_0002060		C4021762						HP_0002060			Abnormal cerebral morphology
 HP_0002076	D008881	C0744641|C0149931						HP_0002076			Migraine
-HP_0002514		C0270685						HP_0002514			Cerebral calcification
+HP_0002087		C4025727						HP_0002087			Abnormality of the upper respiratory tract
+HP_0002088	D008171	C4021760|C0024115						HP_0002088			Abnormal lung morphology
+HP_0002090	D011014	C0032285						HP_0002090			Pneumonia
+HP_0002103		C4025726						HP_0002103			Abnormal pleura morphology
 HP_0002134	D001480	C0004782						HP_0002134			Abnormality of the basal ganglia
-HP_0030875		C4280730						HP_0030875			Abnormality of pulmonary circulation
-HP_0010719		C4073290|C4023722|C4072881|C4072880						HP_0010719			Abnormality of hair texture
+HP_0002143	D013118	C0037928|C4025722						HP_0002143			Abnormality of the spinal cord
+HP_0002167	D013064	C0037822						HP_0002167			Neurological speech impairment
+HP_0002170	D020300	C0151699						HP_0002170			Intracranial hemorrhage
+HP_0002202	D010996	C0032227						HP_0002202			Pleural effusion
+HP_0002205		C3806482						HP_0002205			Recurrent respiratory infections
+HP_0002242	D007410	C0021831						HP_0002242			Abnormal intestine morphology
+HP_0002244		C4025717						HP_0002244			Abnormality of the small intestine
 HP_0002246		C4025716						HP_0002246			Abnormality of the duodenum
+HP_0002250		C4025715						HP_0002250			Abnormal large intestine morphology
+HP_0002269	D054081	C1837249						HP_0002269			Abnormality of neuronal migration
+HP_0002270		C4025714						HP_0002270			Abnormality of the autonomic nervous system
+HP_0002277	D006732	C0019937						HP_0002277			Horner syndrome
+HP_0002315	D006261	C0018681						HP_0002315			Headache
 HP_0002323	D000757	C0002902						HP_0002323			Anencephaly
-HP_0010301	D009436	C0027794						HP_0010301			Spinal dysraphism
-HP_0002435	D008588	C0025299						HP_0002435	MONDO_0001147		Meningocele
+HP_0002350		C1847762						HP_0002350			Cerebellar cyst
+HP_0002354	D008569	C0233794|C0542476|C0751295						HP_0002354			Memory impairment
+HP_0002360		C0037317						HP_0002360			Sleep disturbance
+HP_0002438		C4025708						HP_0002438			Cerebellar malformation
+HP_0002514		C0270685						HP_0002514			Cerebral calcification
+HP_0002536		C1856019						HP_0002536			Abnormal cortical gyration
+HP_0002538		C4025701						HP_0002538			Abnormality of the cerebral cortex
 HP_0002577		C4025699						HP_0002577			Abnormality of the stomach
-HP_0031842								HP_0031842			Lymphangiectasis
+HP_0002579		C1836923						HP_0002579			Gastrointestinal dysmotility
+HP_0002585		C4025698						HP_0002585			Abnormality of the peritoneum
+HP_0002589		C4025697						HP_0002589			Gastrointestinal atresia
+HP_0002595	D045823	C1258215						HP_0002595			Ileus
+HP_0002617	D000783	C4020848|C0002940						HP_0002617			Dilatation
+HP_0002619	D014648	C0042345						HP_0002619			Varicose veins
+HP_0002621	D050197	C0004153|C4280569						HP_0002621			Atherosclerosis
+HP_0002630		C0554103						HP_0002630			Fat malabsorption
+HP_0002637	D002545	C0007786|C0917798						HP_0002637			Cerebral ischemia
+HP_0002644		C4020847						HP_0002644			Abnormality of pelvic girdle bone morphology
+HP_0002648		C4025692|C4280260						HP_0002648			Abnormality of calvarial morphology
+HP_0002652	D010009	C0029422|C4280567						HP_0002652			Skeletal dysplasia
+HP_0002683		C4280561|C4025691						HP_0002683			Abnormality of the calvaria
+HP_0002686		C4025690						HP_0002686			Prenatal maternal abnormality
 HP_0002696		C4021834						HP_0002696			Abnormal parietal bone morphology
-HP_0011370		C4023394						HP_0011370			Recurrent cutaneous fungal infections
-HP_0005420		C4025198						HP_0005420			Recurrent gram-negative bacterial infections
-HP_0003367		C4025621						HP_0003367			Abnormality of the femoral neck
-HP_0025487								HP_0025487			Abnormality of bladder morphology
-HP_0100548		C0015338						HP_0100548			Exstrophy
-HP_0009728		C4021396						HP_0009728			Neoplasm of striated muscle
-HP_0100733	D010282	C0030521						HP_0100733			Neoplasm of the parathyroid gland
-HP_0002818		C4025675						HP_0002818			Abnormality of the radius
-HP_0002997		C4025662						HP_0002997			Abnormality of the ulna
-HP_0100238		C4022184						HP_0100238			Synostosis involving bones of the upper limbs
-HP_0030450		C4072943						HP_0030450			Neuroplasm of the autonomic nervous system
-HP_0003063		C4021742						HP_0003063			Abnormality of the humerus
-HP_0003938		C4025494						HP_0003938			Synostosis involving the elbow
-HP_0100744		C4021981						HP_0100744			Abnormality of the humeroradial joint
 HP_0002717		C4025685						HP_0002717			Adrenal overactivity
+HP_0002718		C4020846|C1844383|C2748958						HP_0002718			Recurrent bacterial infections
+HP_0002721	D007153	C0021051						HP_0002721			Immunodeficiency
+HP_0002733		C0149727						HP_0002733			Abnormality of the lymph nodes
+HP_0002778	D014133	C0040580|C4025678						HP_0002778			Abnormal trachea morphology
+HP_0002783		C3163798|C0585953|C0149725						HP_0002783			Recurrent lower respiratory tract infections
+HP_0002793		C1837388						HP_0002793			Abnormal pattern of respiration
+HP_0002795		C4025677						HP_0002795			Functional respiratory abnormality
+HP_0002813		C4082761						HP_0002813			Abnormality of limb bone morphology
+HP_0002814		C1096086						HP_0002814			Abnormality of the lower limb
+HP_0002815		C4025676						HP_0002815			Abnormality of the knee
+HP_0002817		C4020900						HP_0002817			Abnormality of the upper limb
+HP_0002818		C4025675						HP_0002818			Abnormality of the radius
+HP_0002823		C4021750						HP_0002823			Abnormality of femur morphology
+HP_0002841		C1844384						HP_0002841			Recurrent fungal infections
+HP_0002894	D010190	C0346647|C1842408|C0030297						HP_0002894			Neoplasm of the pancreas
+HP_0002898	D009373	C0027654						HP_0002898			Embryonal neoplasm
+HP_0002921		C0151583						HP_0002921			Abnormality of the cerebrospinal fluid
+HP_0002926		C0857576						HP_0002926			Abnormality of thyroid physiology
+HP_0002960	D001327	C0004364						HP_0002960			Autoimmunity
+HP_0002973		C4025666						HP_0002973			Abnormality of the forearm
+HP_0002977		C4025665						HP_0002977			Aplasia/Hypoplasia involving the central nervous system
+HP_0002997		C4025662						HP_0002997			Abnormality of the ulna
+HP_0003006	D009447	C0027819						HP_0003006			Neuroblastoma
+HP_0003011		C4021745						HP_0003011			Abnormality of the musculature
+HP_0003063		C4021742						HP_0003063			Abnormality of the humerus
+HP_0003107		C4025656						HP_0003107			Abnormal circulating cholesterol concentration
+HP_0003110		C4025655						HP_0003110			Abnormality of urine homeostasis
+HP_0003111		C4025654|C1704431						HP_0003111			Abnormal blood ion concentration
+HP_0003112		C4025653						HP_0003112			Abnormality of serum amino acid level
+HP_0003117		C4025652						HP_0003117			Abnormal circulating hormone level
+HP_0003121		C1969879						HP_0003121			Limb joint contracture
+HP_0003170		C4021739						HP_0003170			Abnormality of the acetabulum
+HP_0003198	D009135	C0026848						HP_0003198			Myopathy
+HP_0003215		C1856432						HP_0003215			Dicarboxylic aciduria
+HP_0003272		C4021735						HP_0003272			Abnormality of the hip bone
+HP_0003319		C1852464						HP_0003319			Abnormality of the cervical spine
+HP_0003328		C4025632						HP_0003328			Abnormal hair laboratory examination
+HP_0003330		C4025630						HP_0003330			Abnormal bone structure
+HP_0003355		C0238621|C4020843						HP_0003355			Aminoaciduria
+HP_0003366		C4025622						HP_0003366			Abnormality of the femoral neck or head region
+HP_0003367		C4025621						HP_0003367			Abnormality of the femoral neck
+HP_0003468		C4020839|C4020840|C0158775						HP_0003468			Abnormal vertebral morphology
+HP_0003470	D010243	C0522224						HP_0003470			Paralysis
+HP_0003641	D006456	C0019048						HP_0003641			Hemoglobinuria
+HP_0003938		C4025494						HP_0003938			Synostosis involving the elbow
+HP_0004099	C562546	C0265552						HP_0004099			Macrodactyly
+HP_0004207		C4021678						HP_0004207			Abnormal 5th finger morphology
+HP_0004275		C3276746						HP_0004275			Duplication of hand bones
+HP_0004295		C4025362						HP_0004295			Abnormality of the gastric mucosa
+HP_0004297		C0940767						HP_0004297			Abnormality of the biliary system
+HP_0004298		C4021664						HP_0004298			Abnormality of the abdominal wall
+HP_0004299		C1442978						HP_0004299			Hernia of the abdominal wall
+HP_0004305		C0235086						HP_0004305			Involuntary movements
+HP_0004306		C4021662						HP_0004306			Abnormal endocardium morphology
+HP_0004307		C4025359						HP_0004307			Abnormal anatomic location of the heart
+HP_0004308		C0085612						HP_0004308			Ventricular arrhythmia
+HP_0004309		C0559106						HP_0004309			Ventricular preexcitation
+HP_0004313	D000361	C0086438|C4048270						HP_0004313			Decreased circulating antibody level
+HP_0004323		C4025357|C0878621						HP_0004323			Abnormality of body weight
+HP_0004324	D015430	C0043094						HP_0004324			Increased body weight
+HP_0004327		C4025356						HP_0004327			Abnormal vitreous humor morphology
+HP_0004328		C4025355						HP_0004328			Abnormal anterior eye segment morphology
+HP_0004329		C4025354						HP_0004329			Abnormal posterior eye segment morphology
+HP_0004332		C0427546						HP_0004332			Abnormal lymphocyte morphology
+HP_0004339		C4021660						HP_0004339			Abnormal circulating sulfur amino acid concentration
+HP_0004340		C4021659						HP_0004340			Abnormality of vitamin B metabolism
+HP_0004341		C4021658						HP_0004341			Abnormality of vitamin B12 metabolism
+HP_0004348		C4021657						HP_0004348			Abnormality of bone mineral density
+HP_0004349		C2674432						HP_0004349			Reduced bone mineral density
+HP_0004354		C4025344						HP_0004354			Abnormal circulating carboxylic acid concentration
+HP_0004360	D000137	C0001118						HP_0004360			Abnormality of acid-base homeostasis
+HP_0004363								HP_0004363			Abnormal circulating calcium concentration
+HP_0004370	D001832	C0005904|C1832160						HP_0004370			Abnormality of temperature regulation
+HP_0004373	D020821	C0743332						HP_0004373			Focal dystonia
+HP_0004375	D009423	C0027766						HP_0004375			Neoplasm of the nervous system
+HP_0004376		C1334953						HP_0004376			Neuroblastic tumor
+HP_0004377	D019337	C0376545						HP_0004377			Hematological neoplasm
+HP_0004378		C4025329						HP_0004378			Abnormality of the anus
+HP_0004386		C1535950						HP_0004386			Gastrointestinal inflammation
+HP_0004398	D010437	C0030920						HP_0004398			Peptic ulcer
+HP_0004400		C4025326						HP_0004400			Abnormality of the pylorus
+HP_0004408		C4021655						HP_0004408			Abnormality of the sense of smell
+HP_0004414		C0009681						HP_0004414			Abnormality of the pulmonary artery
+HP_0004437		C4280530|C4280531|C4280529|C1832451|C4280528						HP_0004437			Cranial hyperostosis
+HP_0004452		C1836678						HP_0004452			Abnormality of the middle ear ossicles
+HP_0004756	D017180	C0042514						HP_0004756			Ventricular tachycardia
+HP_0004930		C4025271						HP_0004930			Abnormality of the pulmonary vasculature
+HP_0004944	D002532	C1290398|C0751003						HP_0004944			Dilatation of the cerebral artery
+HP_0004976	D031221	C0159970						HP_0004976			Knee dislocation
+HP_0005107		C4025250						HP_0005107			Abnormal sacrum morphology
+HP_0005115		C0428974						HP_0005115			Supraventricular arrhythmia
+HP_0005120		C4025246						HP_0005120			Abnormal cardiac atrium morphology
+HP_0005146		C1856483						HP_0005146			Cardiac valve calcification
+HP_0005150		C4025244						HP_0005150			Abnormal atrioventricular conduction
+HP_0005214	D007415	C0021843						HP_0005214			Intestinal obstruction
+HP_0005245		C4021640						HP_0005245			Intestinal hypoplasia
+HP_0005262		C4025225						HP_0005262			Abnormality of the synovia
+HP_0005288		C4021637						HP_0005288			Abnormality of the nares
+HP_0005344		C4025211						HP_0005344			Abnormal carotid artery morphology
+HP_0005368		C3150510						HP_0005368			Abnormality of humoral immunity
+HP_0005372		C1849242						HP_0005372			Abnormality of B cell physiology
+HP_0005387		C0494261						HP_0005387			Combined immunodeficiency
+HP_0005420		C4025198						HP_0005420			Recurrent gram-negative bacterial infections
+HP_0005547	D009196	C0027022						HP_0005547			Myeloproliferative disorder
+HP_0005561	D001855	C0005956|C4021634						HP_0005561			Abnormality of bone marrow cell morphology
+HP_0005607		C4021631						HP_0005607			Abnormal tracheobronchial morphology
+HP_0005815		C0345397						HP_0005815			Supernumerary ribs
+HP_0005918		C4021614						HP_0005918			Abnormal finger phalanx morphology
+HP_0006288		C0266054						HP_0006288			Advanced eruption of teeth
+HP_0006292		C1859363|C3874458|C0012767						HP_0006292			Abnormality of dental eruption
+HP_0006476		C4025043						HP_0006476			Abnormality of the pancreatic islet cells
+HP_0006479		C4025042						HP_0006479			Abnormality of the dental pulp
+HP_0006482	D014071	C0262444|C0040427						HP_0006482			Abnormality of dental morphology
+HP_0006486		C4025041						HP_0006486			Abnormality of the dental root
+HP_0006493		C4025037						HP_0006493			Aplasia/hypoplasia involving bones of the lower limbs
+HP_0006496		C4025035						HP_0006496			Aplasia/hypoplasia involving bones of the upper limbs
+HP_0006530	D017563	C0206062						HP_0006530			Interstitial pulmonary abnormality
+HP_0006561		C1837257						HP_0006561			Lipid accumulation in hepatocytes
+HP_0006704		C0158623						HP_0006704			Abnormal coronary artery morphology
+HP_0006705		C4024995						HP_0006705			Abnormal atrioventricular valve morphology
+HP_0006706	C536330	C0158683						HP_0006706			Cystic liver disease
+HP_0006749	D005770	C0685938						HP_0006749			Malignant gastrointestinal tract tumors
+HP_0006753	D013274	C4020813|C0038356						HP_0006753			Neoplasm of the stomach
+HP_0007364		C4024902						HP_0007364			Aplasia/Hypoplasia of the cerebrum
+HP_0007378	D005770	C0017185						HP_0007378			Neoplasm of the gastrointestinal tract
+HP_0007379	D014565	C0042065|C4020809						HP_0007379			Neoplasm of the genitourinary tract
+HP_0007550		C4021831						HP_0007550			Hypohidrosis or hyperhidrosis
+HP_0007663		C0234632						HP_0007663			Reduced visual acuity
+HP_0007700		C0266525						HP_0007700			Ocular anterior segment dysgenesis
+HP_0007730		C0154920						HP_0007730			Iris hypopigmentation
+HP_0008034		C1834387						HP_0008034			Abnormal iris pigmentation
+HP_0008046		C4024753						HP_0008046			Abnormal retinal vascular morphology
+HP_0008047		C4024752						HP_0008047			Abnormality of the vasculature of the eye
+HP_0008050		C4024750						HP_0008050			Abnormality of the palpebral fissures
+HP_0008054		C4024747						HP_0008054			Abnormal morphology of the conjunctival vasculature
+HP_0008056		C4024745						HP_0008056			Aplasia/Hypoplasia affecting the eye
+HP_0008065		C4024737						HP_0008065			Aplasia/Hypoplasia of the skin
+HP_0008069	D012878	C0007114|C0037286						HP_0008069			Neoplasm of the skin
+HP_0008261		C1851697						HP_0008261			Pancreatic islet cell adenoma
+HP_0008372		C4024686						HP_0008372			Abnormality of vitamin A metabolism
+HP_0008373		C4024685						HP_0008373			Puberty and gonadal disorders
+HP_0008609		C1857456						HP_0008609			Morphological abnormality of the middle ear
+HP_0008628		C4021532						HP_0008628			Abnormality of the stapes
+HP_0008661	D014525	C0041974						HP_0008661			Urethral stenosis
+HP_0008669		C0520933|C4020789						HP_0008669			Abnormal spermatogenesis
+HP_0008678		C1857453						HP_0008678			Renal hypoplasia/aplasia
+HP_0008775		C0747987						HP_0008775			Abnormal prostate morphology
+HP_0009025		C1866021						HP_0009025			Increased connective tissue
+HP_0009115		C4024592						HP_0009115			Aplasia/hypoplasia involving the skeleton
+HP_0009121		C4024586|C4020785						HP_0009121			Abnormal axial skeleton morphology
+HP_0009124		C4021524						HP_0009124			Abnormal adipose tissue morphology
+HP_0009126		C4024583						HP_0009126			Increased adipose tissue
+HP_0009142		C4024574						HP_0009142			Duplication of bones involving the upper extremities
+HP_0009144		C4024573						HP_0009144			Supernumerary bones of the axial skeleton
+HP_0009145		C4021520						HP_0009145			Abnormal cerebral artery morphology
+HP_0009473		C0158113						HP_0009473			Joint contracture of the hand
+HP_0009553		C4024297						HP_0009553			Abnormality of the hairline
+HP_0009591		C4021431						HP_0009591			Abnormality of the vestibulocochlear nerve
+HP_0009714		C4024222						HP_0009714			Abnormality of the epididymis
+HP_0009725	D001749	C0005695						HP_0009725			Bladder neoplasm
+HP_0009726	D007680	C1378703|C0022665						HP_0009726			Renal neoplasm
+HP_0009728		C4021396						HP_0009728			Neoplasm of striated muscle
+HP_0009730	D012207	C0035411						HP_0009730			Rhabdomyoma
+HP_0009733	D005910	C0017638						HP_0009733			Glioma
+HP_0009792	D013724	C0039538						HP_0009792			Teratoma
+HP_0009810		C4021387						HP_0009810			Abnormality of upper limb joint
+HP_0009811		C4021386						HP_0009811			Abnormality of the elbow
+HP_0009815		C0239399						HP_0009815			Aplasia/hypoplasia of the extremities
+HP_0009890		C3276036						HP_0009890			High anterior hairline
+HP_0009997		C4021349						HP_0009997			Duplication of phalanx of hand
+HP_0010299		C4021299						HP_0010299			Abnormality of dentin
+HP_0010301	D009436	C0027794						HP_0010301			Spinal dysraphism
+HP_0010438		C4021264						HP_0010438			Abnormal ventricular septum morphology
+HP_0010460		C4023820						HP_0010460			Abnormality of the female genitalia
+HP_0010461		C4023819						HP_0010461			Abnormality of the male genitalia
+HP_0010478		C4023811						HP_0010478			Abnormality of the urachus
+HP_0010514	D006964	C0020506						HP_0010514			Hyperpituitarism
+HP_0010524	D000377	C0001816						HP_0010524			Agnosia
+HP_0010576		C4021250						HP_0010576			Intracranial cystic lesion
+HP_0010614	D005350	C0016045						HP_0010614			Fibroma
+HP_0010622		C4020771|C2732838						HP_0010622			Neoplasm of the skeletal system
+HP_0010651		C4023758						HP_0010651			Abnormal meningeal morphology
+HP_0010674		C4023747						HP_0010674			Abnormality of the curvature of the vertebral column
+HP_0010701		C1855755						HP_0010701			Abnormal immunoglobulin level
+HP_0010702	D006942	C1306857|C0020455|C0541985|C0151669|C2048011						HP_0010702			Increased circulating antibody level
+HP_0010719		C4073290|C4023722|C4072881|C4072880						HP_0010719			Abnormality of hair texture
+HP_0010720		C4023721						HP_0010720			Abnormal hair pattern
+HP_0010732		C4023716						HP_0010732			Nodular changes affecting the eyelids
+HP_0010734	D005357	C0016063						HP_0010734			Fibrous dysplasia of the bones
+HP_0010766		C3806226						HP_0010766			Ectopic calcification
+HP_0010767		C4023709						HP_0010767			Sacrococcygeal pilonidal abnormality
+HP_0010774		C4023708						HP_0010774			Cor triatriatum
+HP_0010784	D014594	C0042138						HP_0010784			Uterine neoplasm
+HP_0010785		C4021228						HP_0010785			Gonadal neoplasm
+HP_0010786	D014571	C0042076						HP_0010786			Urinary tract neoplasm
+HP_0010787		C0679347|C4020767						HP_0010787			Genital neoplasm
+HP_0010788	D013736	C0039590						HP_0010788			Testicular neoplasm
+HP_0010799	D010871	C0031941						HP_0010799			Pinealoma
+HP_0010866		C0238577						HP_0010866			Abdominal wall defect
+HP_0010885	D010020	C0520474|C0029445|C0877326|C0085660						HP_0010885			Avascular necrosis
+HP_0010899		C4023667						HP_0010899			Abnormal circulating aspartate family amino acid concentration
+HP_0010901		C4023665						HP_0010901			Abnormal circulating methionine concentration
+HP_0010902		C4023664						HP_0010902			Abnormal circulating glutamine family amino acid concentration
+HP_0010907		C4023661						HP_0010907			Abnormal circulating proline concentration
+HP_0010908		C4023660						HP_0010908			Abnormal circulating lysine concentration
+HP_0010920	C535342	C1861821						HP_0010920			Zonular cataract
+HP_0010927		C4023648						HP_0010927			Abnormal blood inorganic cation concentration
+HP_0010929		C4023646						HP_0010929			Abnormal blood cation concentration
+HP_0010930		C4023645						HP_0010930			Abnormal blood monovalent inorganic cation concentration
+HP_0010935		C4023641						HP_0010935			Abnormality of the upper urinary tract
+HP_0010936		C4023640						HP_0010936			Abnormality of the lower urinary tract
+HP_0010972		C0678199|C0392708						HP_0010972			Anemia of inadequate production
+HP_0010974		C4023618						HP_0010974			Abnormal myeloid leukocyte morphology
+HP_0010978		C4023616						HP_0010978			Abnormality of immune system physiology
+HP_0010979		C4023615						HP_0010979			Abnormality of lipoprotein cholesterol concentration
+HP_0010987		C4023612						HP_0010987			Abnormal cellular immune system morphology
+HP_0010993		C4021207						HP_0010993			Abnormality of the cerebral subcortex
+HP_0010995		C4023606						HP_0010995			Abnormal circulating dicarboxylic acid concentration
+HP_0011001	D010026	C0029464						HP_0011001			Increased bone mineral density
+HP_0011004		C4021205|C0151489						HP_0011004			Abnormal systemic arterial morphology
+HP_0011006		C4023601						HP_0011006			Abnormal morphology of the musculature of the neck
+HP_0011017		C4023595						HP_0011017			Abnormal cellular physiology
+HP_0011025		C4023587						HP_0011025			Abnormal cardiovascular system physiology
+HP_0011028		C4023585|C4020760						HP_0011028			Abnormality of blood circulation
+HP_0011029		C1390214						HP_0011029			Internal hemorrhage
+HP_0011032		C2364164						HP_0011032			Abnormality of fluid regulation
+HP_0011035		C4023580						HP_0011035			Abnormal renal cortex morphology
+HP_0011042		C4023575						HP_0011042			Abnormal blood potassium concentration
+HP_0011061		C4023557						HP_0011061			Abnormality of dental structure
+HP_0011070		C4023553						HP_0011070			Abnormality of molar morphology
+HP_0011071		C4023552						HP_0011071			Abnormality of permanent molar morphology
+HP_0011077		C4023547						HP_0011077			Abnormality of molar
+HP_0011122		C4023527						HP_0011122			Abnormality of skin physiology
+HP_0011138		C4023518						HP_0011138			Abnormality of skin adnexa morphology
+HP_0011276	D017445	C0162819|C1842892						HP_0011276			Vascular skin abnormality
+HP_0011277		C4023437						HP_0011277			Abnormality of the urinary system physiology
+HP_0011282		C4021170						HP_0011282			Abnormality of hindbrain morphology
+HP_0011283		C4023432						HP_0011283			Abnormality of the metencephalon
+HP_0011297		C3550704						HP_0011297			Abnormal digit morphology
+HP_0011314		C4021165						HP_0011314			Abnormality of long bone morphology
+HP_0011354		C4021157						HP_0011354			Generalized abnormality of skin
+HP_0011355		C0850826						HP_0011355			Localized skin lesion
+HP_0011356		C4023402						HP_0011356			Regional abnormality of skin
+HP_0011361		C4023398						HP_0011361			Congenital abnormal hair pattern
+HP_0011362		C4023397|C4023401						HP_0011362			Abnormal hair quantity
+HP_0011368		C0494876|C4020752						HP_0011368			Epidermal thickening
+HP_0011370		C4023394						HP_0011370			Recurrent cutaneous fungal infections
+HP_0011389		C4023382						HP_0011389			Functional abnormality of the inner ear
+HP_0011442		C4023354						HP_0011442			Abnormal central motor function
+HP_0011450	D002494	C0007684						HP_0011450			Unusual CNS infection
+HP_0011458		C0740651						HP_0011458			Abdominal symptom
+HP_0011486		C4023333						HP_0011486			Abnormality of corneal thickness
+HP_0011495		C4023326						HP_0011495			Abnormal corneal epithelium morphology
+HP_0011534		C4023313						HP_0011534			Abnormal spatial orientation of the cardiac segments
+HP_0011535		C2959688						HP_0011535			Abnormal atrial arrangement
+HP_0011545		C4023306						HP_0011545			Abnormal connection of the cardiac segments
+HP_0011546		C0344612						HP_0011546			Abnormal atrioventricular connection
+HP_0011587		C4023282						HP_0011587			Abnormal branching pattern of the aortic arch
+HP_0011603		C0478012						HP_0011603			Congenital malformation of the great arteries
+HP_0011675	D001145|C562490	C1842820|C1832603|C0855329|C0003811|C0522055|C0264886						HP_0011675			Arrhythmia
+HP_0011710	D002037	C0006384						HP_0011710			Bundle branch block
+HP_0011729		C4023216						HP_0011729			Abnormality of joint mobility
+HP_0011730		C4023215						HP_0011730			Abnormal central sensory function
 HP_0011731		C4023214						HP_0011731			Abnormality of circulating cortisol level
+HP_0011732		C4023213						HP_0011732			Abnormality of adrenal morphology
+HP_0011733		C4023212						HP_0011733			Abnormality of adrenal physiology
+HP_0011747	D010900	C0032002|C4023206						HP_0011747			Abnormality of the anterior pituitary
+HP_0011750		C4023205						HP_0011750			Neoplasm of the anterior pituitary
+HP_0011751		C4023204						HP_0011751			Abnormality of the posterior pituitary
+HP_0011766		C4023199						HP_0011766			Abnormality of the parathyroid morphology
+HP_0011767		C4023198						HP_0011767			Abnormality of the parathyroid physiology
+HP_0011772		C4023195						HP_0011772			Abnormality of thyroid morphology
+HP_0011792		C4023186						HP_0011792			Neoplasm by histology
+HP_0011793		C4023185						HP_0011793			Neoplasm by anatomical site
+HP_0011799		C4023183						HP_0011799			Abnormality of facial soft tissue
+HP_0011804		C4023182						HP_0011804			Abnormal muscle physiology
+HP_0011805		C4023181						HP_0011805			Abnormal skeletal muscle morphology
+HP_0011821		C2315229						HP_0011821			Abnormality of facial skeleton
+HP_0011842		C4023165						HP_0011842			Abnormality of skeletal morphology
+HP_0011843		C4023164						HP_0011843			Abnormality of skeletal physiology
+HP_0011844		C4023163						HP_0011844			Abnormal appendicular skeleton morphology
+HP_0011849		C4280317|C4023161						HP_0011849			Abnormal bone ossification
+HP_0011873		C0580317						HP_0011873			Abnormal platelet count
+HP_0011893		C0580531						HP_0011893			Abnormal leukocyte count
+HP_0011895		C4021112						HP_0011895			Anemia due to reduced life span of red cells
+HP_0011915		C4023128						HP_0011915			Cardiovascular calcification
+HP_0011927		C1860176|C4023124						HP_0011927			Short digit
+HP_0011947	D012141	C0035243						HP_0011947			Respiratory tract infection
+HP_0011948		C1442786						HP_0011948			Recurrent acute respiratory tract infection
+HP_0011994		C0344722						HP_0011994			Abnormal atrial septum morphology
+HP_0012043	D009759	C4020734|C0271388						HP_0012043			Pendular nystagmus
+HP_0012062	D001845	C0005937						HP_0012062			Bone cyst
+HP_0012072		C0278026						HP_0012072			Aciduria
+HP_0012091		C4023048						HP_0012091			Abnormality of pancreas physiology
+HP_0012093		C4023047						HP_0012093			Abnormality of endocrine pancreas physiology
+HP_0012111		C4023038						HP_0012111			Abnormality of circulating glucocorticoid level
+HP_0012145		C4023024						HP_0012145			Abnormality of multiple cell lineages in the bone marrow
+HP_0012179		C4023011|C1851915|C4072883						HP_0012179			Craniofacial dystonia
+HP_0012210		C0266292						HP_0012210			Abnormal renal morphology
+HP_0012211		C0151746						HP_0012211			Abnormal renal physiology
+HP_0012243		C4021096						HP_0012243			Abnormal reproductive system morphology
+HP_0012252		C4022992						HP_0012252			Abnormal respiratory system morphology
+HP_0012288	D006258	C0018671|C0278996						HP_0012288			Neoplasm of head and neck
+HP_0012289	D005153	C0015461						HP_0012289			Facial neoplasm
+HP_0012303		C3163801						HP_0012303			Abnormal aortic arch morphology
+HP_0012316	D018218	C0206643						HP_0012316			Fibrous tissue neoplasm
+HP_0012332		C4022952						HP_0012332			Abnormal autonomic nervous system physiology
+HP_0012337		C4022950						HP_0012337			Abnormal homeostasis
+HP_0012372		C4022925						HP_0012372			Abnormal eye morphology
+HP_0012373		C4022924						HP_0012373			Abnormal eye physiology
+HP_0012379		C4022922						HP_0012379			Abnormal enzyme/coenzyme activity
 HP_0012384	D012220	C2718128|C0035455						HP_0012384			Rhinitis
 HP_0012393	D006967	C1527304						HP_0012393			Allergy
-HP_0010901		C4023665						HP_0010901			Abnormal circulating methionine concentration
-HP_0003328		C4025632						HP_0003328			Abnormal hair laboratory examination
-HP_0001646		C3164445						HP_0001646			Abnormal aortic valve morphology
-HP_0005146		C1856483						HP_0005146			Cardiac valve calcification
-HP_0001650	D001024	C0003507						HP_0001650	MONDO_0042981		Aortic valve stenosis
-HP_0100282		C2118460						HP_0100282			Acute colitis
-HP_0005387		C0494261						HP_0005387			Combined immunodeficiency
-HP_0001692		C0085611|C4025755						HP_0001692			Atrial arrhythmia
-HP_0008372		C4024686						HP_0008372			Abnormality of vitamin A metabolism
-HP_0002617	D000783	C4020848|C0002940						HP_0002617			Dilatation
-HP_0001679		C4025756						HP_0001679			Abnormal aortic morphology
-HP_0004976	D031221	C0159970						HP_0004976			Knee dislocation
-HP_0030255		C4022556						HP_0030255			Large intestinal polyposis
-HP_0100273	D003110	C0009375						HP_0100273			Neoplasm of the colon
-HP_0004295		C4025362						HP_0004295			Abnormality of the gastric mucosa
-HP_0009473		C0158113						HP_0009473			Joint contracture of the hand
-HP_0001162		C0431904						HP_0001162			Postaxial hand polydactyly
-HP_0100255	C536252	C0265294						HP_0100255			Metaphyseal dysplasia
-HP_0004437		C4280530|C4280531|C4280529|C1832451|C4280528						HP_0004437			Cranial hyperostosis
-HP_0002898	D009373	C0027654						HP_0002898			Embryonal neoplasm
-HP_0100641	D000306	C0001618						HP_0100641			Neoplasm of the adrenal cortex
-HP_0003006	D009447	C0027819						HP_0003006			Neuroblastoma
-HP_0004944	D002532	C1290398|C0751003						HP_0004944			Dilatation of the cerebral artery
-HP_0001009	D013684	C0039446|C1138421						HP_0001009			Telangiectasia
-HP_0008046		C4024753						HP_0008046			Abnormal retinal vascular morphology
-HP_0011766		C4023199						HP_0011766			Abnormality of the parathyroid morphology
-HP_0000091		C4021826						HP_0000091			Abnormal renal tubule morphology
-HP_0032618								HP_0032618			Renal necrosis
-HP_0009730	D012207	C0035411						HP_0009730			Rhabdomyoma
-HP_0100544	D006338	C0018809						HP_0100544			Neoplasm of the heart
-HP_0008609		C1857456						HP_0008609			Morphological abnormality of the middle ear
-HP_0100799		C0345617						HP_0100799			Neoplasm of the middle ear
-HP_0009815		C0239399						HP_0009815			Aplasia/hypoplasia of the extremities
-HP_0012620		C4022816						HP_0012620			Cloacal abnormality
-HP_0010734	D005357	C0016063						HP_0010734			Fibrous dysplasia of the bones
-HP_0002589		C4025697						HP_0002589			Gastrointestinal atresia
-HP_0031855								HP_0031855			Right isomerism
-HP_0011535		C2959688						HP_0011535			Abnormal atrial arrangement
-HP_0000830		C4025821						HP_0000830			Anterior hypopituitarism
-HP_0000836	D006980	C0020550						HP_0000836			Hyperthyroidism
-HP_0006530	D017563	C0206062						HP_0006530			Interstitial pulmonary abnormality
-HP_0012062	D001845	C0005937						HP_0012062			Bone cyst
-HP_0009733	D005910	C0017638						HP_0009733			Glioma
-HP_0040156		C4022413						HP_0040156			Elevated urinary carboxylic acid
 HP_0012439		C4022902						HP_0012439			Abnormal biliary tract physiology
-HP_0010478		C4023811						HP_0010478			Abnormality of the urachus
-HP_0040096		C1512779						HP_0040096			Neoplasm of the inner ear
-HP_0030694	D010871	C0031941						HP_0030694			Pineal parenchymal cell neoplasm
-HP_0004756	D017180	C0042514						HP_0004756			Ventricular tachycardia
-HP_0002585		C4025698						HP_0002585			Abnormality of the peritoneum
-HP_0100016		C4022389						HP_0100016			Abnormality of mesentery morphology
-HP_0100262		C4022178						HP_0100262			Synostosis involving digits
-HP_0010788	D013736	C0039590						HP_0010788			Testicular neoplasm
-HP_0009126		C4024583						HP_0009126			Increased adipose tissue
-HP_0100495	D008415	C0024899						HP_0100495			Mastocytosis
-HP_0000022		C4025899						HP_0000022			Abnormality of male internal genitalia
-HP_0032076								HP_0032076			Abnormal male urethral meatus morphology
-HP_0033020								HP_0033020			Female reproductive system neoplasm
-HP_0004452		C1836678						HP_0004452			Abnormality of the middle ear ossicles
-HP_0011070		C4023553						HP_0011070			Abnormality of molar morphology
-HP_0006482	D014071	C0262444|C0040427						HP_0006482			Abnormality of dental morphology
-HP_0040307								HP_0040307			Male sexual dysfunction
-HP_0040214		C4073160						HP_0040214			Abnormal insulin level
-HP_0008034		C1834387						HP_0008034			Abnormal iris pigmentation
-HP_0200036		C0037287						HP_0200036			Skin nodule
-HP_3000036		C4073244						HP_3000036			Abnormality of head blood vessel
-HP_0031546								HP_0031546			Cardiac conduction abnormality
-HP_0012091		C4023048						HP_0012091			Abnormality of pancreas physiology
-HP_0002143	D013118	C0037928|C4025722						HP_0002143			Abnormality of the spinal cord
-HP_0010651		C4023758						HP_0010651			Abnormal meningeal morphology
-HP_0100766		C4021974						HP_0100766			Abnormal lymphatic vessel morphology
-HP_0003366		C4025622						HP_0003366			Abnormality of the femoral neck or head region
-HP_0040072		C4022452						HP_0040072			Abnormality of forearm bone
-HP_0100240		C4022183						HP_0100240			Synostosis of joints
-HP_0040070		C4022454|C4022458						HP_0040070			Abnormal upper limb bone morphology
-HP_0001454		C4025776						HP_0001454			Abnormality of the upper arm
-HP_0011733		C4023212						HP_0011733			Abnormality of adrenal physiology
-HP_0012111		C4023038						HP_0012111			Abnormality of circulating glucocorticoid level
-HP_0004339		C4021660						HP_0004339			Abnormal circulating sulfur amino acid concentration
-HP_0010899		C4023667						HP_0010899			Abnormal circulating aspartate family amino acid concentration
-HP_0031652								HP_0031652			Abnormal aortic valve physiology
-HP_0030311		C4022516						HP_0030311			Lower extremity joint dislocation
-HP_0002815		C4025676						HP_0002815			Abnormality of the knee
-HP_0200008	D044483	C0744333|C1257915						HP_0200008			Intestinal polyposis
-HP_0100834	D015179	C0009404						HP_0100834			Neoplasm of the large intestine
-HP_0100259	C562429	C0220697						HP_0100259			Postaxial polydactyly
-HP_0001161		C0158733						HP_0001161			Hand polydactyly
-HP_0000944		C4025814						HP_0000944			Abnormality of the metaphysis
-HP_0100774	D015576	C0020492						HP_0100774			Hyperostosis
-HP_0100631	D000310	C0001624						HP_0100631			Neoplasm of the adrenal gland
-HP_0030067	D018241	C0684337						HP_0030067			Peripheral primitive neuroectodermal neoplasm
-HP_0004376		C1334953						HP_0004376			Neuroblastic tumor
+HP_0012440		C4021086						HP_0012440			Abnormal biliary tract morphology
+HP_0012443		C4021085						HP_0012443			Abnormality of brain morphology
+HP_0012503	D010900	C0032002						HP_0012503			Abnormality of the pituitary gland
+HP_0012547		C4022855						HP_0012547			Abnormal involuntary eye movements
+HP_0012575		C4022838						HP_0012575			Abnormal nephron morphology
+HP_0012614		C0587955						HP_0012614			Abnormal urine cytology
+HP_0012620		C4022816						HP_0012620			Cloacal abnormality
+HP_0012639		C4022810						HP_0012639			Abnormal nervous system morphology
+HP_0012703		C4022765						HP_0012703			Abnormal subarachnoid space morphology
+HP_0012718		C4021073						HP_0012718			Morphological abnormality of the gastrointestinal tract
+HP_0012720	D009669	C0028433|C0751394						HP_0012720			Neoplasm of the nose
+HP_0012722	D006327	C0018794						HP_0012722			Heart block
+HP_0012732	D000071056	C3495676						HP_0012732			Anorectal anomaly
+HP_0012759		C4022737						HP_0012759			Neurodevelopmental abnormality
 HP_0012780	D004428	C0013449						HP_0012780			Neoplasm of the ear
-HP_0031853								HP_0031853			Isomerism
-HP_0005120		C4025246						HP_0005120			Abnormal cardiac atrium morphology
-HP_0040075	D007018	C0020635						HP_0040075			Hypopituitarism
-HP_0002926		C0857576						HP_0002926			Abnormality of thyroid physiology
-HP_0030063	D018302	C0206715						HP_0030063			Neuroepithelial neoplasm
-HP_0100705		C4021993						HP_0100705			Abnormality of the glial cells
-HP_0100836		C0348374						HP_0100836			Malignant neoplasm of the central nervous system
-HP_0031980								HP_0031980			Abnormal urine carboxylic acid level
-HP_0010799	D010871	C0031941						HP_0010799			Pinealoma
-HP_0100848		C4020950						HP_0100848			Neoplasm of the male external genitalia
-HP_0009025		C1866021						HP_0009025			Increased connective tissue
-HP_0100494		C1301149						HP_0100494			Abnormal mast cell morphology
-HP_0011077		C4023547						HP_0011077			Abnormality of molar
-HP_0003117		C4025652						HP_0003117			Abnormal circulating hormone level
-HP_0001732	D010182	C0030286|C4025751						HP_0001732			Abnormality of the pancreas
-HP_0002973		C4025666						HP_0002973			Abnormality of the forearm
-HP_0000834	D000307	C4021794|C0001621						HP_0000834			Abnormality of the adrenal glands
-HP_0001373	D004204	C0012691						HP_0001373			Joint dislocation
-HP_0100491		C4020971						HP_0100491			Abnormality of lower limb joint
-HP_0009997		C4021349						HP_0009997			Duplication of phalanx of hand
-HP_0011732		C4023213						HP_0011732			Abnormality of adrenal morphology
-HP_0030065	D018242	C0206663						HP_0030065			Primitive neuroectodermal tumor
-HP_0030853	D059446	C0266642						HP_0030853			Heterotaxy
-HP_0030061	D017599	C0206093						HP_0030061			Neuroectodermal neoplasm
-HP_0030693	D010871|D015173	C0038874|C0031941						HP_0030693			Supratentorial neoplasm
-HP_0033019								HP_0033019			Male reproductive system neoplasm
-HP_0004275		C3276746						HP_0004275			Duplication of hand bones
-HP_0005918		C4021614						HP_0005918			Abnormal finger phalanx morphology
-HP_0031071								HP_0031071			Abnormal endocrine morphology
+HP_0012795		C3808249						HP_0012795			Abnormality of the optic disc
+HP_0012841		C1860475						HP_0012841			Retinal vascular tortuosity
+HP_0012874		C4020716						HP_0012874			Abnormal male reproductive system physiology
+HP_0012875		C2937350						HP_0012875			Abnormal ejaculation
+HP_0012888		C4022694						HP_0012888			Abnormality of the uterine cervix
+HP_0020100								HP_0020100			Unusual fungal infection
+HP_0025015								HP_0025015			Abnormal vascular morphology
+HP_0025032								HP_0025032			Abnormality of digestive system physiology
+HP_0025033								HP_0025033			Abnormality of digestive system morphology
+HP_0025104								HP_0025104			Capillary malformation
+HP_0025276								HP_0025276			Abnormality of skin adnexa physiology
+HP_0025337								HP_0025337			Red eye
+HP_0025354								HP_0025354			Abnormal cellular phenotype
+HP_0025408								HP_0025408			Abnormal spleen morphology
+HP_0025409								HP_0025409			Abnormal spleen physiology
+HP_0025423								HP_0025423			Abnormal larynx morphology
+HP_0025426								HP_0025426			Abnormal bronchus morphology
+HP_0025487								HP_0025487			Abnormality of bladder morphology
+HP_0025615								HP_0025615			Abscess
+HP_0025633								HP_0025633			Abnormal ureter morphology
+HP_0025634								HP_0025634			Abnormal ureter physiology
+HP_0030001		C4022680						HP_0030001			Lagopthalmos
+HP_0030012		C4020714|C4022678						HP_0030012			Abnormal female reproductive system physiology
 HP_0030060	D009380	C0027665						HP_0030060			Nervous tissue neoplasm
+HP_0030061	D017599	C0206093						HP_0030061			Neuroectodermal neoplasm
+HP_0030063	D018302	C0206715						HP_0030063			Neuroepithelial neoplasm
+HP_0030067	D018241	C0684337						HP_0030067			Peripheral primitive neuroectodermal neoplasm
+HP_0030126		C4022620						HP_0030126			Abnormality of the endometrium
+HP_0030151	D002761	C0008311						HP_0030151			Cholangitis
+HP_0030163		C4022603						HP_0030163			Abnormal vascular physiology
+HP_0030255		C4022556						HP_0030255			Large intestinal polyposis
+HP_0030311		C4022516						HP_0030311			Lower extremity joint dislocation
+HP_0030313		C4022515						HP_0030313			Abnormal periosteum morphology
+HP_0030405	D007516	C0242363						HP_0030405			Pancreatic endocrine tumor
+HP_0030416	D014846	C0042995						HP_0030416			Vulvar neoplasm
+HP_0030437		C0345883						HP_0030437			Anal canal neoplasm
+HP_0030448	D012509	C1261473						HP_0030448			Soft tissue sarcoma
+HP_0030450		C4072943						HP_0030450			Neuroplasm of the autonomic nervous system
+HP_0030669		C4073120						HP_0030669			Abnormal ocular adnexa morphology
 HP_0030692	D001932	C0006118						HP_0030692			Brain neoplasm
-HP_0009142		C4024574						HP_0009142			Duplication of bones involving the upper extremities
+HP_0030693	D010871|D015173	C0038874|C0031941						HP_0030693			Supratentorial neoplasm
+HP_0030694	D010871	C0031941						HP_0030694			Pineal parenchymal cell neoplasm
+HP_0030853	D059446	C0266642						HP_0030853			Heterotaxy
+HP_0030875		C4280730						HP_0030875			Abnormality of pulmonary circulation
+HP_0030895								HP_0030895			Abnormal gastrointestinal motility
+HP_0030914								HP_0030914			Abnormal peristalsis
+HP_0030956								HP_0030956			Abnormality of cardiovascular system electrophysiology
+HP_0030962								HP_0030962			Abnormal morphology of the great vessels
+HP_0030966								HP_0030966			Abnormal pulmonary artery morphology
+HP_0030972								HP_0030972			Abnormal systemic blood pressure
+HP_0031002								HP_0031002			Neuritis
+HP_0031065								HP_0031065			Abnormal ovarian morphology
+HP_0031071								HP_0031071			Abnormal endocrine morphology
+HP_0031093								HP_0031093			Abnormal breast morphology
+HP_0031094								HP_0031094			Abnormal breast physiology
+HP_0031105								HP_0031105			Abnormal uterus morphology
+HP_0031137								HP_0031137			Storage in hepatocytes
+HP_0031263								HP_0031263			Abnormal renal corpuscle morphology
+HP_0031409								HP_0031409			Abnormal lymphocyte physiology
+HP_0031466								HP_0031466			Impairment in personality functioning
+HP_0031481								HP_0031481			Abnormal mitral valve physiology
+HP_0031492								HP_0031492			Epithelial neoplasm
+HP_0031502								HP_0031502			Trophoblastic tumor
+HP_0031546								HP_0031546			Cardiac conduction abnormality
+HP_0031650								HP_0031650			Abnormal atrioventricular valve physiology
+HP_0031651								HP_0031651			Abnormal tricuspid valve physiology
+HP_0031652								HP_0031652			Abnormal aortic valve physiology
+HP_0031653								HP_0031653			Abnormal heart valve physiology
+HP_0031654								HP_0031654			Abnormal pulmonary valve physiology
+HP_0031703								HP_0031703			Abnormal ear morphology
+HP_0031704								HP_0031704			Abnormal ear physiology
+HP_0031816								HP_0031816			Abnormal oral morphology
+HP_0031826								HP_0031826			Abnormal reflex
+HP_0031842								HP_0031842			Lymphangiectasis
+HP_0031853								HP_0031853			Isomerism
+HP_0031855								HP_0031855			Right isomerism
+HP_0031857								HP_0031857			Ineffective esophageal peristalsis
+HP_0031980								HP_0031980			Abnormal urine carboxylic acid level
+HP_0032039								HP_0032039			Abnormality of the ocular adnexa
+HP_0032076								HP_0032076			Abnormal male urethral meatus morphology
+HP_0032101								HP_0032101			Unusual infection
+HP_0032158								HP_0032158			Unusual infection by anatomical site
+HP_0032180								HP_0032180			Abnormal circulating metabolite concentration
+HP_0032245								HP_0032245			Abnormal metabolism
+HP_0032251								HP_0032251			Abnormal immune system morphology
+HP_0032263								HP_0032263			Increased blood pressure
+HP_0032368								HP_0032368			Acidemia
+HP_0032445								HP_0032445			Pulmonary cyst
+HP_0032618								HP_0032618			Renal necrosis
+HP_0032943								HP_0032943			Abnormal urine pH
+HP_0033019								HP_0033019			Male reproductive system neoplasm
+HP_0033020								HP_0033020			Female reproductive system neoplasm
+HP_0040064		C0239337|C4073131						HP_0040064			Abnormality of limbs
+HP_0040068		C4022456						HP_0040068			Abnormality of limb bone
+HP_0040069		C4022455|C4022457						HP_0040069			Abnormal lower limb bone morphology
+HP_0040070		C4022454|C4022458						HP_0040070			Abnormal upper limb bone morphology
+HP_0040072		C4022452						HP_0040072			Abnormality of forearm bone
+HP_0040075	D007018	C0020635						HP_0040075			Hypopituitarism
+HP_0040088		C0580550						HP_0040088			Abnormal lymphocyte count
+HP_0040096		C1512779						HP_0040096			Neoplasm of the inner ear
+HP_0040126		C4021032						HP_0040126			Abnormal vitamin B12 level
+HP_0040156		C4022413						HP_0040156			Elevated urinary carboxylic acid
+HP_0040166		C4073134						HP_0040166			Abnormality of the periosteum
+HP_0040188	D055034	C0029429						HP_0040188			Osteochondrosis
+HP_0040195		C0424688						HP_0040195			Decreased head circumference
+HP_0040214		C4073160						HP_0040214			Abnormal insulin level
+HP_0040215		C4073161						HP_0040215			Abnormal circulating insulin level
+HP_0040223		C4280720						HP_0040223			Pulmonary hemorrhage
+HP_0040273		C4280683						HP_0040273			Adenocarcinoma of the intestines
+HP_0040274		C0278803						HP_0040274			Adenocarcinoma of the small intestine
+HP_0040275		C1319315						HP_0040275			Adenocarcinoma of the large intestine
+HP_0040277								HP_0040277			Neoplasm of the pituitary gland
+HP_0040307								HP_0040307			Male sexual dysfunction
+HP_0045005	D009436	C0027794						HP_0045005			Neural tube defect
+HP_0045060		C4073181						HP_0045060			Aplasia/hypoplasia involving bones of the extremities
+HP_0045073								HP_0045073			Serositis
+HP_0046508								HP_0046508			Abnormal cervical spine morphology
+HP_0100000		C4022392						HP_0100000			Early onset of sexual maturation
+HP_0100006	D016543	C0085136						HP_0100006			Neoplasm of the central nervous system
+HP_0100007	D010524	C0031118						HP_0100007			Neoplasm of the peripheral nervous system
+HP_0100008	D009442	C0027809						HP_0100008			Schwannoma
+HP_0100016		C4022389						HP_0100016			Abnormality of mesentery morphology
+HP_0100022	D009069	C0026650						HP_0100022			Abnormality of movement
+HP_0100031	D013964	C0040136						HP_0100031			Neoplasm of the thyroid gland
+HP_0100037		C4022384						HP_0100037			Abnormality of the scalp hair
+HP_0100238		C4022184						HP_0100238			Synostosis involving bones of the upper limbs
+HP_0100240		C4022183						HP_0100240			Synostosis of joints
+HP_0100242	D012509	C1261473						HP_0100242			Sarcoma
+HP_0100243	D007890	C0023269						HP_0100243			Leiomyosarcoma
+HP_0100255	C536252	C0265294						HP_0100255			Metaphyseal dysplasia
+HP_0100257	C574275	C0265554						HP_0100257			Ectrodactyly
+HP_0100259	C562429	C0220697						HP_0100259			Postaxial polydactyly
+HP_0100261		C4021026						HP_0100261			Abnormal tendon morphology
+HP_0100262		C4022178						HP_0100262			Synostosis involving digits
+HP_0100273	D003110	C0009375						HP_0100273			Neoplasm of the colon
+HP_0100281		C0267375						HP_0100281			Chronic colitis
+HP_0100282		C2118460						HP_0100282			Acute colitis
+HP_0100323		C4022146|C4020710						HP_0100323			Juvenile aseptic necrosis
+HP_0100326		C0237653						HP_0100326			Immunologic hypersensitivity
+HP_0100360		C2750635						HP_0100360			Contractures of the joints of the upper limbs
+HP_0100491		C4020971						HP_0100491			Abnormality of lower limb joint
+HP_0100494		C1301149						HP_0100494			Abnormal mast cell morphology
+HP_0100495	D008415	C0024899						HP_0100495			Mastocytosis
+HP_0100521	D013953	C3714644						HP_0100521			Neoplasm of the thymus
+HP_0100526	D008175	C0024121						HP_0100526			Neoplasm of the lung
+HP_0100527		C4022033						HP_0100527			Neoplasia of the pleura
+HP_0100529		C4022032						HP_0100529			Abnormal blood phosphate concentration
+HP_0100533		C4020969						HP_0100533			Inflammatory abnormality of the eye
+HP_0100536		C4022028						HP_0100536			Abnormality of the fascia
+HP_0100539		C0149754|C0424810|C0151205						HP_0100539			Periorbital edema
+HP_0100540		C0162285						HP_0100540			Palpebral edema
+HP_0100544	D006338	C0018809						HP_0100544			Neoplasm of the heart
+HP_0100545		C0038449						HP_0100545			Arterial stenosis
+HP_0100547		C4020967						HP_0100547			Abnormality of forebrain morphology
+HP_0100548		C0015338						HP_0100548			Exstrophy
+HP_0100552		C4022026						HP_0100552			Neoplasm of the tracheobronchial system
+HP_0100568	D004701	C0014132						HP_0100568			Neoplasm of the endocrine system
+HP_0100579		C4022020						HP_0100579			Mucosal telangiectasiae
+HP_0100603	D011225	C0032914						HP_0100603			Toxemia of pregnancy
+HP_0100606	D012142	C0035244						HP_0100606			Neoplasm of the respiratory system
+HP_0100615	D010051	C0919267						HP_0100615			Ovarian neoplasm
+HP_0100627		C4020961						HP_0100627			Displacement of the urethral meatus
+HP_0100630	D009303	C0027439						HP_0100630			Neoplasia of the nasopharynx
+HP_0100631	D000310	C0001624						HP_0100631			Neoplasm of the adrenal gland
+HP_0100634	D018358	C0206754						HP_0100634			Neuroendocrine neoplasm
+HP_0100639		C4022003						HP_0100639			Erectile dysfunction
+HP_0100641	D000306	C0001618						HP_0100641			Neoplasm of the adrenal cortex
+HP_0100649	D009062	C4280289|C0026640|C0149744						HP_0100649			Neoplasm of the oral cavity
+HP_0100659		C4022001						HP_0100659			Abnormality of the cerebral vasculature
+HP_0100660	D020820	C0013384						HP_0100660			Dyskinesia
+HP_0100685		C4021997|C4020701						HP_0100685			Abnormal Sharpey fiber morphology
+HP_0100689		C1096274						HP_0100689			Decreased corneal thickness
+HP_0100691		C4021995						HP_0100691			Abnormality of the curvature of the cornea
+HP_0100692		C4020956						HP_0100692			Increased corneal curvature
+HP_0100705		C4021993						HP_0100705			Abnormality of the glial cells
+HP_0100728		C4021985						HP_0100728			Germ cell neoplasia
+HP_0100733	D010282	C0030521						HP_0100733			Neoplasm of the parathyroid gland
+HP_0100742	D019043|D009383	C0282607|C0027668						HP_0100742			Vascular neoplasm
+HP_0100744		C4021981						HP_0100744			Abnormality of the humeroradial joint
+HP_0100763	D008206	C4021976|C0024228						HP_0100763			Abnormality of the lymphatic system
+HP_0100766		C4021974						HP_0100766			Abnormal lymphatic vessel morphology
+HP_0100767		C1306893						HP_0100767			Abnormality of the placenta
+HP_0100771		C0232475|C4020700						HP_0100771			Hypoperistalsis
+HP_0100774	D015576	C0020492						HP_0100774			Hyperostosis
+HP_0100790	D006547	C0019270						HP_0100790			Hernia
+HP_0100799		C0345617						HP_0100799			Neoplasm of the middle ear
+HP_0100803		C4021966						HP_0100803			Abnormality of the periungual region
+HP_0100811		C4021964						HP_0100811			Aplasia/Hypoplasia of the colon
+HP_0100819	D007412	C0021833						HP_0100819			Intestinal fistula
+HP_0100833		C0345832						HP_0100833			Neoplasm of the small intestine
+HP_0100834	D015179	C0009404						HP_0100834			Neoplasm of the large intestine
+HP_0100835		C0347509						HP_0100835			Benign neoplasm of the central nervous system
+HP_0100836		C0348374						HP_0100836			Malignant neoplasm of the central nervous system
+HP_0100848		C4020950						HP_0100848			Neoplasm of the male external genitalia
+HP_0100886		C4021946						HP_0100886			Abnormality of globe location
+HP_0100887		C4021945						HP_0100887			Abnormality of globe size
+HP_0100957		C4021911						HP_0100957			Abnormal renal medulla morphology
+HP_0200007		C4021904|C4280286						HP_0200007			Abnormal size of the palpebral fissures
+HP_0200008	D044483	C0744333|C1257915						HP_0200008			Intestinal polyposis
+HP_0200036		C0037287						HP_0200036			Skin nodule
+HP_0200064	C538115	C0423318						HP_0200064			Asymmetry of iris pigmentation
+HP_0410008		C4073187						HP_0410008			Abnormality of the peripheral nervous system
+HP_0410042								HP_0410042			Abnormal liver morphology
+HP_0410043								HP_0410043			Abnormal neural tube morphology
+HP_0410327								HP_0410327			Dairy allergy
+HP_0500093								HP_0500093			Food allergy
+HP_3000036		C4073244						HP_3000036			Abnormality of head blood vessel
+HP_3000050		C4073258						HP_3000050			Abnormality of odontoid tissue

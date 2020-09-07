@@ -89,7 +89,7 @@ def build_graph_ontologies(dict_inputs):
         with client.session(keyspace=grakn_keyspace) as session:
             for item in dict_source_unique:
                 for dict_input in dict_inputs:
-                    print("Loading from [" + dict_input["data_path"] + "] into Grakn ...")
+                    print("Loading from [" + dict_input["data_path"] + "] into Grakn for ontology " + dict_source_unique[item] + "...")
                     load_data_into_grakn_ontologies(dict_input, session, dict_source_unique[item], dict_id_unique[item])
 
 
@@ -207,11 +207,13 @@ def disease_template(cross_reference):
 #        ontology name (e.g. "EFO") and
 #        corresponding attribute name for Grakn schema (e.g. "efo-id").
 def cross_reference_ontology_term_template(cross_reference, ontology_name, ontology_id):
+    global dict_source
     graql_insert_query = 'match $d isa disease, has preferred-disease-id "' + cross_reference[
         "preferred_ontology_term"] + '";'
     graql_insert_query2 = ' insert'
+    preferred_ontology_term = cross_reference["preferred_ontology_term"]
     if (cross_reference[ontology_name] != "" and
-            cross_reference[ontology_name] != cross_reference["preferred_ontology_term"]):
+            ontology_name != dict_source[preferred_ontology_term[:2]]):
         values = cross_reference[ontology_name].split("|")
         for i in range(len(values)):
             value = ' $x' + str(i)
@@ -231,12 +233,14 @@ def cross_reference_ontology_term_template(cross_reference, ontology_name, ontol
 #        ontology name (e.g. "MESH") and
 #        corresponding attribute name for Grakn schema (e.g. "mesh-id").
 def cross_reference_ontology_term_source_template(cross_reference, ontology_name, ontology_id):
+    global dict_source
     # to insert ontology id and disease-id-ontology relation
     graql_insert_query = 'match $d isa disease, has preferred-disease-id "' + \
                          cross_reference["preferred_ontology_term"] + '";'
+    preferred_ontology_term = cross_reference["preferred_ontology_term"]
     graql_insert_query2 = ' insert'
     if (cross_reference[ontology_name] != "" and
-            cross_reference[ontology_name] != cross_reference["preferred_ontology_term"]):
+            ontology_name != dict_source[preferred_ontology_term[:2]]):
         graql_insert_query += ' $o isa ontology, has ontology-name "' + ontology_name + '";'
         values = cross_reference[ontology_name].split("|")
         for i in range(len(values)):
@@ -259,12 +263,14 @@ def cross_reference_ontology_term_source_template(cross_reference, ontology_name
 #        ontology name (e.g. "MESH") and
 #        corresponding attribute name from Grakn schema (e.g. "mesh-id").
 def cross_reference_disease_template(cross_reference, ontology_name, ontology_id):
+    global dict_source
     # to insert disease has ontology id
     graql_insert_query = 'match $d isa disease, has preferred-disease-id "' + cross_reference[
         "preferred_ontology_term"] + '";'
+    preferred_ontology_term = cross_reference["preferred_ontology_term"]
     graql_insert_query2 = ' insert'
     if (cross_reference[ontology_name] != "" and
-            cross_reference[ontology_name] != cross_reference["preferred_ontology_term"]):
+            ontology_name != dict_source[preferred_ontology_term[:2]]):
         values = cross_reference[ontology_name].split("|")
         for i in range(len(values)):
             value = ' $x' + str(i)
@@ -294,7 +300,7 @@ def parse_data_to_dictionaries_for_ontology(dict_input, ontology_name):
     items = []
     with open(dict_input["data_path"] + ".tsv") as data:
         for row in csv.DictReader(data, delimiter='\t', skipinitialspace=True):
-            if row[ontology_name] != "" and row[ontology_name] != row["preferred_ontology_term"]:
+            if row[ontology_name] != "":
                 item = {key: value for key, value in row.items()}
                 items.append(item)
     return items
@@ -305,10 +311,10 @@ dict_inputs = [
         "data_path": data_folder + "cross_references",
         "template": ontology_term_template
     },
-    {
-        "data_path": data_folder + "cross_references",
-        "template": ontology_term_source_template
-    },
+#    {
+#        "data_path": data_folder + "cross_references",
+#        "template": ontology_term_source_template
+#    },
     {
         "data_path": data_folder + "cross_references",
         "template": disease_template
@@ -322,10 +328,10 @@ dict_inputs_ontologies = [
         "data_path": data_folder + "cross_references",
         "template": cross_reference_ontology_term_template
     },
-    {
-        "data_path": data_folder + "cross_references",
-        "template": cross_reference_ontology_term_source_template
-    },
+#    {
+#        "data_path": data_folder + "cross_references",
+#        "template": cross_reference_ontology_term_source_template
+#    },
     {
         "data_path": data_folder + "cross_references",
         "template": cross_reference_disease_template
