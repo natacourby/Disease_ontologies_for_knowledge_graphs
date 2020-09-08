@@ -128,7 +128,7 @@ R libraries:
 ```
 source("./scripts/data_preparation.R")
 cross_references_file <- "./data/prepared_ontologies/cross_references.tsv"
-hierarchy_file <-paste("./Documents/Projects/imed-knowledge-graph/data/ontologies/bioportal_ontologies/",ontology_value,".csv",sep="")
+hierarchy_file <- "./data/bioportal_export/DOID.csv"
 ontology_name <- "DOID"
 bioportal_ontological_hierarchy_preparation(cross_references_file, hierarchy_file, ontology_name)
 ```
