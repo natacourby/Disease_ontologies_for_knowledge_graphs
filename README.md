@@ -96,6 +96,7 @@ Collected cross references, prepared hierarchies and additional parental terms:
 * EFO_prepared_hierarchy.tsv
 * MONDO_prepared_hierarchy.tsv
 * Orphanet_prepared_hierarchy.tsv
+* Orphanet_additional_classes.tsv
 * HP_additional_classes.tsv
 * HP_prepared_hierarchy.tsv
 * MESH_additional_classes.tsv
@@ -109,10 +110,10 @@ Statistics for **cross-references.tsv** file
 
 |                                 | MESH  | UMLS | EFO  | NCIT | OMIM | DOID | Orphanet | HP  | MONDO | ICD10 | Total  |
 | --------------------------------|:-----:| :---:|:----:|:----:|:----:|:----:|:--------:|:---:|:-----:|:-----:|:------:|
-| # of terms only in this ontology| 0     | 0    | 1540 | 53   | 0    | 2    | 163      | 80  | 81    | 0     | 1919   |
-| # of preferred terms            | 0     | 0    | 2374 | 519  | 0    | 3    | 824      | 916 | 8932  | 0     | 13568  |
-| # of references                 | 5011  | 10279| 6626 | 4747 | 6680 | 4320 | 6556     | 1450| 8942  | 8146  | 62757  |
-| # of unique references          | 4867  | 10008| 6626 | 4747 | 5614 | 4320 | 6532     | 1450| 8942  | 3272  | 56378  |
+| # of terms only in this ontology| 0     | 0    | 7    | 0    | 0    | 0    | 1        | 80  | 109   | 0     | 1186   |
+| # of preferred terms            | 0     | 0    | 70   | 24   | 0    | 5    | 69       | 75  | 21453 | 0     | 21696  |
+| # of references                 | 8328  | 17648| 4930 | 7067 | 8056 | 9001 | 9066     | 652 | 21482 | 11271 | 97501  |
+| # of unique references          | 8251  | 17591| 4930 | 7067 | 8032 | 9001 | 9066     | 652 | 21482 | 4103  | 90175  |
 
 
 ## Data preparation
