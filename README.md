@@ -58,25 +58,29 @@ python3 ./scripts/add_terms.py MESH
 python3 ./scripts/add_hierarchy.py MESH
 ```
 ## Usage examples
+To get all disease ontologies ids for the disease of interest (e.g. "chronic kidney disease"):
 ```
 grakn console -k dokg
-match $d isa disease, has efo-id "EFO_0009425", has disease-id $di; get;
+match $d isa disease, has disease-name "chronic kidney disease", has disease-id $di; get;
 ```
-```
-grakn console -k dokg
-match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $y isa disease, has disease-name $dn; get $dn;
-```
+There are two types of relations for disease-hierarchy: **"disease-hierarchy"** for hierarchical relation directly loaded from ontologies and **"disease-hierarchy-inferred"** for hierarchical relation both loaded from ontologies and inferred using Grakn logical reasoning.
+
+To get **direct** children of "chronic kidney disease" using EFO ontology id ("EFO_0003884") and MONDO ontology hierarchy:
 ```
 grakn console -k dokg
 match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $y isa disease, has disease-name $dn; get $dn;
-
 ```
-We can get all children of 'EFO_0003884' regardless the hierarchy:
+To get **all** children of "chronic kidney disease" using EFO ontology id ("EFO_0003884") and MONDO ontology hierarchy:
+```
+grakn console -k dokg
+match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $y isa disease, has disease-name $dn; get $dn;
+```
+To get all children of "chronic kidney disease" using EFO ontology id ("EFO_0003884") regardless the hierarchy:
 ```
 grakn console -k dokg
 match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $y isa disease, has disease-name $dn; get $dn;
 ```
-We can get all parents of 'EFO_0003884' regardless the hierarchy:
+We can get all parents of "chronic kidney disease" using EFO ontology id ("EFO_0003884") regardless the hierarchy:
 ```
 grakn console -k dokg
 match $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $x isa disease, has disease-name $dn; get $dn;
