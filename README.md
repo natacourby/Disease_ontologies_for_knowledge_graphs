@@ -68,12 +68,12 @@ There are two types of relations for disease-hierarchy: **"disease-hierarchy"** 
 To get **direct** children of "chronic kidney disease" using EFO ontology id ("EFO_0003884") and MONDO ontology hierarchy:
 ```
 grakn console -k dokg
-match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MONDO"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $y isa disease, has disease-name $dn; get $dn;
+match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name 'MONDO'; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy; $y isa disease, has disease-name $dn; get $dn;
 ```
 To get **all** children of "chronic kidney disease" using EFO ontology id ("EFO_0003884") and MONDO ontology hierarchy:
 ```
 grakn console -k dokg
-match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name "MESH"; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $y isa disease, has disease-name $dn; get $dn;
+match $x isa disease, has efo-id 'EFO_0003884'; $o isa ontology, has ontology-name 'MONDO'; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $y isa disease, has disease-name $dn; get $dn;
 ```
 To get all children of "chronic kidney disease" using EFO ontology id ("EFO_0003884") regardless the hierarchy:
 ```
