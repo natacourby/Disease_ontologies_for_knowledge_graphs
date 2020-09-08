@@ -367,7 +367,7 @@ bioportal_ontological_hierarchy_preparation <- function(cross_references_file, h
       }
       list_of_strings <- gsub("^\\|", "", list_of_strings)
     }
-    else list_of_strings <-url
+    else list_of_strings <-url_value
     return(list_of_strings)
   }
   
