@@ -86,6 +86,10 @@ grakn console -k dokg
 match $y isa disease, has efo-id 'EFO_0003884'; $o isa ontology; $dh (superior-disease: $x, subordinate-disease: $y, $o)  isa disease-hierarchy-inferred; $x isa disease, has disease-name $dn; get $dn;
 ```
 
+We can get mappings from every Mondo-ID to a Mesh-ID   
+```
+python3 ./scripts/ontology_mapping_example.py
+```
 ## Data colllections
 
 /data/prepared_ontologies/
