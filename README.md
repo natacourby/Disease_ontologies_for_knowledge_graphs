@@ -1,4 +1,4 @@
-# Disease ontologies 
+# Disease ontologies for knowledge graphs
 Data integration to build a drug discovery knowledge graph is a challenge. There are multiple disease ontologies used in data sources and publications. Each disease ontology has its hierarchy, and the common task is to map ontologies, to find disease clusters, finally to build your representation of the disease area.
 
 Here we present a knowledge graph solution that uses disease ontologies cross-references and allows easy switch between ontology hierarchies for data integration purpose, as well as to perform other tasks. 
