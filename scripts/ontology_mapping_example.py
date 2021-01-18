@@ -19,6 +19,7 @@
 # Using the dictionary it is now possible to select Mesh IDs which relate to a particular anatomy
 # This is something we would be unable to do using the MESH ontology alone.
 
+#!/usr/bin/env python3
 import pandas as pd
 from grakn.client import GraknClient
 import joblib
