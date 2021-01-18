@@ -1,12 +1,27 @@
+# Software "Disease_ontologies_for_knowledge_graphs" - a knowledge base solution that uses Grakn core and disease ontologies cross-references to allow easy switch between ontology hierarchies for data integration purpose.
+# Copyright (C) 2021  Natalja Kurbatova
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# This script finds a MESH-ID for each MONDO-id using the database
+# The results are stored in a dictionary indexed by a MONDO disease anatomy heading
+# Using the dictionary it is now possible to select Mesh IDs which relate to a particular anatomy
+# This is something we would be unable to do using the MESH ontology alone.
+
 import pandas as pd
 from grakn.client import GraknClient
 import joblib
-
-#This script finds a MESH-ID for each MONDO-id using the database
-#The results are stored in a dictionary indexed by a MONDO disease anatomy heading
-#Using the dictionary it is now possible to select Mesh IDs which relate to a particular anatomy
-#This is somethign we would be unable to do using the MESH ontology alone
-
 
 def mondo_children(mondoid):
     """
