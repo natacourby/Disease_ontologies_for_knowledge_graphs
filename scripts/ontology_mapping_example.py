@@ -1,5 +1,5 @@
 # Software "Disease_ontologies_for_knowledge_graphs" - a knowledge base solution that uses Grakn core and disease ontologies cross-references to allow easy switch between ontology hierarchies for data integration purpose.
-# Copyright (C) 2021  Natalja Kurbatova
+# Copyright (C) 2021  Natalja Kurbatova, Rowan Swiers
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
