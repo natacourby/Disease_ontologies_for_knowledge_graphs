@@ -144,3 +144,11 @@ source("./scripts/data_preparation.R")
 cross_references_file <- "./data/prepared_ontologies/cross_references.tsv"
 cross_references_validity(cross_references_file)
 ```
+## How to use this system with multiple related ontologies in a domain other than disease.
+The user will have to do the data preparation part from scratch. 
+* Download/get original ontology hierarchy files.
+* Create cross-references file in the CSV format as shown in Github repository. 
+* Make sure that cross-references are atomic, for example by using provided R scripts (see Data preparation section). 
+*  Load the data into an empty Grakn schema using python scripts (the process is described above)
+
+The names in the schema are specific to the disease-oriented knowledge graph. Appropriate changes might be needed to reduce the possibility of confusion when a user is weighing queries.
